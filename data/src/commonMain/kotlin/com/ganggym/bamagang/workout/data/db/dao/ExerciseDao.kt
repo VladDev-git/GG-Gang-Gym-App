@@ -21,6 +21,7 @@ interface ExerciseDao {
     @Query("SELECT * FROM exercises WHERE id = :id")
     suspend fun findWithRefs(id: String): ExerciseWithRefs?
 
+    @Transaction
     @Query("""
         SELECT DISTINCT e.* FROM exercises e
         LEFT JOIN exercise_muscles em ON em.exerciseId = e.id
@@ -37,7 +38,7 @@ interface ExerciseDao {
         equipmentIds: List<String>,
         ignoreEquipment: Boolean,
         query: String,
-    ): Flow<List<ExerciseEntity>>
+    ): Flow<List<ExerciseWithRefs>>
 
     @Upsert
     suspend fun upsert(exercise: ExerciseEntity)

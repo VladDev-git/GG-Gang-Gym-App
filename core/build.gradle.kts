@@ -34,6 +34,7 @@ kotlin {
 
             api(libs.kotlinx.datetime)
             api(libs.kotlinx.serialization.core)
+            api(libs.kotlinx.coroutines.core)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

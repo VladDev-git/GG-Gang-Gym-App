@@ -7,6 +7,7 @@ import androidx.room.RoomDatabaseConstructor
 import com.ganggym.bamagang.workout.data.db.dao.CatalogDao
 import com.ganggym.bamagang.workout.data.db.dao.ExerciseDao
 import com.ganggym.bamagang.workout.data.db.dao.ProfileDao
+import com.ganggym.bamagang.workout.data.db.dao.RoutineDao
 import com.ganggym.bamagang.workout.data.db.dao.SessionDao
 import com.ganggym.bamagang.workout.data.db.dao.WorkoutDao
 import com.ganggym.bamagang.workout.data.db.entity.EquipmentEntity
@@ -44,6 +45,7 @@ import com.ganggym.bamagang.workout.data.db.entity.WorkoutSessionEntity
 abstract class AppDatabase : RoomDatabase() {
     abstract fun exerciseDao(): ExerciseDao
     abstract fun workoutDao(): WorkoutDao
+    abstract fun routineDao(): RoutineDao
     abstract fun sessionDao(): SessionDao
     abstract fun catalogDao(): CatalogDao
     abstract fun profileDao(): ProfileDao
