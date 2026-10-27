@@ -2,10 +2,12 @@ package com.ganggym.bamagang.workout.domain.model
 
 import com.ganggym.bamagang.workout.domain.util.RoutineId
 import com.ganggym.bamagang.workout.domain.util.WorkoutBlockId
+import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlin.time.Duration
 
 @Serializable
+@SerialName("routine")
 data class RoutineBlock(
     override val id: WorkoutBlockId,
     override val note: String = "",

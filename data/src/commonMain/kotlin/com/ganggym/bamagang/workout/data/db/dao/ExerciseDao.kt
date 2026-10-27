@@ -4,6 +4,7 @@ import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Transaction
 import androidx.room.Upsert
+import com.ganggym.bamagang.workout.data.db.entity.ExerciseCategoryCrossRef
 import com.ganggym.bamagang.workout.data.db.entity.ExerciseEntity
 import com.ganggym.bamagang.workout.data.db.entity.ExerciseEquipmentCrossRef
 import com.ganggym.bamagang.workout.data.db.entity.ExerciseMuscleCrossRef
@@ -47,22 +48,26 @@ interface ExerciseDao {
     @Upsert
     suspend fun upsertEquipment(refs: List<ExerciseEquipmentCrossRef>)
 
+    @Upsert
+    suspend fun upsertCategories(refs: List<ExerciseCategoryCrossRef>)
+
     @Query("DELETE FROM exercise_muscles WHERE exerciseId = :id")
     suspend fun clearMuscles(id: String)
 
     @Query("DELETE FROM exercise_equipment WHERE exerciseId = :id")
     suspend fun clearEquipment(id: String)
 
+    @Query("DELETE FROM exercise_category_refs WHERE exerciseId = :id")
+    suspend fun clearCategories(id: String)
+
     @Transaction
-    suspend fun upsertFull(
-        exercise: ExerciseEntity,
-        muscles: List<ExerciseMuscleCrossRef>,
-        equipment: List<ExerciseEquipmentCrossRef>,
-    ) {
-        upsert(exercise)
-        clearMuscles(exercise.id)
-        clearEquipment(exercise.id)
-        upsertMuscles(muscles)
-        upsertEquipment(equipment)
+    suspend fun upsertFull(data: ExerciseWithRefs) {
+        upsert(data.exercise)
+        clearMuscles(data.exercise.id)
+        clearEquipment(data.exercise.id)
+        clearCategories(data.exercise.id)
+        upsertMuscles(data.muscles)
+        upsertEquipment(data.equipment)
+        upsertCategories(data.categories)
     }
 }

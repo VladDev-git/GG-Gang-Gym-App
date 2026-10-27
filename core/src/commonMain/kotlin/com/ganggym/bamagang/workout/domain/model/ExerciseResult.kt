@@ -8,7 +8,7 @@ import kotlin.time.Instant
 
 data class ExerciseResult(
     val id: ExerciseResultId,
-    val exerciseId: ExerciseId,
+    val exerciseId: ExerciseId? = null,
     val blockId: WorkoutBlockId? = null, // блок у знімку плану
     val setIndex: Int? = null,            // який саме сет з плану (0, 1, 2...)
     val itemIndex: Int? = null,           // номера елемента групи
