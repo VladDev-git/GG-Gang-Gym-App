@@ -27,6 +27,12 @@ kotlin {
             implementation(libs.sqlite.bundled)
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.kotlinx.coroutines.core)
+            implementation(project.dependencies.platform(libs.koin.bom))
+            implementation(libs.koin.core)
+        }
+
+        androidMain.dependencies {
+            implementation(libs.koin.android)
         }
     }
 }
