@@ -10,11 +10,11 @@ import com.ganggym.bamagang.workout.domain.util.EquipmentId
 import com.ganggym.bamagang.workout.domain.util.ExerciseCategoryId
 import com.ganggym.bamagang.workout.domain.util.MuscleGroupId
 
-fun EquipmentEntity.toDomain() = Equipment(EquipmentId(id), name, iconName)
-fun Equipment.toEntity() = EquipmentEntity(id.value, name, iconName)
+fun EquipmentEntity.toDomain() = Equipment(EquipmentId(id), name, iconName, sortOrder)
+fun Equipment.toEntity() = EquipmentEntity(id.value, name, iconName, sortOrder)
 
-fun MuscleGroupEntity.toDomain() = MuscleGroup(MuscleGroupId(id), name, parentId?.let(::MuscleGroupId), icon)
-fun MuscleGroup.toEntity() = MuscleGroupEntity(id.value, name, parentId?.value, icon)
+fun MuscleGroupEntity.toDomain() = MuscleGroup(MuscleGroupId(id), name, parentId?.let(::MuscleGroupId), icon, sortOrder)
+fun MuscleGroup.toEntity() = MuscleGroupEntity(id.value, name, parentId?.value, icon, sortOrder)
 
-fun ExerciseCategoryEntity.toDomain() = ExerciseCategory(ExerciseCategoryId(id), name, iconName)
-fun ExerciseCategory.toEntity() = ExerciseCategoryEntity(id.value, name, iconName)
+fun ExerciseCategoryEntity.toDomain() = ExerciseCategory(ExerciseCategoryId(id), name, iconName, sortOrder)
+fun ExerciseCategory.toEntity() = ExerciseCategoryEntity(id.value, name, iconName, sortOrder)

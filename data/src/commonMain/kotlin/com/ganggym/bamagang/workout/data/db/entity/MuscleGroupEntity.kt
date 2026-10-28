@@ -9,4 +9,5 @@ data class MuscleGroupEntity(
     val name: String,
     val parentId: String?,
     val icon: String?,
+    val sortOrder: Int,
 )

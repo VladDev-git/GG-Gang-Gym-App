@@ -8,4 +8,5 @@ data class ExerciseCategoryEntity(
     @PrimaryKey val id: String,
     val name: String,
     val iconName: String?,
+    val sortOrder: Int,
 )

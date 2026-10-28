@@ -6,4 +6,5 @@ data class ExerciseCategory(
     val id: ExerciseCategoryId,
     val name: String,
     val iconName: String? = null,
+    val sortOrder: Int = 0,
 )

@@ -26,11 +26,13 @@ interface ExerciseDao {
         SELECT DISTINCT e.* FROM exercises e
         LEFT JOIN exercise_muscles em ON em.exerciseId = e.id
         LEFT JOIN exercise_equipment ee ON ee.exerciseId = e.id
+        LEFT JOIN exercise_category_refs ec ON ec.exerciseId = e.id 
         WHERE e.deletedAt IS NULL
           AND (:ignoreMuscles
                OR em.muscleId IN (:muscleIds)
                OR em.muscleId IN (SELECT id FROM muscle_groups WHERE parentId IN (:muscleIds)))
           AND (:ignoreEquipment OR ee.equipmentId IN (:equipmentIds))
+          AND (:ignoreCategories OR ec.categoryId IN (:categoryIds))
           AND (:query = '' OR e.name LIKE '%' || :query || '%')
         ORDER BY e.name
     """)
@@ -39,6 +41,8 @@ interface ExerciseDao {
         ignoreMuscles: Boolean,
         equipmentIds: List<String>,
         ignoreEquipment: Boolean,
+        categoryIds: List<String>,
+        ignoreCategories: Boolean,
         query: String,
     ): Flow<List<ExerciseWithRefs>>
 

@@ -7,4 +7,5 @@ data class MuscleGroup(
     val name: String,
     val parentId: MuscleGroupId? = null,
     val icon: String? = null,
+    val sortOrder: Int = 0,
 )

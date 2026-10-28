@@ -22,6 +22,8 @@ internal class RoomExerciseRepository(
             ignoreMuscles = filter.muscleIds.isEmpty(),
             equipmentIds = filter.equipmentIds.map { it.value },
             ignoreEquipment = filter.equipmentIds.isEmpty(),
+            categoryIds = filter.categoryIds.map { it.value },
+            ignoreCategories = filter.categoryIds.isEmpty(),
             query = filter.query.trim(),
         ).map { list -> list.mapNotNull { runCatching { it.toDomain() }.getOrNull() } }
 
