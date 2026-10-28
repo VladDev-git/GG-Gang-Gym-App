@@ -27,7 +27,9 @@ interface ExerciseDao {
         LEFT JOIN exercise_muscles em ON em.exerciseId = e.id
         LEFT JOIN exercise_equipment ee ON ee.exerciseId = e.id
         WHERE e.deletedAt IS NULL
-          AND (:ignoreMuscles OR em.muscleId IN (:muscleIds))
+          AND (:ignoreMuscles
+               OR em.muscleId IN (:muscleIds)
+               OR em.muscleId IN (SELECT id FROM muscle_groups WHERE parentId IN (:muscleIds)))
           AND (:ignoreEquipment OR ee.equipmentId IN (:equipmentIds))
           AND (:query = '' OR e.name LIKE '%' || :query || '%')
         ORDER BY e.name

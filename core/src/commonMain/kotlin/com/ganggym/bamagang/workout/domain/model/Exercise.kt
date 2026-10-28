@@ -11,6 +11,8 @@ data class Exercise(
     val name: String,
     val tracking: TrackingType,
     val description: String = "",
+    val steps: List<String> = emptyList(),   // кроки техніки виконання
+    val mistakes: List<String> = emptyList(), // типові помилки
     val imageUrl: String? = null,
     val categoryIds: Set<ExerciseCategoryId> = emptySet(),
     val equipmentIds: Set<EquipmentId> = emptySet(),

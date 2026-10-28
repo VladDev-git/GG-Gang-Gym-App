@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "items": [
+    { "id": "pull", "name": { "uk": "Тяга", "en": "Pull" } },
+    { "id": "dips", "name": { "uk": "Віджимання на брусах", "en": "Dips" } },
+    { "id": "push", "name": { "uk": "Жим", "en": "Push" } },
+    { "id": "legs", "name": { "uk": "Ноги", "en": "Legs" } },
+    { "id": "core", "name": { "uk": "Кор", "en": "Core" } },
+    { "id": "muscle_ups", "name": { "uk": "Виходи силою", "en": "Muscle-ups" } },
+    { "id": "handstand", "name": { "uk": "Стійка на руках", "en": "Handstand" } },
+
+    { "id": "skills", "name": { "uk": "Елементи", "en": "Skills" } },
+    { "id": "static", "name": { "uk": "Статика", "en": "Static" } },
+    { "id": "isometric", "name": { "uk": "Ізометрія", "en": "Isometric" } },
+    { "id": "dynamic", "name": { "uk": "Динаміка", "en": "Dynamic" } },
+    { "id": "explosive", "name": { "uk": "Вибухова сила", "en": "Explosive" } },
+    { "id": "weighted", "name": { "uk": "З обтяженням", "en": "Weighted" } },
+    { "id": "bodyweight", "name": { "uk": "Власна вага", "en": "Body weight" } },
+
+    { "id": "strength", "name": { "uk": "Сила", "en": "Strength" } },
+    { "id": "hypertrophy", "name": { "uk": "Гіпертрофія", "en": "Hypertrophy" } },
+    { "id": "endurance", "name": { "uk": "Витривалість", "en": "Endurance" } },
+    { "id": "cardio", "name": { "uk": "Кардіо", "en": "Cardio" } },
+    { "id": "speed", "name": { "uk": "Швидкість", "en": "Speed" } },
+    { "id": "mobility", "name": { "uk": "Мобільність", "en": "Mobility" } },
+    { "id": "balance", "name": { "uk": "Баланс", "en": "Balance" } },
+
+    { "id": "upper_body", "name": { "uk": "Верх тіла", "en": "Upper body" } },
+    { "id": "full_body", "name": { "uk": "Все тіло", "en": "Full body" } },
+
+    { "id": "warm_up", "name": { "uk": "Розминка", "en": "Warm-up" } },
+    { "id": "cool_down", "name": { "uk": "Заминка", "en": "Cool-down" } },
+    { "id": "stretching", "name": { "uk": "Розтяжка", "en": "Stretching" } },
+    { "id": "prehab", "name": { "uk": "Профілактика травм", "en": "Prehab" } }
+  ]
+}

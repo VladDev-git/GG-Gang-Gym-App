@@ -11,6 +11,8 @@ data class ExerciseEntity(
     val name: String,
     val tracking: String,
     val description: String,
+    val steps: String,
+    val mistakes: String,
     val imageUrl: String?,
     val difficulty: String,
     val ownerId: String?,

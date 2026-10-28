@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "items": [
+    { "id": "high_bar", "name": { "uk": "Турнік", "en": "High bar" } },
+    { "id": "low_bar", "name": { "uk": "Низька перекладина", "en": "Low bar" } },
+    { "id": "parallel_bars", "name": { "uk": "Бруси", "en": "Parallel bars" } },
+    { "id": "rings", "name": { "uk": "Кільця", "en": "Rings" } },
+    { "id": "parallettes", "name": { "uk": "Паралетси", "en": "Parallettes" } },
+    { "id": "wall_bars", "name": { "uk": "Шведська стінка", "en": "Swedish ladder" } },
+    { "id": "pole", "name": { "uk": "Жердина", "en": "Pole" } },
+    { "id": "monkey_bars", "name": { "uk": "Рукохід", "en": "Monkey bars" } },
+
+    { "id": "extra_weight", "name": { "uk": "Обтяження (пояс, жилет)", "en": "Extra weight" } },
+    { "id": "kettlebell", "name": { "uk": "Гиря", "en": "Kettlebell" } },
+    { "id": "resistance_band", "name": { "uk": "Резинка", "en": "Resistance band" } },
+    { "id": "ab_wheel", "name": { "uk": "Ролик для преса", "en": "Ab wheel" } },
+    { "id": "jump_rope", "name": { "uk": "Скакалка", "en": "Jump rope" } },
+
+    { "id": "box", "name": { "uk": "Тумба", "en": "Box" } },
+    { "id": "table", "name": { "uk": "Стіл", "en": "Table" } },
+    { "id": "chair", "name": { "uk": "Стілець", "en": "Chair" } },
+    { "id": "wall", "name": { "uk": "Стіна", "en": "Wall" } },
+
+    { "id": "barbell", "name": { "uk": "Штанга", "en": "Barbell" } },
+    { "id": "dumbbell", "name": { "uk": "Гантелі", "en": "Dumbbells" } },
+    { "id": "bench", "name": { "uk": "Лава", "en": "Bench" } },
+    { "id": "cable", "name": { "uk": "Блочний тренажер", "en": "Cable machine" } },
+    { "id": "machine", "name": { "uk": "Тренажер", "en": "Machine" } }
+  ]
+}

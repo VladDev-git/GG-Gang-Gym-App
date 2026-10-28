@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "items": [
+    { "id": "chest", "name": { "uk": "Груди", "en": "Chest" }, "parentId": null },
+    { "id": "upper_chest", "name": { "uk": "Верх грудей", "en": "Upper chest" }, "parentId": "chest" },
+    { "id": "middle_chest", "name": { "uk": "Середина грудей", "en": "Middle chest" }, "parentId": "chest" },
+    { "id": "lower_chest", "name": { "uk": "Низ грудей", "en": "Lower chest" }, "parentId": "chest" },
+    { "id": "serratus", "name": { "uk": "Передній зубчастий", "en": "Serratus anterior" }, "parentId": "chest" },
+
+    { "id": "back", "name": { "uk": "Спина", "en": "Back" }, "parentId": null },
+    { "id": "lats", "name": { "uk": "Найширші", "en": "Lats" }, "parentId": "back" },
+    { "id": "upper_traps", "name": { "uk": "Верх трапецій", "en": "Upper traps" }, "parentId": "back" },
+    { "id": "lower_traps", "name": { "uk": "Середина й низ трапецій", "en": "Mid/lower traps" }, "parentId": "back" },
+    { "id": "rhomboids", "name": { "uk": "Ромбоподібні", "en": "Rhomboids" }, "parentId": "back" },
+    { "id": "scapula", "name": { "uk": "Лопатки", "en": "Scapula" }, "parentId": "back" },
+    { "id": "lower_back", "name": { "uk": "Поперек", "en": "Lower back" }, "parentId": "back" },
+
+    { "id": "shoulders", "name": { "uk": "Плечі", "en": "Shoulders" }, "parentId": null },
+    { "id": "front_delts", "name": { "uk": "Передня дельта", "en": "Front delts" }, "parentId": "shoulders" },
+    { "id": "side_delts", "name": { "uk": "Середня дельта", "en": "Side delts" }, "parentId": "shoulders" },
+    { "id": "rear_delts", "name": { "uk": "Задня дельта", "en": "Rear delts" }, "parentId": "shoulders" },
+    { "id": "rotator_cuff", "name": { "uk": "Ротаторна манжета", "en": "Rotator cuff" }, "parentId": "shoulders" },
+
+    { "id": "arms", "name": { "uk": "Руки", "en": "Arms" }, "parentId": null },
+    { "id": "biceps", "name": { "uk": "Біцепс", "en": "Biceps" }, "parentId": "arms" },
+    { "id": "triceps", "name": { "uk": "Трицепс", "en": "Triceps" }, "parentId": "arms" },
+    { "id": "brachialis", "name": { "uk": "Брахіаліс", "en": "Brachialis" }, "parentId": "arms" },
+    { "id": "forearms", "name": { "uk": "Передпліччя", "en": "Forearms" }, "parentId": "arms" },
+
+    { "id": "core", "name": { "uk": "Кор", "en": "Core" }, "parentId": null },
+    { "id": "abs", "name": { "uk": "Прямий м'яз живота", "en": "Abs" }, "parentId": "core" },
+    { "id": "obliques", "name": { "uk": "Косі м'язи", "en": "Obliques" }, "parentId": "core" },
+    { "id": "hip_flexors", "name": { "uk": "Згиначі стегна", "en": "Hip flexors" }, "parentId": "core" },
+
+    { "id": "legs", "name": { "uk": "Ноги", "en": "Legs" }, "parentId": null },
+    { "id": "quads", "name": { "uk": "Квадрицепс", "en": "Quads" }, "parentId": "legs" },
+    { "id": "hamstrings", "name": { "uk": "Біцепс стегна", "en": "Hamstrings" }, "parentId": "legs" },
+    { "id": "glutes", "name": { "uk": "Сідниці", "en": "Glutes" }, "parentId": "legs" },
+    { "id": "adductors", "name": { "uk": "Привідні", "en": "Adductors" }, "parentId": "legs" },
+    { "id": "abductors", "name": { "uk": "Відвідні", "en": "Abductors" }, "parentId": "legs" },
+    { "id": "calves", "name": { "uk": "Литки", "en": "Calves" }, "parentId": "legs" }
+  ]
+}
