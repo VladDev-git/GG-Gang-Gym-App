@@ -1,0 +1,2167 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "pull_ups",
+      "name": { "uk": "Підтягування", "en": "Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Базова тягова вправа: з вису прямим хватом підтягни тіло, доки підборіддя не опиниться над перекладиною.",
+        "en": "The fundamental pulling exercise: from a dead hang with an overhand grip, pull yourself up until your chin clears the bar."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом трохи ширше за плечі та повисни на прямих руках.",
+          "Опусти лопатки вниз і напруж кор, ноги разом.",
+          "Тягнися вгору, ведучи лікті вниз до ребер, доки підборіддя не пройде над перекладиною.",
+          "Під контролем опустись у вис на повністю прямих руках."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip slightly wider than shoulder-width and hang with straight arms.",
+          "Depress your shoulder blades and brace your core, legs together.",
+          "Pull up by driving your elbows down toward your ribs until your chin clears the bar.",
+          "Lower yourself under control back to a full dead hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Розгойдування тіла або ривки ногами.",
+          "Неповна амплітуда: не розгинати руки внизу або не доходити підборіддям до перекладини.",
+          "Тягнутися підборіддям уперед замість того, щоб піднімати все тіло.",
+          "Плечі підняті до вух, лопатки не опущені."
+        ],
+        "en": [
+          "Swinging or kicking with the legs.",
+          "Partial range: not fully extending at the bottom or not getting the chin over the bar.",
+          "Reaching forward with the chin instead of lifting the whole body.",
+          "Shrugged shoulders, shoulder blades not depressed."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts"]
+    },
+    {
+      "id": "pull_ups_band",
+      "name": { "uk": "Підтягування з резиною", "en": "Pull-ups with Band" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Підтягування з допомогою резини, яка бере на себе частину ваги тіла. Підвідна вправа до повних підтягувань.",
+        "en": "Pull-ups assisted by a resistance band that takes part of your body weight. A progression toward full pull-ups."
+      },
+      "steps": {
+        "uk": [
+          "Закріпи резину на турніку та постав у неї стопу або коліно.",
+          "Візьмись за турнік прямим хватом трохи ширше за плечі, опусти лопатки.",
+          "Підтягнись, доки підборіддя не пройде над перекладиною.",
+          "Повільно опустись у вис на прямих руках, не даючи резині підкидати тебе."
+        ],
+        "en": [
+          "Loop the band around the bar and place your foot or knee in it.",
+          "Grab the bar with an overhand grip slightly wider than shoulder-width, depress your shoulder blades.",
+          "Pull up until your chin clears the bar.",
+          "Lower slowly to a straight-arm hang without letting the band bounce you."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Відскакувати від резини внизу замість контрольованого руху.",
+          "Занадто сильна резина: вправа стає надто легкою і не дає прогресу.",
+          "Неповна амплітуда внизу."
+        ],
+        "en": [
+          "Bouncing off the band at the bottom instead of moving under control.",
+          "Using a band that is too strong, making the exercise too easy to progress.",
+          "Not reaching full extension at the bottom."
+        ]
+      },
+      "categories": ["pull", "strength", "upper_body"],
+      "equipment": ["high_bar", "resistance_band"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts"]
+    },
+    {
+      "id": "chin_ups",
+      "name": { "uk": "Підтягування зворотним хватом", "en": "Chin-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Підтягування хватом долонями до себе на ширині плечей. Сильніше навантажують біцепс.",
+        "en": "Pull-ups with an underhand, shoulder-width grip. They load the biceps more."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік зворотним хватом (долоні до себе) на ширині плечей.",
+          "Повисни на прямих руках, опусти лопатки, напруж кор.",
+          "Підтягнись, ведучи лікті вниз і вперед, доки підборіддя не пройде над перекладиною.",
+          "Під контролем опустись у вис на прямих руках."
+        ],
+        "en": [
+          "Grab the bar with an underhand grip (palms facing you) at shoulder width.",
+          "Hang with straight arms, depress your shoulder blades, brace your core.",
+          "Pull up, driving your elbows down and forward, until your chin clears the bar.",
+          "Lower under control to a straight-arm hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Розгойдування та ривки ногами.",
+          "Занадто широкий хват — навантаження на зап'ястя та лікті."
+        ],
+        "en": [
+          "Swinging and kicking with the legs.",
+          "Gripping too wide, which strains the wrists and elbows."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps"]
+    },
+    {
+      "id": "chin_ups_band",
+      "name": { "uk": "Підтягування зворотним хватом з резиною", "en": "Chin-ups with Band" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Підтягування зворотним хватом з допомогою резини, яка бере на себе частину ваги тіла. Підвідна вправа до повних підтягувань зворотним хватом.",
+        "en": "Chin-ups assisted by a resistance band that takes part of your body weight. A progression toward full chin-ups."
+      },
+      "steps": {
+        "uk": [
+          "Закріпи резину на турніку та постав у неї стопу або коліно.",
+          "Візьмись за турнік зворотним хватом (долоні до себе) на ширині плечей, опусти лопатки.",
+          "Підтягнись, доки підборіддя не пройде над перекладиною.",
+          "Повільно опустись униз, не даючи резині підкидати тебе."
+        ],
+        "en": [
+          "Loop the band around the bar and place your foot or knee in it.",
+          "Grab the bar with an underhand grip (palms facing you) at shoulder width, depress your shoulder blades.",
+          "Pull up until your chin clears the bar.",
+          "Lower slowly without letting the band bounce you."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Відскакувати від резини внизу замість контрольованого руху.",
+          "Занадто сильна резина: вправа стає надто легкою і не дає прогресу."
+        ],
+        "en": [
+          "Bouncing off the band at the bottom instead of moving under control.",
+          "Using a band that is too strong, making the exercise too easy to progress."
+        ]
+      },
+      "categories": ["pull", "strength", "upper_body"],
+      "equipment": ["high_bar", "resistance_band"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps"]
+    },
+    {
+      "id": "narrow_chin_ups",
+      "name": { "uk": "Вузькі підтягування зворотним хватом", "en": "Narrow Chin-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Підтягування зворотним хватом, руки вужче за плечі. Ще сильніше навантажують біцепс і брахіаліс.",
+        "en": "Chin-ups with an underhand grip narrower than shoulder width. They put even more load on the biceps and brachialis."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік зворотним хватом, долоні на відстані 0–10 см одна від одної.",
+          "Повисни на прямих руках, опусти лопатки, напруж кор.",
+          "Підтягнись, ведучи лікті вниз і вперед перед собою, доки підборіддя не пройде над перекладиною.",
+          "Під контролем опустись униз."
+        ],
+        "en": [
+          "Grab the bar with an underhand grip, hands 0–10 cm apart.",
+          "Hang with straight arms, depress your shoulder blades, brace your core.",
+          "Pull up, driving your elbows down and forward in front of you, until your chin clears the bar.",
+          "Lower under control."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Розгойдування та ривки ногами.",
+          "Лікті розходяться в сторони.",
+          "Обережно з дуже вузьким хватом, щоб не травмувати зап'ястя."
+        ],
+        "en": [
+          "Swinging and kicking with the legs.",
+          "Letting the elbows flare out.",
+          "Be careful with a very narrow grip to avoid wrist injury."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps"]
+    },
+    {
+      "id": "narrow_chin_ups_band",
+      "name": { "uk": "Вузькі підтягування зворотним хватом з резиною", "en": "Narrow Chin-ups with Band" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Вузькі підтягування зворотним хватом з допомогою резини. Підвідна вправа до повних вузьких підтягувань зворотним хватом.",
+        "en": "Narrow chin-ups assisted by a resistance band. A progression toward full narrow chin-ups."
+      },
+      "steps": {
+        "uk": [
+          "Закріпи резину на турніку та постав у неї стопу або коліно.",
+          "Візьмись за турнік зворотним хватом, долоні на відстані 0–10 см одна від одної.",
+          "Підтягнись, ведучи лікті вниз і вперед перед собою, доки підборіддя не пройде над перекладиною.",
+          "Повільно опустись униз, не даючи резині підкидати тебе."
+        ],
+        "en": [
+          "Loop the band around the bar and place your foot or knee in it.",
+          "Grab the bar with an underhand grip, hands 0–10 cm apart.",
+          "Pull up, driving your elbows down and forward in front of you, until your chin clears the bar.",
+          "Lower slowly without letting the band bounce you."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Відскакувати від резини внизу замість контрольованого руху.",
+          "Лікті розходяться в сторони.",
+          "Обережно з дуже вузьким хватом, щоб не травмувати зап'ястя."
+        ],
+        "en": [
+          "Bouncing off the band at the bottom instead of moving under control.",
+          "Letting the elbows flare out.",
+          "Be careful with a very narrow grip to avoid wrist injury."
+        ]
+      },
+      "categories": ["pull", "strength", "upper_body"],
+      "equipment": ["high_bar", "resistance_band"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps"]
+    },
+    {
+      "id": "wide_pull_ups",
+      "name": { "uk": "Широкі підтягування", "en": "Wide Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Підтягування прямим хватом значно ширше за плечі. Акцент на м'язи лопаток, широкі та біцепс працюють менше.",
+        "en": "Pull-ups with an overhand grip much wider than shoulder width. The main load is on the muscles around the shoulder blades, with the lats assisting."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом приблизно в 1,5 раза ширше за плечі.",
+          "Повисни на прямих руках, опусти лопатки, напруж кор.",
+          "Тягнися вгору, ведучи лікті вниз і в сторони, доки підборіддя не пройде над перекладиною.",
+          "Під контролем опустись у вис на прямих руках."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip about 1.5 times shoulder width.",
+          "Hang with straight arms, depress your shoulder blades, brace your core.",
+          "Pull up, driving your elbows down and out, until your chin clears the bar.",
+          "Lower under control to a straight-arm hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Занадто широкий хват — навантаження на плечові суглоби.",
+          "Неповна амплітуда.",
+          "Розгойдування тіла.",
+          "Плечі підняті до вух."
+        ],
+        "en": [
+          "Gripping too wide, which strains the shoulder joints.",
+          "Partial range of motion.",
+          "Swinging the body.",
+          "Shrugged shoulders."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["rhomboids", "lower_traps"],
+      "secondaryMuscles": ["lats", "rear_delts", "biceps", "forearms"]
+    },
+    {
+      "id": "wide_pull_ups_band",
+      "name": { "uk": "Широкі підтягування з резиною", "en": "Wide Pull-ups with Band" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Широкі підтягування з допомогою резини. Підвідна вправа до повних широких підтягувань.",
+        "en": "Wide pull-ups assisted by a resistance band. A progression toward full wide pull-ups."
+      },
+      "steps": {
+        "uk": [
+          "Закріпи резину на турніку та постав у неї стопу або коліно.",
+          "Візьмись за турнік прямим хватом приблизно в 1,5 раза ширше за плечі, опусти лопатки.",
+          "Тягнися вгору, ведучи лікті вниз і в сторони, доки підборіддя не пройде над перекладиною.",
+          "Повільно опустись у вис на прямих руках, не даючи резині підкидати тебе."
+        ],
+        "en": [
+          "Loop the band around the bar and place your foot or knee in it.",
+          "Grab the bar with an overhand grip about 1.5 times shoulder width, depress your shoulder blades.",
+          "Pull up, driving your elbows down and out, until your chin clears the bar.",
+          "Lower slowly to a straight-arm hang without letting the band bounce you."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Відскакувати від резини внизу замість контрольованого руху.",
+          "Занадто широкий хват — навантаження на плечові суглоби.",
+          "Неповна амплітуда внизу."
+        ],
+        "en": [
+          "Bouncing off the band at the bottom instead of moving under control.",
+          "Gripping too wide, which strains the shoulder joints.",
+          "Not reaching full extension at the bottom."
+        ]
+      },
+      "categories": ["pull", "strength", "upper_body"],
+      "equipment": ["high_bar", "resistance_band"],
+      "primaryMuscles": ["rhomboids", "lower_traps"],
+      "secondaryMuscles": ["lats", "rear_delts", "biceps", "forearms"]
+    },
+    {
+      "id": "narrow_pull_ups",
+      "name": { "uk": "Вузькі підтягування", "en": "Narrow Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Підтягування прямим хватом, руки вужче за плечі. Сильніше навантажують біцепс, брахіаліс і передпліччя.",
+        "en": "Pull-ups with an overhand grip narrower than shoulder width. They load the biceps, brachialis and forearms more."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом, долоні на відстані 0–10 см одна від одної.",
+          "Повисни на прямих руках, опусти лопатки, напруж кор.",
+          "Підтягнись, ведучи лікті вниз і вперед перед собою, доки підборіддя не пройде над перекладиною.",
+          "Під контролем опустись у вис на прямих руках."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip, hands 0–10 cm apart.",
+          "Hang with straight arms, depress your shoulder blades, brace your core.",
+          "Pull up, driving your elbows down and forward in front of you, until your chin clears the bar.",
+          "Lower under control to a straight-arm hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Розгойдування тіла.",
+          "Неповна амплітуда.",
+          "Лікті розходяться в сторони.",
+          "Обережно з дуже вузьким хватом, щоб не травмувати зап'ястя."
+        ],
+        "en": [
+          "Swinging the body.",
+          "Partial range of motion.",
+          "Letting the elbows flare out.",
+          "Be careful with a very narrow grip to avoid wrist injury."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids"]
+    },
+    {
+      "id": "narrow_pull_ups_band",
+      "name": { "uk": "Вузькі підтягування з резиною", "en": "Narrow Pull-ups with Band" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Вузькі підтягування з допомогою резини. Підвідна вправа до повних вузьких підтягувань.",
+        "en": "Narrow pull-ups assisted by a resistance band. A progression toward full narrow pull-ups."
+      },
+      "steps": {
+        "uk": [
+          "Закріпи резину на турніку та постав у неї стопу або коліно.",
+          "Візьмись за турнік прямим хватом, долоні на відстані 0–10 см одна від одної.",
+          "Підтягнись, ведучи лікті вниз і вперед перед собою, доки підборіддя не пройде над перекладиною.",
+          "Повільно опустись у вис на прямих руках, не даючи резині підкидати тебе."
+        ],
+        "en": [
+          "Loop the band around the bar and place your foot or knee in it.",
+          "Grab the bar with an overhand grip, hands 0–10 cm apart.",
+          "Pull up, driving your elbows down and forward in front of you, until your chin clears the bar.",
+          "Lower slowly to a straight-arm hang without letting the band bounce you."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Відскакувати від резини внизу замість контрольованого руху.",
+          "Неповна амплітуда внизу.",
+          "Обережно з дуже вузьким хватом, щоб не травмувати зап'ястя."
+        ],
+        "en": [
+          "Bouncing off the band at the bottom instead of moving under control.",
+          "Not reaching full extension at the bottom.",
+          "Be careful with a very narrow grip to avoid wrist injury."
+        ]
+      },
+      "categories": ["pull", "strength", "upper_body"],
+      "equipment": ["high_bar", "resistance_band"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids"]
+    },
+    {
+      "id": "behind_neck_pull_ups",
+      "name": { "uk": "Підтягування за голову", "en": "Wide Behind-the-Neck Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Широкі підтягування, у яких перекладина опиняється позаду голови. Потребують доброї рухливості плечей.",
+        "en": "Wide pull-ups where the bar ends up behind your head. Requires good shoulder mobility."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік широким прямим хватом.",
+          "Повисни на прямих руках, опусти лопатки, злегка нахили голову вперед.",
+          "Тягнися вгору, ведучи лікті вниз, доки перекладина не опиниться на рівні верху шиї позаду голови.",
+          "Під контролем опустись у вис на прямих руках."
+        ],
+        "en": [
+          "Grab the bar with a wide overhand grip.",
+          "Hang with straight arms, depress your shoulder blades, tilt your head slightly forward.",
+          "Pull up, driving your elbows down, until the bar is level with the top of your neck behind your head.",
+          "Lower under control to a straight-arm hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Виконувати з болем у плечах або без достатньої рухливості.",
+          "Різко висувати голову вперед і перевантажувати шию.",
+          "Розгойдування та ривки."
+        ],
+        "en": [
+          "Doing it with shoulder pain or without enough mobility.",
+          "Jerking the head forward and straining the neck.",
+          "Swinging and kipping."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["rhomboids", "lower_traps", "rear_delts", "biceps", "rotator_cuff"]
+    },
+    {
+      "id": "archer_pull_ups",
+      "name": { "uk": "Підтягування лучника", "en": "Archer Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Широкі підтягування, у яких тіло зміщується до однієї руки, а друга лишається майже прямою. Проміжний крок до підтягувань на одній руці.",
+        "en": "Wide pull-ups where you shift toward one hand while the other arm stays nearly straight. A stepping stone to one-arm pull-ups."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік дуже широким прямим хватом.",
+          "Підтягнись до однієї руки, тримаючи другу руку майже прямою.",
+          "Доведи підборіддя над перекладиною біля робочої руки.",
+          "Під контролем опустись униз і повтори в інший бік."
+        ],
+        "en": [
+          "Grab the bar with a very wide overhand grip.",
+          "Pull up toward one hand while keeping the other arm almost straight.",
+          "Bring your chin over the bar next to the working hand.",
+          "Lower under control and repeat to the other side."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинати допоміжну руку — навантаження перерозподіляється, і вправа втрачає сенс.",
+          "Розгойдування та ривки ногами.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Bending the assisting arm, which shifts the load and defeats the purpose.",
+          "Swinging and kicking.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts"]
+    },
+    {
+      "id": "typewriter_pull_ups",
+      "name": { "uk": "Підтягування «друкарська машинка»", "en": "Typewriter Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "У верхній точці широких підтягувань тіло переміщується вздовж перекладини від однієї руки до іншої, не опускаючись.",
+        "en": "At the top of a wide pull-up, you move your body along the bar from one hand to the other without dropping down."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік дуже широким прямим хватом.",
+          "Підтягнись до однієї руки, підборіддя над перекладиною.",
+          "Не опускаючись, переміщуйся вздовж перекладини до другої руки, випрямляючи першу.",
+          "Повернись у центр і під контролем опустись униз."
+        ],
+        "en": [
+          "Grab the bar with a very wide overhand grip.",
+          "Pull up toward one hand with your chin over the bar.",
+          "Without dropping, slide along the bar to the other hand, straightening the first arm.",
+          "Return to the center and lower under control."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Опускатися нижче перекладини під час переміщення.",
+          "Поспіх і ривки замість плавного руху.",
+          "Розгойдування ногами."
+        ],
+        "en": [
+          "Dropping below the bar during the traverse.",
+          "Rushing and jerking instead of moving smoothly.",
+          "Swinging the legs."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts"]
+    },
+    {
+      "id": "clap_pull_ups",
+      "name": { "uk": "Підтягування з оплеском", "en": "Clap Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Вибухові підтягування: у верхній точці відпускаєш перекладину, плескаєш у долоні та знову хапаєшся.",
+        "en": "Explosive pull-ups: at the top you let go of the bar, clap your hands and grab it again."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Вибухово підтягнись якомога вище — до рівня грудей.",
+          "У найвищій точці відпусти перекладину, швидко плесни в долоні та знову візьмись.",
+          "М'яко погаси інерцію згинанням рук і опустись униз."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Pull up explosively as high as possible, to chest level.",
+          "At the highest point release the bar, clap quickly and grab it again.",
+          "Absorb the momentum by bending your arms and lower down."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Недостатня висота: не встигаєш плеснути й знову взятися.",
+          "Ривок ногами замість сили рук.",
+          "Ловити перекладину на прямих руках — різке навантаження на плечі й лікті."
+        ],
+        "en": [
+          "Not enough height to clap and regrip in time.",
+          "Kicking with the legs instead of pulling with the arms.",
+          "Catching the bar on straight arms, which jolts the shoulders and elbows."
+        ]
+      },
+      "categories": ["pull", "explosive", "dynamic", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts"]
+    },
+    {
+      "id": "back_clap_pull_ups",
+      "name": { "uk": "Підтягування з оплеском за спиною", "en": "Back Clap Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "HELL_YEH",
+      "description": {
+        "uk": "Найскладніший варіант вибухових підтягувань: у верхній точці відпускаєш перекладину й плескаєш у долоні за спиною.",
+        "en": "The hardest explosive pull-up variation: at the top you release the bar and clap your hands behind your back."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Вибухово підтягнись якомога вище — до рівня пояса.",
+          "Відпусти перекладину, швидко плесни в долоні за спиною та поверни руки вперед.",
+          "Візьмись за перекладину й м'яко погаси інерцію."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Pull up explosively as high as possible, to waist level.",
+          "Release the bar, clap quickly behind your back and bring your hands forward.",
+          "Grab the bar and absorb the momentum softly."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Пробувати без впевненого оплеску перед собою — високий ризик зірватися.",
+          "Недостатня висота підйому.",
+          "Ловити перекладину на прямих руках."
+        ],
+        "en": [
+          "Trying it before mastering the regular clap pull-up — a high risk of falling.",
+          "Not getting high enough.",
+          "Catching the bar on straight arms."
+        ]
+      },
+      "categories": ["pull", "explosive", "dynamic", "skills", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts"]
+    },
+    {
+      "id": "chest_pull_ups",
+      "name": { "uk": "Підтягування до грудей", "en": "Chest Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Підтягування з більшою амплітудою: тягнешся, доки перекладина не торкнеться верху грудей.",
+        "en": "Pull-ups with a longer range of motion: you pull until the bar touches your upper chest."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом трохи ширше за плечі.",
+          "Повисни на прямих руках, опусти лопатки.",
+          "Тягнися вгору, зводячи лопатки й ведучи лікті вниз за корпус, доки перекладина не торкнеться грудей.",
+          "Під контролем опустись у вис на прямих руках."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip slightly wider than shoulder-width.",
+          "Hang with straight arms, depress your shoulder blades.",
+          "Pull up, squeezing your shoulder blades and driving your elbows down behind your body, until the bar touches your chest.",
+          "Lower under control to a straight-arm hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Тягнутися до перекладини головою й шиєю замість грудей.",
+          "Ривки ногами.",
+          "Зупинятися, коли перекладина лише на рівні підборіддя."
+        ],
+        "en": [
+          "Reaching toward the bar with the head and neck instead of the chest.",
+          "Kicking with the legs.",
+          "Stopping when the bar is only at chin level."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["rhomboids", "lower_traps", "rear_delts", "biceps", "brachialis", "forearms"]
+    },
+    {
+      "id": "australian_pull_ups",
+      "name": { "uk": "Австралійські підтягування", "en": "Australian Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Горизонтальна тяга під низькою перекладиною. Перша вправа для тих, хто ще не підтягується.",
+        "en": "A horizontal row under a low bar. The first step for those who can't do pull-ups yet."
+      },
+      "steps": {
+        "uk": [
+          "Ляж під низьку перекладину й візьмись за неї прямим хватом трохи ширше за плечі.",
+          "Тіло пряме від п'ят до голови, п'яти на землі, руки прямі.",
+          "Підтягни груди до перекладини, зводячи лопатки.",
+          "Під контролем опустись до прямих рук."
+        ],
+        "en": [
+          "Lie under a low bar and grab it with an overhand grip slightly wider than shoulder-width.",
+          "Keep your body straight from heels to head, heels on the ground, arms straight.",
+          "Pull your chest to the bar, squeezing your shoulder blades together.",
+          "Lower under control to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз провисає або тіло згинається в попереку.",
+          "Тягнутися до перекладини головою.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Sagging hips or bending at the waist.",
+          "Reaching toward the bar with the head.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["low_bar"],
+      "primaryMuscles": ["lats", "rhomboids"],
+      "secondaryMuscles": ["lower_traps", "rear_delts", "biceps", "forearms", "abs"]
+    },
+    {
+      "id": "australian_chin_ups",
+      "name": { "uk": "Австралійські підтягування зворотним хватом", "en": "Australian Chin-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Горизонтальна тяга під низькою перекладиною зворотним хватом. Сильніше навантажує біцепс.",
+        "en": "A horizontal underhand row under a low bar. Puts more load on the biceps."
+      },
+      "steps": {
+        "uk": [
+          "Ляж під низьку перекладину й візьмись за неї зворотним хватом (долоні до себе) на ширині плечей.",
+          "Тіло пряме від п'ят до голови, п'яти на землі, руки прямі.",
+          "Підтягни груди до перекладини, тримаючи лікті близько до корпусу.",
+          "Під контролем опустись до прямих рук."
+        ],
+        "en": [
+          "Lie under a low bar and grab it with an underhand grip (palms facing you) at shoulder width.",
+          "Keep your body straight from heels to head, heels on the ground, arms straight.",
+          "Pull your chest to the bar, keeping your elbows close to your body.",
+          "Lower under control to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз провисає або тіло згинається в попереку.",
+          "Тягнутися до перекладини головою."
+        ],
+        "en": [
+          "Sagging hips or bending at the waist.",
+          "Reaching toward the bar with the head."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["low_bar"],
+      "primaryMuscles": ["lats", "rhomboids", "biceps"],
+      "secondaryMuscles": ["lower_traps", "rear_delts", "brachialis", "forearms", "abs"]
+    },
+    {
+      "id": "l_sit_pull_ups",
+      "name": { "uk": "Підтягування з кутом", "en": "L-Sit Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Підтягування з ногами, піднятими під прямим кутом до корпусу. Додатково навантажують прес і згиначі стегна.",
+        "en": "Pull-ups with your legs raised at a right angle to your torso. They also work the abs and hip flexors."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом трохи ширше за плечі.",
+          "Підніми прямі ноги до горизонталі, носки натягнуті.",
+          "Підтягнись, доки підборіддя не пройде над перекладиною, тримаючи ноги нерухомо.",
+          "Під контролем опустись униз, не опускаючи ноги."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip slightly wider than shoulder-width.",
+          "Raise your straight legs to horizontal, toes pointed.",
+          "Pull up until your chin clears the bar, keeping your legs still.",
+          "Lower under control without dropping your legs."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ноги опускаються нижче горизонталі.",
+          "Згинати коліна.",
+          "Розгойдування ногами для інерції."
+        ],
+        "en": [
+          "Letting the legs drop below horizontal.",
+          "Bending the knees.",
+          "Swinging the legs for momentum."
+        ]
+      },
+      "categories": ["pull", "core", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "abs"],
+      "secondaryMuscles": ["hip_flexors", "biceps", "brachialis", "forearms", "rhomboids"]
+    },
+    {
+      "id": "l_sit_chin_ups",
+      "name": { "uk": "Підтягування зворотним хватом з кутом", "en": "L-Sit Chin-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Підтягування зворотним хватом з ногами, піднятими під прямим кутом до корпусу. Додатково навантажують прес і згиначі стегна.",
+        "en": "Chin-ups with your legs raised at a right angle to your torso. They also work the abs and hip flexors."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік зворотним хватом на ширині плечей.",
+          "Підніми прямі ноги до горизонталі, носки натягнуті.",
+          "Підтягнись, доки підборіддя не пройде над перекладиною, тримаючи ноги нерухомо.",
+          "Під контролем опустись униз, не опускаючи ноги."
+        ],
+        "en": [
+          "Grab the bar with an underhand grip at shoulder width.",
+          "Raise your straight legs to horizontal, toes pointed.",
+          "Pull up until your chin clears the bar, keeping your legs still.",
+          "Lower under control without dropping your legs."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ноги опускаються нижче горизонталі.",
+          "Згинати коліна.",
+          "Розгойдування ногами для інерції."
+        ],
+        "en": [
+          "Letting the legs drop below horizontal.",
+          "Bending the knees.",
+          "Swinging the legs for momentum."
+        ]
+      },
+      "categories": ["pull", "core", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps", "abs"],
+      "secondaryMuscles": ["hip_flexors", "brachialis", "forearms", "rhomboids"]
+    },
+    {
+      "id": "one_arm_pull_ups",
+      "name": { "uk": "Підтягування на одній руці", "en": "One Arm Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "HELL_YEH",
+      "description": {
+        "uk": "Підтягування на одній руці — одна з вершин тягової сили в калістеніці.",
+        "en": "Pulling yourself up with a single arm — one of the peaks of pulling strength in calisthenics."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік однією рукою прямим, нейтральним або зворотним хватом — як зручніше.",
+          "Опусти лопатку, напруж кор і сідниці, ноги разом.",
+          "Підтягнись, ведучи лікоть униз до ребер, доки підборіддя не пройде над перекладиною.",
+          "Під контролем опустись униз і повтори на іншу руку."
+        ],
+        "en": [
+          "Grab the bar with one hand using an overhand, neutral or underhand grip — whichever is more comfortable.",
+          "Depress your shoulder blade, brace your core and glutes, legs together.",
+          "Pull up, driving your elbow down to your ribs, until your chin clears the bar.",
+          "Lower under control and repeat on the other arm."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Сильне розкручування корпусу.",
+          "Ривки ногами.",
+          "Братися за вправу без підготовки — високий ризик травми ліктя та біцепса."
+        ],
+        "en": [
+          "Excessive torso rotation.",
+          "Kicking with the legs.",
+          "Attempting it without preparation — a high risk of elbow and biceps injury."
+        ]
+      },
+      "categories": ["pull", "strength", "skills", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts", "obliques"]
+    },
+    {
+      "id": "muscle_ups",
+      "name": { "uk": "Вихід силою", "en": "Muscle-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Вибухове підтягування з переходом над перекладину та виходом в упор на прямих руках. Базовий елемент street workout.",
+        "en": "An explosive pull-up that transitions over the bar into a straight-arm support. A core street workout skill."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Вибухово підтягнись до рівня пояса, тягнучи перекладину до себе по дузі.",
+          "У верхній точці переведи груди над перекладиною, нахиляючись уперед і повертаючи зап'ястя.",
+          "Випрями руки в упорі та під контролем опустись униз."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Pull explosively to waist level, pulling the bar toward you in an arc.",
+          "At the top, bring your chest over the bar by leaning forward and rotating your wrists.",
+          "Press up to straight arms, then lower under control."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Виходити по одній руці або раннє закиданя ліктів що є дуже небезпечно для плечових суглобів.",
+          "Тягнути вертикально вгору замість руху по дузі навколо перекладини.",
+          "Недостатня висота підтягування для переходу."
+        ],
+        "en": [
+          "Getting over one arm at a time (\"chicken wing\").",
+          "Pulling straight up instead of moving around the bar in an arc.",
+          "Not pulling high enough for the transition."
+        ]
+      },
+      "categories": ["muscle_ups", "pull", "push", "skills", "explosive", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "triceps"],
+      "secondaryMuscles": ["biceps", "lower_chest", "front_delts", "forearms", "abs"]
+    },
+    {
+      "id": "narrow_muscle_ups",
+      "name": { "uk": "Вузький вихід силою", "en": "Narrow Muscle-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Вихід силою з хватом вужче за плечі. Сильніше навантажує трицепс у фазі виходу в упор.",
+        "en": "A muscle-up with a grip narrower than shoulder width. Loads the triceps more in the press-out phase."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом, долоні на відстані 0–10 см одна від одної.",
+          "Вибухово підтягнись до рівня пояса, ведучи лікті вниз і вперед перед собою.",
+          "У верхній точці переведи груди над перекладиною, нахиляючись уперед.",
+          "Випрями руки в упорі та під контролем опустись униз."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip, hands 0–10 cm apart.",
+          "Pull explosively to waist level, driving your elbows down and forward in front of you.",
+          "At the top, bring your chest over the bar by leaning forward.",
+          "Press up to straight arms, then lower under control."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Виходити по одній руці.",
+          "Лікті розходяться в сторони.",
+          "Недостатня висота підтягування для переходу.",
+          "Обережно з дуже вузьким хватом, щоб не травмувати зап'ястя."
+        ],
+        "en": [
+          "Getting over one arm at a time.",
+          "Letting the elbows flare out.",
+          "Not pulling high enough for the transition.",
+          "Be careful with a very narrow grip to avoid wrist injury."
+        ]
+      },
+      "categories": ["muscle_ups", "pull", "push", "skills", "explosive", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "triceps"],
+      "secondaryMuscles": ["biceps", "brachialis", "lower_chest", "front_delts", "forearms"]
+    },
+    {
+      "id": "reverse_grip_muscle_ups",
+      "name": { "uk": "Вихід силою зворотним хватом", "en": "Reverse Grip Muscle-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "HELL_YEH",
+      "description": {
+        "uk": "Вихід силою з хватом долонями до себе. Перехід над перекладиною значно складніший, ніж у класичному виході.",
+        "en": "A muscle-up with an underhand grip. The transition over the bar is much harder than in a regular muscle-up."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік зворотним хватом на ширині плечей.",
+          "Вибухово підтягнись якомога вище — до рівня нижньої частини грудей або пояса.",
+          "Швидко переведи лікті вгору й назад, перекочуючи кисті над перекладиною.",
+          "Випрями руки в упорі та під контролем опустись униз."
+        ],
+        "en": [
+          "Grab the bar with an underhand grip at shoulder width.",
+          "Pull explosively as high as possible, to your lower chest or waist.",
+          "Quickly drive your elbows up and back, rolling your hands over the bar.",
+          "Press up to straight arms, then lower under control."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Недостатня висота підтягування.",
+          "Виходити по одній руці.",
+          "Пробувати без впевненого класичного виходу силою."
+        ],
+        "en": [
+          "Not pulling high enough.",
+          "Getting over one arm at a time.",
+          "Trying it before mastering the regular muscle-up."
+        ]
+      },
+      "categories": ["muscle_ups", "pull", "push", "skills", "explosive", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["triceps", "brachialis", "forearms", "front_delts", "abs"]
+    },
+    {
+      "id": "wide_muscle_ups",
+      "name": { "uk": "Широкий вихід силою", "en": "Wide Muscle-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Вихід силою з хватом ширше за плечі. Тягова фаза важча, а перехід потребує більшого нахилу вперед.",
+        "en": "A muscle-up with a grip wider than shoulder width. The pull is harder and the transition needs a deeper forward lean."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом ширше за плечі.",
+          "Вибухово підтягнись до рівня пояса, тягнучи перекладину до себе по дузі.",
+          "У верхній точці сильно нахилися вперед і переведи груди над перекладиною.",
+          "Випрями руки в упорі та під контролем опустись униз."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip wider than shoulder width.",
+          "Pull explosively to waist level, pulling the bar toward you in an arc.",
+          "At the top, lean well forward and bring your chest over the bar.",
+          "Press up to straight arms, then lower under control."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Виходити по одній руці.",
+          "Занадто широкий хват — навантаження на плечові суглоби.",
+          "Недостатній нахил уперед у переході."
+        ],
+        "en": [
+          "Getting over one arm at a time.",
+          "Gripping too wide, which strains the shoulder joints.",
+          "Not leaning forward enough in the transition."
+        ]
+      },
+      "categories": ["muscle_ups", "pull", "push", "skills", "explosive", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "triceps"],
+      "secondaryMuscles": ["rhomboids", "lower_traps", "lower_chest", "front_delts", "forearms"]
+    },
+    {
+      "id": "negative_muscle_ups",
+      "name": { "uk": "Негативний вихід силою", "en": "Negative Muscle-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Повільне опускання з упору над перекладиною через перехід у вис. Вчить контролю фази переходу.",
+        "en": "Slowly lowering from a support above the bar through the transition into a hang. Teaches control of the transition phase."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор над перекладиною на прямих руках (застрибни або стань на опору).",
+          "Повільно опускайся, згинаючи руки й тримаючи груди над перекладиною.",
+          "Під контролем пройди перехід, переводячи зап'ястя під перекладину.",
+          "Продовжуй повільне опускання до вису на прямих руках."
+        ],
+        "en": [
+          "Get into a straight-arm support above the bar (jump up or use a step).",
+          "Lower slowly, bending your arms and keeping your chest over the bar.",
+          "Pass through the transition under control, bringing your wrists under the bar.",
+          "Keep lowering slowly to a straight-arm hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Провалюватися через перехід замість контрольованого руху.",
+          "Занадто швидке опускання.",
+          "Втрачати контроль лопаток унизу — ривок у плечі."
+        ],
+        "en": [
+          "Dropping through the transition instead of controlling it.",
+          "Lowering too fast.",
+          "Losing scapular control at the bottom and jolting the shoulders."
+        ]
+      },
+      "categories": ["muscle_ups", "pull", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "triceps"],
+      "secondaryMuscles": ["biceps", "lower_chest", "front_delts", "forearms"]
+    },
+    {
+      "id": "slow_muscle_ups",
+      "name": { "uk": "Повільний вихід силою", "en": "Slow Muscle-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "HELL_YEH",
+      "description": {
+        "uk": "Вихід силою без розгону та ривка: повільно, на чистій силі, з контрольованим переходом.",
+        "en": "A muscle-up with no swing or kip: slow, pure strength, with a controlled transition."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік глибоким хватом (зап'ястя над перекладиною).",
+          "Без розгойдування повільно підтягнись до рівня грудей.",
+          "Повільно переведи груди над перекладиною, нахиляючись уперед.",
+          "Повільно випрями руки в упорі та під контролем опустись униз."
+        ],
+        "en": [
+          "Grab the bar with a false grip (wrists over the bar).",
+          "Without swinging, slowly pull up to chest level.",
+          "Slowly bring your chest over the bar by leaning forward.",
+          "Slowly press up to straight arms, then lower under control."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Розгойдування або ривки — це вже не повільний вихід.",
+          "Виходити по одній руці.",
+          "Втрата контролю в переході."
+        ],
+        "en": [
+          "Swinging or kipping — then it's no longer a slow muscle-up.",
+          "Getting over one arm at a time.",
+          "Losing control in the transition."
+        ]
+      },
+      "categories": ["muscle_ups", "pull", "push", "skills", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "triceps"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "lower_chest", "front_delts", "abs"]
+    },
+    {
+      "id": "pull_up_muscle_up",
+      "name": { "uk": "Підтягування + вихід силою", "en": "Pull-up + Muscle-up" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Зв'язка: одне підтягування, а одразу після нього вихід силою. Одне повторення — вся зв'язка.",
+        "en": "A combo: one pull-up followed immediately by a muscle-up. One rep is the whole combo."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Зроби повне підтягування й опустись у вис.",
+          "Без паузи вибухово виконай вихід силою.",
+          "Під контролем опустись у вис — це одне повторення."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Do a full pull-up and lower to a hang.",
+          "Without pausing, explode into a muscle-up.",
+          "Lower under control to a hang — that's one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Пауза або перехоплення між елементами.",
+          "Скорочена амплітуда підтягування, щоб зберегти сили на вихід.",
+          "Виходити по одній руці."
+        ],
+        "en": [
+          "Pausing or regripping between the elements.",
+          "Cutting the pull-up short to save energy for the muscle-up.",
+          "Getting over one arm at a time."
+        ]
+      },
+      "categories": ["pull", "muscle_ups", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "triceps"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "lower_chest", "front_delts"]
+    },
+    {
+      "id": "pull_up_muscle_up_bar_dip",
+      "name": { "uk": "Підтягування + вихід силою + відтискання на перекладині", "en": "Pull-up + Muscle-up + Bar Dip" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Зв'язка: підтягування, вихід силою та відтискання в упорі на перекладині. Одне повторення — вся зв'язка.",
+        "en": "A combo: a pull-up, a muscle-up and a dip in support on the bar. One rep is the whole combo."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Зроби повне підтягування й опустись у вис.",
+          "Без паузи виконай вихід силою в упор на прямих руках.",
+          "В упорі опусти груди до перекладини та піднімись назад, потім під контролем опустись у вис."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Do a full pull-up and lower to a hang.",
+          "Without pausing, do a muscle-up into a straight-arm support.",
+          "In support, lower your chest to the bar and press back up, then lower under control to a hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Пауза або перехоплення між елементами.",
+          "Неглибоке відтискання на перекладині.",
+          "Виходити по одній руці."
+        ],
+        "en": [
+          "Pausing or regripping between the elements.",
+          "A shallow bar dip.",
+          "Getting over one arm at a time."
+        ]
+      },
+      "categories": ["pull", "muscle_ups", "push", "dips", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "triceps"],
+      "secondaryMuscles": ["biceps", "lower_chest", "front_delts", "forearms"]
+    },
+    {
+      "id": "muscle_up_bar_dip_pull_up",
+      "name": { "uk": "Вихід силою + відтискання на перекладині + підтягування", "en": "Muscle-up + Bar Dip + Pull-up" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Зв'язка: вихід силою, відтискання в упорі на перекладині та підтягування. Одне повторення — вся зв'язка.",
+        "en": "A combo: a muscle-up, a dip in support on the bar and a pull-up. One rep is the whole combo."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Виконай вихід силою в упор на прямих руках.",
+          "В упорі опусти груди до перекладини та піднімись назад.",
+          "Під контролем опустись у вис і без паузи зроби повне підтягування."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Do a muscle-up into a straight-arm support.",
+          "In support, lower your chest to the bar and press back up.",
+          "Lower under control to a hang and, without pausing, do a full pull-up."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Пауза або перехоплення між елементами.",
+          "Неглибоке відтискання на перекладині.",
+          "Провалюватися з упору у вис без контролю."
+        ],
+        "en": [
+          "Pausing or regripping between the elements.",
+          "A shallow bar dip.",
+          "Dropping from the support into the hang without control."
+        ]
+      },
+      "categories": ["pull", "muscle_ups", "push", "dips", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "triceps"],
+      "secondaryMuscles": ["biceps", "lower_chest", "front_delts", "forearms"]
+    },
+    {
+      "id": "pullover",
+      "name": { "uk": "Підйом переворотом", "en": "Pullover" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Підтягування з одночасним підйомом ніг і переворотом через перекладину в упор.",
+        "en": "A pull-up combined with a leg raise that rolls you over the bar into a support."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Підтягнись до грудей і одночасно піднімай ноги до перекладини.",
+          "Перекинь стегна через перекладину, обертаючись навколо неї.",
+          "Заверши рух в упорі над перекладиною на прямих руках."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Pull up to your chest while raising your legs toward the bar.",
+          "Roll your hips over the bar, rotating around it.",
+          "Finish in a straight-arm support above the bar."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Розгинати руки занадто рано — тіло відходить від перекладини.",
+          "Закидати ноги ривком замість контрольованого підйому.",
+          "Згинати ноги в колінах."
+        ],
+        "en": [
+          "Straightening the arms too early, so the body moves away from the bar.",
+          "Throwing the legs up with a jerk instead of a controlled raise.",
+          "Bending the knees."
+        ]
+      },
+      "categories": ["pull", "core", "skills", "dynamic", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "abs"],
+      "secondaryMuscles": ["hip_flexors", "biceps", "forearms", "obliques"]
+    },
+    {
+      "id": "front_lever_pull_ups",
+      "name": { "uk": "Підтягування в передньому висі", "en": "Front Lever Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "HELL_YEH",
+      "description": {
+        "uk": "Підтягування з тілом у горизонтальному положенні переднього вису: перекладина тягнеться до живота.",
+        "en": "Pull-ups performed with your body held horizontal in a front lever: you pull the bar toward your stomach."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Займи передній вис: тіло пряме й горизонтальне, руки прямі.",
+          "Тримаючи тіло горизонтально, підтягни перекладину до живота.",
+          "Під контролем випрями руки, не втрачаючи положення."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Get into a front lever: body straight and horizontal, arms straight.",
+          "Keeping your body horizontal, pull the bar toward your stomach.",
+          "Extend your arms under control without losing the position."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз провисає або тіло згинається в тазостегнових суглобах.",
+          "Тіло піднімається вертикально замість руху в горизонталі.",
+          "Згинати коліна."
+        ],
+        "en": [
+          "Sagging hips or piking at the hips.",
+          "Rising vertically instead of staying horizontal.",
+          "Bending the knees."
+        ]
+      },
+      "categories": ["pull", "skills", "strength", "core", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["abs", "rear_delts", "rhomboids", "lower_traps", "biceps", "lower_back", "glutes"]
+    },
+    {
+      "id": "dead_hang",
+      "name": { "uk": "Вис на турніку", "en": "Dead Hang" },
+      "tracking": "DURATION",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Пасивний вис на прямих руках. Розвиває силу хвату й розвантажує хребет і плечі.",
+        "en": "A passive hang on straight arms. Builds grip strength and decompresses the spine and shoulders."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Повисни на повністю прямих руках, ноги не торкаються землі.",
+          "Розслаб плечі та дихай рівно, тримаючи положення потрібний час."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Hang on fully straight arms with your feet off the ground.",
+          "Relax your shoulders and breathe steadily, holding for the target time."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинати руки в ліктях.",
+          "Розгойдуватися.",
+          "Затримувати дихання."
+        ],
+        "en": [
+          "Bending the elbows.",
+          "Swinging.",
+          "Holding your breath."
+        ]
+      },
+      "categories": ["pull", "isometric", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["forearms"],
+      "secondaryMuscles": ["lats", "rotator_cuff"]
+    },
+    {
+      "id": "static_pull_ups",
+      "name": { "uk": "Статичні підтягування", "en": "Static Pull-ups" },
+      "tracking": "DURATION",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Утримання у верхній точці підтягування: підборіддя над перекладиною. Розвиває силу у верхній фазі руху.",
+        "en": "Holding the top of a pull-up with your chin above the bar. Builds strength in the top range of the movement."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом трохи ширше за плечі.",
+          "Підтягнись або застрибни так, щоб підборіддя було над перекладиною.",
+          "Тримай положення: лікті притиснуті, лопатки опущені.",
+          "Коли час вийде, повільно опустись униз."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip slightly wider than shoulder-width.",
+          "Pull or jump up so your chin is above the bar.",
+          "Hold the position with elbows tucked and shoulder blades depressed.",
+          "When the time is up, lower down slowly."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Підборіддя опускається нижче перекладини.",
+          "Плечі підняті до вух.",
+          "Затримувати дихання."
+        ],
+        "en": [
+          "Letting the chin drop below the bar.",
+          "Shrugged shoulders.",
+          "Holding your breath."
+        ]
+      },
+      "categories": ["pull", "isometric", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps"]
+    },
+    {
+      "id": "head_under_bar_static_pull_ups",
+      "name": { "uk": "Статичні підтягування з головою під перекладиною", "en": "Head Under the Bar Static Pull-ups" },
+      "tracking": "DURATION",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Утримання трохи нижче верхньої точки підтягування: перекладина на рівні лоба, голова під нею.",
+        "en": "Holding just below the top of a pull-up: the bar is level with your forehead and your head stays under it."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом трохи ширше за плечі.",
+          "Підтягнись так, щоб перекладина була на рівні лоба, а голова — під нею.",
+          "Тримай положення: лікті притиснуті, лопатки опущені, кор напружений.",
+          "Коли час вийде, повільно опустись униз."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip slightly wider than shoulder-width.",
+          "Pull up so the bar is level with your forehead and your head is under it.",
+          "Hold with elbows tucked, shoulder blades depressed and core braced.",
+          "When the time is up, lower down slowly."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Положення «плаває» вгору-вниз.",
+          "Плечі підняті до вух.",
+          "Затримувати дихання."
+        ],
+        "en": [
+          "Drifting up and down instead of holding still.",
+          "Shrugged shoulders.",
+          "Holding your breath."
+        ]
+      },
+      "categories": ["pull", "isometric", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps"]
+    },
+    {
+      "id": "negative_pull_ups",
+      "name": { "uk": "Негативні підтягування", "en": "Negative Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Тільки фаза опускання: повільно опускаєшся з верхньої точки у вис. Будує силу для повних підтягувань.",
+        "en": "Only the lowering phase: you slowly descend from the top into a hang. Builds strength for full pull-ups."
+      },
+      "steps": {
+        "uk": [
+          "Застрибни або стань на опору так, щоб підборіддя було над перекладиною, хват прямий.",
+          "Повільно опускайся 3–5 секунд, контролюючи весь рух.",
+          "Опустись до вису на повністю прямих руках.",
+          "Стань на опору й повтори."
+        ],
+        "en": [
+          "Jump or step up so your chin is above the bar, overhand grip.",
+          "Lower slowly over 3–5 seconds, controlling the whole movement.",
+          "Descend to a hang with fully straight arms.",
+          "Step back up and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Провалюватися в нижній частині руху.",
+          "Занадто швидке опускання.",
+          "Плечі підняті до вух у висі."
+        ],
+        "en": [
+          "Dropping through the bottom part of the movement.",
+          "Lowering too fast.",
+          "Shrugged shoulders in the hang."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts"]
+    },
+    {
+      "id": "short_pull_ups",
+      "name": { "uk": "Короткі підтягування", "en": "Short Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Підтягування в неповній амплітуді: тільки верхня половина руху, від прямого кута в ліктях до підборіддя над перекладиною.",
+        "en": "Partial-range pull-ups: only the top half, from elbows at 90° to chin over the bar."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом трохи ширше за плечі.",
+          "Підтягнись так, щоб лікті були зігнуті під прямим кутом, — це стартове положення.",
+          "Підтягнись, доки підборіддя не пройде над перекладиною.",
+          "Опустись назад до прямого кута в ліктях і повтори, не розгинаючи руки повністю."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip slightly wider than shoulder-width.",
+          "Pull up until your elbows are bent at 90° — this is the starting position.",
+          "Pull up until your chin clears the bar.",
+          "Lower back to 90° at the elbows and repeat without fully extending your arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Розгойдування тіла.",
+          "Опускатися нижче прямого кута — амплітуда стає непостійною.",
+          "Плечі підняті до вух."
+        ],
+        "en": [
+          "Swinging the body.",
+          "Going below 90°, which makes the range inconsistent.",
+          "Shrugged shoulders."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps"]
+    },
+    {
+      "id": "mixed_grip_pull_ups",
+      "name": { "uk": "Підтягування різнохватом", "en": "Mixed Grip Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Підтягування, де одна рука тримає перекладину прямим хватом, а інша — зворотним.",
+        "en": "Pull-ups with one hand in an overhand grip and the other underhand."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік: одна рука прямим хватом, інша — зворотним, на ширині плечей.",
+          "Повисни на прямих руках, опусти лопатки, напруж кор.",
+          "Підтягнись, доки підборіддя не пройде над перекладиною, не розвертаючи корпус.",
+          "Під контролем опустись униз; у наступному підході поміняй руки."
+        ],
+        "en": [
+          "Grab the bar with one hand overhand and the other underhand, at shoulder width.",
+          "Hang with straight arms, depress your shoulder blades, brace your core.",
+          "Pull up until your chin clears the bar without rotating your torso.",
+          "Lower under control; switch hands on the next set."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Завжди одне й те саме положення рук — дисбаланс між сторонами.",
+          "Розворот корпусу під час підтягування.",
+          "Розгойдування тіла."
+        ],
+        "en": [
+          "Always using the same hand position, creating an imbalance between sides.",
+          "Rotating the torso during the pull.",
+          "Swinging the body."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps"]
+    },
+    {
+      "id": "static_chin_ups",
+      "name": { "uk": "Статичні підтягування зворотним хватом", "en": "Static Chin-ups" },
+      "tracking": "DURATION",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Утримання у верхній точці підтягування зворотним хватом: підборіддя над перекладиною.",
+        "en": "Holding the top of a chin-up with your chin above the bar."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік зворотним хватом на ширині плечей.",
+          "Підтягнись або застрибни так, щоб підборіддя було над перекладиною.",
+          "Тримай положення: лікті притиснуті, лопатки опущені.",
+          "Коли час вийде, повільно опустись униз."
+        ],
+        "en": [
+          "Grab the bar with an underhand grip at shoulder width.",
+          "Pull or jump up so your chin is above the bar.",
+          "Hold the position with elbows tucked and shoulder blades depressed.",
+          "When the time is up, lower down slowly."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Підборіддя опускається нижче перекладини.",
+          "Плечі підняті до вух.",
+          "Затримувати дихання."
+        ],
+        "en": [
+          "Letting the chin drop below the bar.",
+          "Shrugged shoulders.",
+          "Holding your breath."
+        ]
+      },
+      "categories": ["pull", "isometric", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["biceps", "lats"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps"]
+    },
+    {
+      "id": "waist_chin_ups",
+      "name": { "uk": "Підтягування зворотним хватом до пояса", "en": "Waist Chin-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Вибухові підтягування зворотним хватом, у яких перекладина доходить до рівня пояса.",
+        "en": "Explosive chin-ups where the bar reaches waist level."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік зворотним хватом на ширині плечей.",
+          "Повисни на прямих руках, опусти лопатки.",
+          "Вибухово підтягнись, тягнучи перекладину вниз до пояса й трохи відхиляючись назад.",
+          "Під контролем опустись у вис."
+        ],
+        "en": [
+          "Grab the bar with an underhand grip at shoulder width.",
+          "Hang with straight arms, depress your shoulder blades.",
+          "Pull explosively, driving the bar down to your waist and leaning back slightly.",
+          "Lower under control to a hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ривок ногами замість сили рук.",
+          "Недостатня висота — перекладина лише на рівні грудей.",
+          "Падіння у вис без контролю."
+        ],
+        "en": [
+          "Kicking with the legs instead of pulling with the arms.",
+          "Not getting high enough — the bar only reaches chest level.",
+          "Dropping into the hang without control."
+        ]
+      },
+      "categories": ["pull", "explosive", "muscle_ups", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts", "abs"]
+    },
+    {
+      "id": "supine_headbanger",
+      "name": { "uk": "Хедбенгер зворотним хватом", "en": "Supine Headbanger" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "У верхній точці підтягування зворотним хватом відштовхуєш тіло від перекладини, частково розгинаючи руки, і знову підтягуєшся до неї.",
+        "en": "At the top of a chin-up, push your body away from the bar by partially extending your arms, then pull back to it."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік зворотним хватом на ширині плечей.",
+          "Підтягнись так, щоб підборіддя було над перекладиною.",
+          "Не опускаючись, відштовхни тіло від перекладини назад, частково розгинаючи руки.",
+          "Підтягнись назад до перекладини — це одне повторення."
+        ],
+        "en": [
+          "Grab the bar with an underhand grip at shoulder width.",
+          "Pull up so your chin is above the bar.",
+          "Without dropping, push your body back away from the bar by partially extending your arms.",
+          "Pull back to the bar — that's one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Опускатися вниз під час відштовхування замість руху назад.",
+          "Розгойдування ногами.",
+          "Поспіх і втрата контролю."
+        ],
+        "en": [
+          "Dropping down while pushing away instead of moving backward.",
+          "Swinging the legs.",
+          "Rushing and losing control."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["biceps", "lats"],
+      "secondaryMuscles": ["brachialis", "forearms", "rear_delts", "abs"]
+    },
+    {
+      "id": "scapula_retraction",
+      "name": { "uk": "Підтягування лопатками", "en": "Scapula Retraction" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Рух лише лопатками у висі на прямих руках. Вчить правильно включати лопатки в усіх тягових вправах.",
+        "en": "Moving only the shoulder blades while hanging on straight arms. Teaches proper scapular engagement for all pulling exercises."
+      },
+      "steps": {
+        "uk": [
+          "Повисни на турніку прямим хватом на ширині плечей.",
+          "Не згинаючи руки, опусти й зведи лопатки — тіло трохи підніметься.",
+          "Затримайся на 1–2 секунди у верхній точці.",
+          "Повільно повернись у пасивний вис."
+        ],
+        "en": [
+          "Hang from the bar with an overhand grip at shoulder width.",
+          "Without bending your arms, pull your shoulder blades down and back — your body will rise slightly.",
+          "Pause for 1–2 seconds at the top.",
+          "Slowly return to a passive hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинати руки в ліктях.",
+          "Ривки замість повільного руху.",
+          "Різко провалюватися в пасивний вис."
+        ],
+        "en": [
+          "Bending the elbows.",
+          "Jerking instead of moving slowly.",
+          "Dropping abruptly into the passive hang."
+        ]
+      },
+      "categories": ["pull", "prehab", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["scapula", "lower_traps"],
+      "secondaryMuscles": ["rhomboids", "lats"]
+    },
+    {
+      "id": "explosive_pull_ups",
+      "name": { "uk": "Вибухові підтягування", "en": "Explosive Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Підтягування з максимальною швидкістю, щоб тіло піднялося якомога вище — до рівня грудей або вище.",
+        "en": "Pull-ups at maximum speed to get as high as possible — to chest level or higher."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Повисни на прямих руках, опусти лопатки, напруж кор.",
+          "Вибухово підтягнись якомога швидше й вище.",
+          "Під контролем опустись у вис і повтори."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Hang with straight arms, depress your shoulder blades, brace your core.",
+          "Pull up explosively, as fast and as high as possible.",
+          "Lower under control to a hang and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ривок ногами замість сили рук.",
+          "Падіння у вис без контролю — ривок у плечі.",
+          "Повільний старт без вибуховості."
+        ],
+        "en": [
+          "Kicking with the legs instead of pulling with the arms.",
+          "Dropping into the hang without control and jolting the shoulders.",
+          "A slow start with no explosiveness."
+        ]
+      },
+      "categories": ["pull", "explosive", "dynamic", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts"]
+    },
+    {
+      "id": "waist_pull_ups",
+      "name": { "uk": "Підтягування до пояса", "en": "Waist Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Вибухові підтягування, у яких перекладина доходить до рівня пояса. Основна підвідна вправа до виходу силою.",
+        "en": "Explosive pull-ups where the bar reaches waist level. The main lead-up exercise to the muscle-up."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом на ширині плечей.",
+          "Повисни на прямих руках, опусти лопатки.",
+          "Вибухово підтягнись, тягнучи перекладину вниз до пояса й трохи відхиляючись назад.",
+          "Під контролем опустись у вис."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip at shoulder width.",
+          "Hang with straight arms, depress your shoulder blades.",
+          "Pull explosively, driving the bar down to your waist and leaning back slightly.",
+          "Lower under control to a hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ривок ногами замість сили рук.",
+          "Недостатня висота — перекладина лише на рівні грудей.",
+          "Падіння у вис без контролю."
+        ],
+        "en": [
+          "Kicking with the legs instead of pulling with the arms.",
+          "Not getting high enough — the bar only reaches chest level.",
+          "Dropping into the hang without control."
+        ]
+      },
+      "categories": ["pull", "explosive", "muscle_ups", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids", "lower_traps", "rear_delts", "abs"]
+    },
+    {
+      "id": "narrow_waist_pull_ups",
+      "name": { "uk": "Вузькі підтягування до пояса", "en": "Narrow Waist Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Вибухові підтягування вузьким хватом до рівня пояса. Підвідна вправа до вузького виходу силою.",
+        "en": "Explosive narrow-grip pull-ups to waist level. A lead-up exercise to the narrow muscle-up."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік прямим хватом, долоні на відстані 0–10 см одна від одної.",
+          "Повисни на прямих руках, опусти лопатки.",
+          "Вибухово підтягнись, ведучи лікті вниз і вперед перед собою, доки перекладина не дійде до пояса.",
+          "Під контролем опустись у вис."
+        ],
+        "en": [
+          "Grab the bar with an overhand grip, hands 0–10 cm apart.",
+          "Hang with straight arms, depress your shoulder blades.",
+          "Pull explosively, driving your elbows down and forward in front of you, until the bar reaches your waist.",
+          "Lower under control to a hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ривок ногами замість сили рук.",
+          "Лікті розходяться в сторони.",
+          "Недостатня висота — перекладина лише на рівні грудей.",
+          "Обережно з дуже вузьким хватом, щоб не травмувати зап'ястя."
+        ],
+        "en": [
+          "Kicking with the legs instead of pulling with the arms.",
+          "Letting the elbows flare out.",
+          "Not getting high enough — the bar only reaches chest level.",
+          "Be careful with a very narrow grip to avoid wrist injury."
+        ]
+      },
+      "categories": ["pull", "explosive", "muscle_ups", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "rhomboids", "abs"]
+    },
+    {
+      "id": "one_arm_static_pull_ups",
+      "name": { "uk": "Статичні підтягування на одній руці", "en": "One Arm Static Pull-ups" },
+      "tracking": "DURATION",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Утримання у верхній точці підтягування на одній руці. Будує силу для підтягувань на одній руці.",
+        "en": "Holding the top of a pull-up on one arm. Builds strength for one-arm pull-ups."
+      },
+      "steps": {
+        "uk": [
+          "Підтягнись на двох руках так, щоб підборіддя було над перекладиною.",
+          "Відпусти одну руку й утримуй положення на робочій.",
+          "Тримай лікоть притиснутим, не розкручуй корпус.",
+          "Коли час вийде, повільно опустись і повтори на іншу руку."
+        ],
+        "en": [
+          "Pull up with both arms so your chin is above the bar.",
+          "Let go with one hand and hold the position on the working arm.",
+          "Keep the elbow tucked and don't let your torso rotate.",
+          "When the time is up, lower slowly and repeat on the other arm."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Підборіддя опускається нижче перекладини.",
+          "Розкручування корпусу.",
+          "Затримувати дихання."
+        ],
+        "en": [
+          "Letting the chin drop below the bar.",
+          "Torso rotation.",
+          "Holding your breath."
+        ]
+      },
+      "categories": ["pull", "isometric", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["biceps", "lats"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "obliques"]
+    },
+    {
+      "id": "wrist_assisted_one_arm_pull_ups",
+      "name": { "uk": "Підтягування на одній руці з допомогою за зап'ястя", "en": "Wrist Assisted One Arm Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Підтягування на одній руці, де друга рука тримає зап'ястя робочої й допомагає. Найлегший варіант допомоги.",
+        "en": "One-arm pull-ups where the other hand holds the working wrist to assist. The easiest form of assistance."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік однією рукою.",
+          "Другою рукою обхопи зап'ястя робочої руки.",
+          "Підтягнись, допомагаючи другою рукою якомога менше, доки підборіддя не пройде над перекладиною.",
+          "Під контролем опустись і повтори на іншу руку."
+        ],
+        "en": [
+          "Grab the bar with one hand.",
+          "Wrap your other hand around the wrist of the working arm.",
+          "Pull up, assisting as little as possible, until your chin clears the bar.",
+          "Lower under control and repeat on the other arm."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Допоміжна рука тягне більше, ніж робоча.",
+          "Розкручування корпусу.",
+          "Ривки ногами."
+        ],
+        "en": [
+          "The assisting arm pulls more than the working arm.",
+          "Torso rotation.",
+          "Kicking with the legs."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps", "obliques"]
+    },
+    {
+      "id": "elbow_assisted_one_arm_pull_ups",
+      "name": { "uk": "Підтягування на одній руці з допомогою за лікоть", "en": "Elbow Assisted One Arm Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Підтягування на одній руці, де друга рука тримається за лікоть робочої. Допомоги менше, ніж за зап'ястя.",
+        "en": "One-arm pull-ups where the other hand holds the working elbow. Less assistance than holding the wrist."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік однією рукою.",
+          "Другою рукою візьмись за лікоть робочої руки.",
+          "Підтягнись, допомагаючи другою рукою якомога менше, доки підборіддя не пройде над перекладиною.",
+          "Під контролем опустись і повтори на іншу руку."
+        ],
+        "en": [
+          "Grab the bar with one hand.",
+          "Hold the elbow of the working arm with your other hand.",
+          "Pull up, assisting as little as possible, until your chin clears the bar.",
+          "Lower under control and repeat on the other arm."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Допоміжна рука тягне більше, ніж робоча.",
+          "Розкручування корпусу.",
+          "Ривки ногами."
+        ],
+        "en": [
+          "The assisting arm pulls more than the working arm.",
+          "Torso rotation.",
+          "Kicking with the legs."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps", "obliques"]
+    },
+    {
+      "id": "shoulder_assisted_one_arm_pull_ups",
+      "name": { "uk": "Підтягування на одній руці з допомогою за плече", "en": "Shoulder Assisted One Arm Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "HELL_YEH",
+      "description": {
+        "uk": "Підтягування на одній руці, де друга рука лежить на плечі робочої. Мінімальна допомога — останній крок перед чистими підтягуваннями на одній руці.",
+        "en": "One-arm pull-ups with the other hand on the working shoulder. Minimal assistance — the last step before strict one-arm pull-ups."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік однією рукою.",
+          "Другу руку поклади на плече робочої руки.",
+          "Підтягнись, доки підборіддя не пройде над перекладиною, майже без допомоги.",
+          "Під контролем опустись і повтори на іншу руку."
+        ],
+        "en": [
+          "Grab the bar with one hand.",
+          "Place your other hand on the shoulder of the working arm.",
+          "Pull up with almost no assistance until your chin clears the bar.",
+          "Lower under control and repeat on the other arm."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Розкручування корпусу.",
+          "Ривки ногами.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Torso rotation.",
+          "Kicking with the legs.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps", "obliques"]
+    },
+    {
+      "id": "vertical_bar_assisted_one_arm_pull_ups",
+      "name": { "uk": "Підтягування на одній руці з допомогою за вертикальну стійку", "en": "Vertical Bar Assisted One Arm Pull-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Підтягування на одній руці, де друга рука тримається за вертикальну стійку турніка. Чим нижче хват за стійку, тим менше допомоги.",
+        "en": "One-arm pull-ups where the other hand holds the vertical post of the bar. The lower you grip the post, the less assistance you get."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись однією рукою за перекладину біля вертикальної стійки.",
+          "Другою рукою візьмись за стійку нижче перекладини.",
+          "Підтягнись, допомагаючи другою рукою якомога менше, доки підборіддя не пройде над перекладиною.",
+          "Під контролем опустись і повтори на іншу руку."
+        ],
+        "en": [
+          "Grab the bar with one hand next to the vertical post.",
+          "Hold the post below the bar with your other hand.",
+          "Pull up, assisting as little as possible, until your chin clears the bar.",
+          "Lower under control and repeat on the other arm."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Допоміжна рука тягне більше, ніж робоча.",
+          "Занадто високий хват за стійку — забагато допомоги.",
+          "Розкручування корпусу."
+        ],
+        "en": [
+          "The assisting arm pulls more than the working arm.",
+          "Gripping the post too high, which gives too much assistance.",
+          "Torso rotation."
+        ]
+      },
+      "categories": ["pull", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats", "biceps"],
+      "secondaryMuscles": ["brachialis", "forearms", "rhomboids", "lower_traps", "obliques"]
+    },
+    {
+      "id": "one_arm_dead_hang",
+      "name": { "uk": "Вис на одній руці", "en": "One Arm Dead Hang" },
+      "tracking": "DURATION",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Вис на одній прямій руці. Розвиває силу хвату й готує плече до підтягувань на одній руці.",
+        "en": "Hanging on one straight arm. Builds grip strength and prepares the shoulder for one-arm pull-ups."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за турнік однією рукою прямим хватом.",
+          "Повисни на прямій руці, злегка тримаючи плече активним.",
+          "Тримай положення потрібний час, не розгойдуючись.",
+          "Повтори на іншу руку."
+        ],
+        "en": [
+          "Grab the bar with one hand using an overhand grip.",
+          "Hang on a straight arm, keeping the shoulder slightly engaged.",
+          "Hold for the target time without swinging.",
+          "Repeat on the other arm."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Повністю провалюватися в плече без контролю.",
+          "Сильне розкручування тіла.",
+          "Затримувати дихання."
+        ],
+        "en": [
+          "Sinking fully into the shoulder without control.",
+          "Excessive body rotation.",
+          "Holding your breath."
+        ]
+      },
+      "categories": ["pull", "isometric", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["forearms"],
+      "secondaryMuscles": ["lats", "rotator_cuff", "lower_traps"]
+    },
+    {
+      "id": "negative_muscle_up_high_pull_up",
+      "name": { "uk": "Негативний вихід силою + високе підтягування", "en": "Negative Muscle-up + High Pull-up" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Зв'язка: повільний негативний вихід силою з упору у вис, а одразу після нього вибухове підтягування до пояса. Одне повторення — вся зв'язка.",
+        "en": "A combo: a slow negative muscle-up from support to hang, immediately followed by an explosive pull-up to the waist. One rep is the whole combo."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор над перекладиною на прямих руках.",
+          "Повільно опустись через перехід у вис на прямих руках.",
+          "Без паузи вибухово підтягнись, доки перекладина не дійде до пояса.",
+          "Повернись в упор над перекладиною й повтори."
+        ],
+        "en": [
+          "Get into a straight-arm support above the bar.",
+          "Lower slowly through the transition into a straight-arm hang.",
+          "Without pausing, pull up explosively until the bar reaches your waist.",
+          "Get back into the support above the bar and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Провалюватися через перехід замість контрольованого руху.",
+          "Високе підтягування не доходить до рівня пояса.",
+          "Ривок ногами."
+        ],
+        "en": [
+          "Dropping through the transition instead of controlling it.",
+          "The high pull-up doesn't reach waist level.",
+          "Kicking with the legs."
+        ]
+      },
+      "categories": ["muscle_ups", "pull", "strength", "explosive", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["lats"],
+      "secondaryMuscles": ["triceps", "biceps", "lower_chest", "front_delts", "forearms"]
+    },
+    {
+      "id": "pull_up_muscle_up_band",
+      "name": { "uk": "Підтягування + вихід силою з резиною", "en": "Pull-up + Muscle-up (Band Assisted)" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Зв'язка підтягування й виходу силою з допомогою резини. Підвідна вправа до зв'язки без допомоги.",
+        "en": "A pull-up and muscle-up combo assisted by a resistance band. A progression toward the unassisted combo."
+      },
+      "steps": {
+        "uk": [
+          "Закріпи резину на турніку та постав у неї стопу або коліно.",
+          "Візьмись за турнік прямим хватом на ширині плечей і зроби повне підтягування.",
+          "Без паузи виконай вихід силою.",
+          "Під контролем опустись у вис — це одне повторення."
+        ],
+        "en": [
+          "Loop the band around the bar and place your foot or knee in it.",
+          "Grab the bar with an overhand grip at shoulder width and do a full pull-up.",
+          "Without pausing, do a muscle-up.",
+          "Lower under control to a hang — that's one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Відскакувати від резини замість контрольованого руху.",
+          "Пауза або перехоплення між елементами.",
+          "Виходити по одній руці."
+        ],
+        "en": [
+          "Bouncing off the band instead of moving under control.",
+          "Pausing or regripping between the elements.",
+          "Getting over one arm at a time."
+        ]
+      },
+      "categories": ["pull", "muscle_ups", "push", "strength", "upper_body"],
+      "equipment": ["high_bar", "resistance_band"],
+      "primaryMuscles": ["lats", "triceps"],
+      "secondaryMuscles": ["biceps", "brachialis", "forearms", "lower_chest", "front_delts"]
+    },
+    {
+      "id": "pull_up_muscle_up_bar_dip_band",
+      "name": { "uk": "Підтягування + вихід силою + відтискання на перекладині з резиною", "en": "Pull-up + Muscle-up + Bar Dip (Band Assisted)" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Зв'язка підтягування, виходу силою та відтискання на перекладині з допомогою резини. Підвідна вправа до зв'язки без допомоги.",
+        "en": "A pull-up, muscle-up and bar dip combo assisted by a resistance band. A progression toward the unassisted combo."
+      },
+      "steps": {
+        "uk": [
+          "Закріпи резину на турніку та постав у неї стопу або коліно.",
+          "Візьмись за турнік прямим хватом на ширині плечей і зроби повне підтягування.",
+          "Без паузи виконай вихід силою в упор на прямих руках.",
+          "В упорі опусти груди до перекладини та піднімись назад, потім під контролем опустись у вис."
+        ],
+        "en": [
+          "Loop the band around the bar and place your foot or knee in it.",
+          "Grab the bar with an overhand grip at shoulder width and do a full pull-up.",
+          "Without pausing, do a muscle-up into a straight-arm support.",
+          "In support, lower your chest to the bar and press back up, then lower under control to a hang."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Відскакувати від резини замість контрольованого руху.",
+          "Пауза або перехоплення між елементами.",
+          "Неглибоке відтискання на перекладині."
+        ],
+        "en": [
+          "Bouncing off the band instead of moving under control.",
+          "Pausing or regripping between the elements.",
+          "A shallow bar dip."
+        ]
+      },
+      "categories": ["pull", "muscle_ups", "push", "dips", "strength", "upper_body"],
+      "equipment": ["high_bar", "resistance_band"],
+      "primaryMuscles": ["lats", "triceps"],
+      "secondaryMuscles": ["biceps", "lower_chest", "front_delts", "forearms"]
+    }
+  ]
+}

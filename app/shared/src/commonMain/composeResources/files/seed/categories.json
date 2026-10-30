@@ -2,7 +2,7 @@
   "version": 1,
   "items": [
     { "id": "pull", "name": { "uk": "Тяга", "en": "Pull" } },
-    { "id": "dips", "name": { "uk": "Віджимання на брусах", "en": "Dips" } },
+    { "id": "dips", "name": { "uk": "Відтискання на брусах", "en": "Dips" } },
     { "id": "push", "name": { "uk": "Жим", "en": "Push" } },
     { "id": "legs", "name": { "uk": "Ноги", "en": "Legs" } },
     { "id": "core", "name": { "uk": "Кор", "en": "Core" } },

@@ -12,7 +12,7 @@
 
     { "id": "extra_weight", "name": { "uk": "Обтяження (пояс, жилет)", "en": "Extra weight" } },
     { "id": "kettlebell", "name": { "uk": "Гиря", "en": "Kettlebell" } },
-    { "id": "resistance_band", "name": { "uk": "Резинка", "en": "Resistance band" } },
+    { "id": "resistance_band", "name": { "uk": "Резина", "en": "Resistance band" } },
     { "id": "ab_wheel", "name": { "uk": "Ролик для преса", "en": "Ab wheel" } },
     { "id": "jump_rope", "name": { "uk": "Скакалка", "en": "Jump rope" } },
 
