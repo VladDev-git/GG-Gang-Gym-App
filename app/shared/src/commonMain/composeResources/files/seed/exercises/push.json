@@ -1,0 +1,2373 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "bar_dips",
+      "name": { "uk": "Відтискання на перекладині", "en": "Straight Bar Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання в упорі на перекладині. Сильно навантажують трицепс і нижню частину грудей та є важливою частиною виходу силою.",
+        "en": "Dips in a support on a straight bar. They load the triceps and lower chest heavily and are a key part of the muscle-up."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор над перекладиною на прямих руках, хват верхній на ширині плечей.",
+          "Опусти лопатки, напруж кор, ноги трохи перед собою.",
+          "Опустись, нахиляючи корпус уперед, доки груди не наблизяться до перекладини.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a straight-arm support above the bar with an overhand grip at shoulder width.",
+          "Depress your shoulder blades, brace your core, legs slightly in front of you.",
+          "Lower, leaning your torso forward, until your chest is close to the bar.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Неглибоке опускання.",
+          "Лікті сильно розходяться в сторони.",
+          "Плечі підняті до вух.",
+          "Розгойдування та ривки ногами."
+        ],
+        "en": [
+          "A shallow descent.",
+          "Letting the elbows flare out too far.",
+          "Shrugged shoulders.",
+          "Swinging and kicking with the legs."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["triceps", "lower_chest"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs", "forearms"]
+    },
+    {
+      "id": "dips",
+      "name": { "uk": "Відтискання на брусах", "en": "Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Базова жимова вправа на брусах. Навантажує нижню частину грудей, трицепс і передні дельти.",
+        "en": "The fundamental pushing exercise on parallel bars. It loads the lower chest, triceps and front delts."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках, опусти лопатки й напруж кор.",
+          "Трохи нахили корпус уперед.",
+          "Опустись, згинаючи руки, доки плече не опиниться нижче ліктя.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars, depress your shoulder blades and brace your core.",
+          "Lean your torso slightly forward.",
+          "Lower by bending your arms until your upper arm is below your elbow.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Неповна амплітуда: плече не опускається нижче ліктя.",
+          "Плечі підняті до вух.",
+          "Лікті сильно розходяться в сторони.",
+          "Розгойдування та ривки ногами."
+        ],
+        "en": [
+          "Partial range: the upper arm doesn't go below the elbow.",
+          "Shrugged shoulders.",
+          "Letting the elbows flare out too far.",
+          "Swinging and kicking with the legs."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "dips_swing",
+      "name": { "uk": "Відтискання на брусах з махом", "en": "Dips with Swing" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Відтискання на брусах, у яких мах ногами допомагає піднятися з нижньої точки.",
+        "en": "Dips where a leg swing helps you rise from the bottom position."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках.",
+          "Опустись, згинаючи руки, доки плече не опиниться нижче ліктя.",
+          "Зроби мах ногами й завдяки йому випрями руки в упорі.",
+          "Під контролем опустись і повтори."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars.",
+          "Lower by bending your arms until your upper arm is below your elbow.",
+          "Swing your legs and use that momentum to press up to straight arms.",
+          "Lower under control and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Падати в нижню точку без контролю.",
+          "Неповна амплітуда.",
+          "Плечі підняті до вух."
+        ],
+        "en": [
+          "Dropping into the bottom position without control.",
+          "Partial range of motion.",
+          "Shrugged shoulders."
+        ]
+      },
+      "categories": ["dips", "push", "dynamic", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs", "hip_flexors"]
+    },
+    {
+      "id": "double_dips_swing",
+      "name": { "uk": "Подвійні відтискання на брусах з махом", "en": "Double Dips with Swing" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Два відтискання на брусах за один мах ногами. Одне повторення — обидва відтискання.",
+        "en": "Two dips during one leg swing. One rep is both dips."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках.",
+          "Зроби мах ногами.",
+          "За один мах швидко виконай два відтискання поспіль.",
+          "Випрями руки в упорі — це одне повторення."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars.",
+          "Swing your legs.",
+          "During one swing, quickly do two dips in a row.",
+          "Press up to straight arms — that's one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Встигати лише одне повне відтискання, а друге робити неповним.",
+          "Падати в нижню точку без контролю.",
+          "Плечі підняті до вух."
+        ],
+        "en": [
+          "Completing only one full dip and cutting the second one short.",
+          "Dropping into the bottom position without control.",
+          "Shrugged shoulders."
+        ]
+      },
+      "categories": ["dips", "push", "dynamic", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs", "hip_flexors"]
+    },
+    {
+      "id": "dips_band",
+      "name": { "uk": "Відтискання на брусах з резиною", "en": "Dips (Band Assisted)" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Відтискання на брусах з допомогою резини, яка бере на себе частину ваги тіла. Підвідна вправа до повних відтискань на брусах.",
+        "en": "Dips assisted by a resistance band that takes part of your body weight. A progression toward full dips."
+      },
+      "steps": {
+        "uk": [
+          "Закріпи резину на брусах та постав у неї коліна.",
+          "Займи упор на прямих руках, опусти лопатки.",
+          "Опустись, згинаючи руки, доки плече не опиниться нижче ліктя.",
+          "Випрями руки в упорі, не даючи резині підкидати тебе."
+        ],
+        "en": [
+          "Attach the band to the bars and place your knees in it.",
+          "Get into a straight-arm support, depress your shoulder blades.",
+          "Lower by bending your arms until your upper arm is below your elbow.",
+          "Press up to straight arms without letting the band bounce you."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Відскакувати від резини внизу замість контрольованого руху.",
+          "Занадто сильна резина: вправа стає надто легкою і не дає прогресу.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Bouncing off the band at the bottom instead of moving under control.",
+          "Using a band that is too strong, making the exercise too easy to progress.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "upper_body"],
+      "equipment": ["parallel_bars", "resistance_band"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus"]
+    },
+    {
+      "id": "dips_band_resisted",
+      "name": { "uk": "Відтискання на брусах з опором резини", "en": "Advanced Dips with Band" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання на брусах, у яких резина проходить через спину й ускладнює вправу. Опір найбільший у верхній точці.",
+        "en": "Dips with a band running across your back to make them harder. The resistance is greatest at the top."
+      },
+      "steps": {
+        "uk": [
+          "Перекинь резину через верх спини, а її кінці затисни кистями на брусах.",
+          "Займи упор на прямих руках, опусти лопатки.",
+          "Опустись, згинаючи руки, доки плече не опиниться нижче ліктя.",
+          "Випрями руки в упорі, долаючи опір резини."
+        ],
+        "en": [
+          "Run the band across your upper back and pin its ends to the bars with your hands.",
+          "Get into a straight-arm support, depress your shoulder blades.",
+          "Lower by bending your arms until your upper arm is below your elbow.",
+          "Press up to straight arms against the band."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Резина зісковзує зі спини або тисне на шию.",
+          "Не випрямляти руки у верхній точці, де опір найбільший.",
+          "Неповна амплітуда.",
+          "Занадто сильна резина, через яку страждає техніка."
+        ],
+        "en": [
+          "Letting the band slip off your back or press on your neck.",
+          "Not straightening your arms at the top, where the resistance is greatest.",
+          "Partial range of motion.",
+          "Using a band so strong that technique suffers."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "upper_body"],
+      "equipment": ["parallel_bars", "resistance_band"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "dips_double_dead_stop",
+      "name": { "uk": "Відтискання на брусах з подвійною фіксацією", "en": "Dips with Double Dead Stop" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання на брусах із фіксацією приблизно на секунду і в нижній, і у верхній точці. Прибирають інерцію.",
+        "en": "Dips with a pause of about a second at both the bottom and the top. They remove momentum."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках, зафіксуйся приблизно на секунду.",
+          "Опустись, згинаючи руки, доки плече не опиниться нижче ліктя.",
+          "Зафіксуйся внизу приблизно на секунду.",
+          "Без ривка випрями руки в упорі й знову зафіксуйся."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars and pause for about a second.",
+          "Lower by bending your arms until your upper arm is below your elbow.",
+          "Pause at the bottom for about a second.",
+          "Press up to straight arms without jerking and pause again."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Пружинити внизу замість повної зупинки.",
+          "Скорочувати фіксацію зверху або знизу.",
+          "Розгойдування та ривки ногами."
+        ],
+        "en": [
+          "Bouncing at the bottom instead of stopping completely.",
+          "Cutting the pause short at the top or bottom.",
+          "Swinging and kicking with the legs."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "dips_dead_stop",
+      "name": { "uk": "Відтискання на брусах з фіксацією", "en": "Dips with Dead Stop" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання на брусах із фіксацією приблизно на секунду у верхній точці.",
+        "en": "Dips with a pause of about a second at the top."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках, зафіксуйся приблизно на секунду.",
+          "Опустись, згинаючи руки, доки плече не опиниться нижче ліктя.",
+          "Випрями руки в упорі.",
+          "Зафіксуйся приблизно на секунду й повтори."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars and pause for about a second.",
+          "Lower by bending your arms until your upper arm is below your elbow.",
+          "Press up to straight arms.",
+          "Pause for about a second and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Скорочувати фіксацію зверху.",
+          "Неповна амплітуда.",
+          "Розгойдування та ривки ногами."
+        ],
+        "en": [
+          "Cutting the pause short at the top.",
+          "Partial range of motion.",
+          "Swinging and kicking with the legs."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "push_ups",
+      "name": { "uk": "Відтискання", "en": "Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Базова жимова вправа від підлоги. Навантажує груди, трицепс і передні дельти.",
+        "en": "The fundamental pushing exercise from the floor. It loads the chest, triceps and front delts."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: долоні на ширині плечей, тіло пряме від п'ят до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, ведучи лікті під кутом 45° до корпусу, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a plank position: hands at shoulder width, body straight from heels to head.",
+          "Brace your core and glutes.",
+          "Lower with your elbows at 45° to your torso until your chest almost touches the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз провисає або піднімається вгору.",
+          "Лікті розходяться в сторони під прямим кутом до корпусу.",
+          "Неповна амплітуда.",
+          "Голова тягнеться вперед або вниз."
+        ],
+        "en": [
+          "Sagging or raised hips.",
+          "Letting the elbows flare out at a right angle to the torso.",
+          "Partial range of motion.",
+          "Reaching forward or down with the head."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs"]
+    },
+    {
+      "id": "parallettes_push_ups",
+      "name": { "uk": "Відтискання на паралетсах прямим хватом", "en": "Straight Parallettes Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання на паралетсах, долоні дивляться вперед. Більша амплітуда, ніж від підлоги, і менше навантаження на зап'ястя.",
+        "en": "Push-ups on parallettes with your palms facing forward. A longer range of motion than from the floor and less strain on the wrists."
+      },
+      "steps": {
+        "uk": [
+          "Постав паралетси на ширині плечей і візьмись за них так, щоб долоні дивилися вперед.",
+          "Стань в упор лежачи: тіло пряме від п'ят до голови, кор напружений.",
+          "Опустись, ведучи лікті під кутом 45° до корпусу, доки груди не опиняться на рівні кистей.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Set the parallettes at shoulder width and grab them with your palms facing forward.",
+          "Get into a plank position: body straight from heels to head, core braced.",
+          "Lower with your elbows at 45° to your torso until your chest is level with your hands.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз провисає або піднімається вгору.",
+          "Не використовувати додаткову амплітуду паралетсів.",
+          "Лікті розходяться в сторони під прямим кутом до корпусу."
+        ],
+        "en": [
+          "Sagging or raised hips.",
+          "Not using the extra range the parallettes give you.",
+          "Letting the elbows flare out at a right angle to the torso."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallettes"],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs"]
+    },
+    {
+      "id": "parallettes_neutral_push_ups",
+      "name": { "uk": "Відтискання на паралетсах нейтральним хватом", "en": "Parallettes Push-ups Neutral Grip" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання на паралетсах, долоні дивляться одна на одну. Більша амплітуда, ніж від підлоги, і зручне положення зап'ясть.",
+        "en": "Push-ups on parallettes with your palms facing each other. A longer range of motion than from the floor and a comfortable wrist position."
+      },
+      "steps": {
+        "uk": [
+          "Постав паралетси на ширині плечей і візьмись за них так, щоб долоні дивилися одна на одну.",
+          "Стань в упор лежачи: тіло пряме від п'ят до голови, кор напружений.",
+          "Опустись, ведучи лікті під кутом 45° до корпусу, доки груди не опиняться на рівні кистей.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Set the parallettes at shoulder width and grab them with your palms facing each other.",
+          "Get into a plank position: body straight from heels to head, core braced.",
+          "Lower with your elbows at 45° to your torso until your chest is level with your hands.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз провисає або піднімається вгору.",
+          "Не використовувати додаткову амплітуду паралетсів.",
+          "Лікті розходяться в сторони під прямим кутом до корпусу."
+        ],
+        "en": [
+          "Sagging or raised hips.",
+          "Not using the extra range the parallettes give you.",
+          "Letting the elbows flare out at a right angle to the torso."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallettes"],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs"]
+    },
+    {
+      "id": "knee_push_ups",
+      "name": { "uk": "Відтискання з колін", "en": "Knee Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Полегшені відтискання з упором на коліна. Підвідна вправа до повних відтискань.",
+        "en": "Easier push-ups with your knees on the floor. A progression toward full push-ups."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор на долоні й коліна: долоні на ширині плечей, тіло пряме від колін до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, ведучи лікті під кутом 45° до корпусу, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Support yourself on your hands and knees: hands at shoulder width, body straight from knees to head.",
+          "Brace your core and glutes.",
+          "Lower with your elbows at 45° to your torso until your chest almost touches the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинатися в тазостегнових суглобах замість прямого тіла.",
+          "Лікті розходяться в сторони під прямим кутом до корпусу.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Bending at the hips instead of keeping the body straight.",
+          "Letting the elbows flare out at a right angle to the torso.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs"]
+    },
+    {
+      "id": "wide_push_ups",
+      "name": { "uk": "Широкі відтискання", "en": "Wide Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Відтискання з долонями значно ширше за плечі. Більше навантажують груди й менше трицепс.",
+        "en": "Push-ups with your hands much wider than your shoulders. They load the chest more and the triceps less."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: долоні приблизно в 1,5 раза ширше за плечі, тіло пряме від п'ят до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, ведучи лікті в сторони й назад, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a plank position: hands about 1.5 times shoulder width, body straight from heels to head.",
+          "Brace your core and glutes.",
+          "Lower with your elbows going out and back until your chest almost touches the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Занадто широка постановка рук — навантаження на плечові суглоби.",
+          "Таз провисає або піднімається вгору.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Placing the hands too wide, which strains the shoulder joints.",
+          "Sagging or raised hips.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest"],
+      "secondaryMuscles": ["upper_chest", "lower_chest", "triceps", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "knee_wide_push_ups",
+      "name": { "uk": "Широкі відтискання з колін", "en": "Knee Wide Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Широкі відтискання з упором на коліна. Підвідна вправа до повних широких відтискань.",
+        "en": "Wide push-ups with your knees on the floor. A progression toward full wide push-ups."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор на долоні й коліна: долоні приблизно в 1,5 раза ширше за плечі, тіло пряме від колін до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, ведучи лікті в сторони й назад, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Support yourself on your hands and knees: hands about 1.5 times shoulder width, body straight from knees to head.",
+          "Brace your core and glutes.",
+          "Lower with your elbows going out and back until your chest almost touches the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинатися в тазостегнових суглобах замість прямого тіла.",
+          "Занадто широка постановка рук — навантаження на плечові суглоби.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Bending at the hips instead of keeping the body straight.",
+          "Placing the hands too wide, which strains the shoulder joints.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest"],
+      "secondaryMuscles": ["upper_chest", "lower_chest", "triceps", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "narrow_push_ups",
+      "name": { "uk": "Вузькі відтискання", "en": "Narrow Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання з долонями на відстані приблизно 15 см. Основне навантаження отримує трицепс.",
+        "en": "Push-ups with your hands about 15 cm apart. The triceps take the main load."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: долоні на відстані приблизно 15 см, тіло пряме від п'ят до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, ведучи лікті назад уздовж корпусу, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a plank position: hands about 15 cm apart, body straight from heels to head.",
+          "Brace your core and glutes.",
+          "Lower with your elbows going back along your torso until your chest almost touches the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Лікті розходяться в сторони.",
+          "Таз провисає або піднімається вгору.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Letting the elbows flare out.",
+          "Sagging or raised hips.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["middle_chest", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "knee_narrow_push_ups",
+      "name": { "uk": "Вузькі відтискання з колін", "en": "Knee Narrow Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Вузькі відтискання з упором на коліна. Підвідна вправа до повних вузьких відтискань.",
+        "en": "Narrow push-ups with your knees on the floor. A progression toward full narrow push-ups."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор на долоні й коліна: долоні на відстані приблизно 15 см, тіло пряме від колін до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, ведучи лікті назад уздовж корпусу, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Support yourself on your hands and knees: hands about 15 cm apart, body straight from knees to head.",
+          "Brace your core and glutes.",
+          "Lower with your elbows going back along your torso until your chest almost touches the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинатися в тазостегнових суглобах замість прямого тіла.",
+          "Лікті розходяться в сторони.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Bending at the hips instead of keeping the body straight.",
+          "Letting the elbows flare out.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["middle_chest", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "diamond_push_ups",
+      "name": { "uk": "Діамантові відтискання", "en": "Diamond Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання з долонями, повністю з'єднаними в трикутник під грудьми. Кут навантаження інший, ніж у вузьких, основну роботу виконує трицепс.",
+        "en": "Push-ups with your hands fully joined in a triangle under your chest. The loading angle differs from narrow push-ups, and the triceps do the main work."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: з'єднай долоні в трикутник під грудьми, тіло пряме від п'ят до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, доки груди майже не торкнуться кистей.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a plank position: join your hands in a triangle under your chest, body straight from heels to head.",
+          "Brace your core and glutes.",
+          "Lower until your chest almost touches your hands.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Кисті роз'єднуються або стоять не під грудьми.",
+          "Таз провисає або піднімається вгору.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Hands coming apart or not sitting under the chest.",
+          "Sagging or raised hips.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["middle_chest", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "knee_diamond_push_ups",
+      "name": { "uk": "Діамантові відтискання з колін", "en": "Knee Diamond Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Діамантові відтискання з упором на коліна. Підвідна вправа до повних діамантових відтискань.",
+        "en": "Diamond push-ups with your knees on the floor. A progression toward full diamond push-ups."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор на долоні й коліна: з'єднай долоні в трикутник під грудьми, тіло пряме від колін до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, доки груди майже не торкнуться кистей.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Support yourself on your hands and knees: join your hands in a triangle under your chest, body straight from knees to head.",
+          "Brace your core and glutes.",
+          "Lower until your chest almost touches your hands.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинатися в тазостегнових суглобах замість прямого тіла.",
+          "Кисті роз'єднуються або стоять не під грудьми.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Bending at the hips instead of keeping the body straight.",
+          "Hands coming apart or not sitting under the chest.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["middle_chest", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "clap_push_ups",
+      "name": { "uk": "Відтискання з оплеском", "en": "Clap Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Вибухові відтискання: у верхній точці долоні відриваються від підлоги й плескають перед грудьми.",
+        "en": "Explosive push-ups: at the top your hands leave the floor and clap in front of your chest."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: долоні на ширині плечей, тіло пряме від п'ят до голови.",
+          "Опустись, доки груди майже не торкнуться підлоги.",
+          "Вибухово відштовхнись від підлоги й плесни в долоні перед грудьми.",
+          "М'яко приземлись на злегка зігнуті руки."
+        ],
+        "en": [
+          "Get into a plank position: hands at shoulder width, body straight from heels to head.",
+          "Lower until your chest almost touches the floor.",
+          "Push off the floor explosively and clap your hands in front of your chest.",
+          "Land softly on slightly bent arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Недостатня висота: не встигаєш плеснути й поставити руки.",
+          "Приземлятися на прямі руки — різке навантаження на лікті й зап'ястя.",
+          "Таз провисає під час вибуху."
+        ],
+        "en": [
+          "Not enough height to clap and place your hands back.",
+          "Landing on straight arms, which jolts the elbows and wrists.",
+          "Sagging hips during the explosion."
+        ]
+      },
+      "categories": ["push", "explosive", "dynamic", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs"]
+    },
+    {
+      "id": "back_clap_push_ups",
+      "name": { "uk": "Відтискання з оплеском за спиною", "en": "Back Clap Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Найскладніший варіант вибухових відтискань: у польоті плескаєш у долоні за спиною.",
+        "en": "The hardest explosive push-up variation: in the air you clap your hands behind your back."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: долоні на ширині плечей, тіло пряме від п'ят до голови.",
+          "Опустись, доки груди майже не торкнуться підлоги.",
+          "Вибухово відштовхнись, швидко плесни в долоні за спиною та поверни руки вперед.",
+          "М'яко приземлись на злегка зігнуті руки."
+        ],
+        "en": [
+          "Get into a plank position: hands at shoulder width, body straight from heels to head.",
+          "Lower until your chest almost touches the floor.",
+          "Push off explosively, clap quickly behind your back and bring your hands forward.",
+          "Land softly on slightly bent arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Пробувати без впевненого оплеску перед грудьми — високий ризик упасти обличчям.",
+          "Недостатня висота підйому.",
+          "Приземлятися на прямі руки."
+        ],
+        "en": [
+          "Trying it before mastering the regular clap push-up — a high risk of falling on your face.",
+          "Not getting high enough.",
+          "Landing on straight arms."
+        ]
+      },
+      "categories": ["push", "explosive", "dynamic", "skills", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs", "glutes"]
+    },
+    {
+      "id": "single_leg_push_ups",
+      "name": { "uk": "Відтискання на одній нозі", "en": "Single Leg Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання з однією ногою, піднятою над підлогою. Додатково навантажують кор і сідниці.",
+        "en": "Push-ups with one leg raised off the floor. They also work the core and glutes."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: долоні на ширині плечей, тіло пряме від п'ят до голови.",
+          "Підніми одну пряму ногу над підлогою.",
+          "Опустись, ведучи лікті під кутом 45° до корпусу, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі; у наступному підході поміняй ногу."
+        ],
+        "en": [
+          "Get into a plank position: hands at shoulder width, body straight from heels to head.",
+          "Raise one straight leg off the floor.",
+          "Lower with your elbows at 45° to your torso until your chest almost touches the floor.",
+          "Press up to straight arms; switch legs on the next set."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Розвертати таз у бік піднятої ноги.",
+          "Опускати ногу під час руху.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Rotating the hips toward the raised leg.",
+          "Dropping the leg during the movement.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "core", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs", "glutes"]
+    },
+    {
+      "id": "one_arm_push_ups",
+      "name": { "uk": "Відтискання на одній руці", "en": "One Arm Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання на одній руці, ноги широко. Потребують сильного кору, щоб утримати корпус без розкручування.",
+        "en": "Push-ups on one arm with your feet wide apart. They demand a strong core to keep the torso from rotating."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи, ноги ширше за плечі, робоча долоня під плечем.",
+          "Другу руку заведи за спину, напруж кор і сідниці.",
+          "Опустись, тримаючи корпус паралельно підлозі, доки груди майже не торкнуться підлоги.",
+          "Випрями руку в упорі; у наступному підході поміняй руку."
+        ],
+        "en": [
+          "Get into a plank position with your feet wider than your shoulders and the working hand under your shoulder.",
+          "Put your other arm behind your back, brace your core and glutes.",
+          "Lower, keeping your torso parallel to the floor, until your chest almost touches the floor.",
+          "Press up to a straight arm; switch arms on the next set."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Сильне розкручування корпусу.",
+          "Таз провисає або піднімається вгору.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Excessive torso rotation.",
+          "Sagging or raised hips.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "skills", "core", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "obliques", "abs", "glutes"]
+    },
+    {
+      "id": "decline_push_ups",
+      "name": { "uk": "Відтискання з ногами на підвищенні", "en": "Decline Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання зі стопами на підвищенні. Більше навантажують верх грудей і передні дельти.",
+        "en": "Push-ups with your feet on an elevation. They load the upper chest and front delts more."
+      },
+      "steps": {
+        "uk": [
+          "Постав стопи на підвищення, долоні на підлозі на ширині плечей, тіло пряме від п'ят до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, ведучи лікті під кутом 45° до корпусу, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Put your feet on the elevation, hands on the floor at shoulder width, body straight from heels to head.",
+          "Brace your core and glutes.",
+          "Lower with your elbows at 45° to your torso until your chest almost touches the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз провисає — навантаження на поперек.",
+          "Лікті розходяться в сторони під прямим кутом до корпусу.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Sagging hips, which strains the lower back.",
+          "Letting the elbows flare out at a right angle to the torso.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["elevation"],
+      "primaryMuscles": ["upper_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "middle_chest", "serratus", "abs"]
+    },
+    {
+      "id": "push_ups_band_resisted",
+      "name": { "uk": "Відтискання з опором резини", "en": "Advanced Push-ups with Band" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання, у яких резина проходить через спину й ускладнює вправу. Опір найбільший у верхній точці.",
+        "en": "Push-ups with a band running across your back to make them harder. The resistance is greatest at the top."
+      },
+      "steps": {
+        "uk": [
+          "Перекинь резину через верх спини, а її кінці притисни долонями до підлоги на ширині плечей.",
+          "Стань в упор лежачи: тіло пряме від п'ят до голови, кор напружений.",
+          "Опустись, ведучи лікті під кутом 45° до корпусу, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі, долаючи опір резини."
+        ],
+        "en": [
+          "Run the band across your upper back and pin its ends to the floor with your hands at shoulder width.",
+          "Get into a plank position: body straight from heels to head, core braced.",
+          "Lower with your elbows at 45° to your torso until your chest almost touches the floor.",
+          "Press up to straight arms against the band."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Резина зісковзує зі спини або тисне на шию.",
+          "Не випрямляти руки у верхній точці, де опір найбільший.",
+          "Таз провисає або піднімається вгору."
+        ],
+        "en": [
+          "Letting the band slip off your back or press on your neck.",
+          "Not straightening your arms at the top, where the resistance is greatest.",
+          "Sagging or raised hips."
+        ]
+      },
+      "categories": ["push", "strength", "upper_body"],
+      "equipment": ["resistance_band"],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs"]
+    },
+    {
+      "id": "handstand_push_ups",
+      "name": { "uk": "Відтискання в стійці на руках", "en": "Handstand Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "HELL_YEH",
+      "description": {
+        "uk": "Відтискання у вільній стійці на руках, без опори. Одна з найскладніших жимових вправ.",
+        "en": "Push-ups in a freestanding handstand with no support. One of the hardest pushing exercises."
+      },
+      "steps": {
+        "uk": [
+          "Вийди у стійку на руках: долоні на ширині плечей, тіло пряме, кор напружений.",
+          "Опустись, згинаючи руки, доки голова майже не торкнеться підлоги.",
+          "Випрями руки, не втрачаючи рівноваги.",
+          "Утримай стійку й повтори."
+        ],
+        "en": [
+          "Get into a handstand: hands at shoulder width, body straight, core braced.",
+          "Lower by bending your arms until your head almost touches the floor.",
+          "Press up to straight arms without losing balance.",
+          "Hold the handstand and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Вигинатися в попереку.",
+          "Падати на голову без контролю.",
+          "Втрачати рівновагу у верхній точці."
+        ],
+        "en": [
+          "Arching the lower back.",
+          "Dropping onto the head without control.",
+          "Losing balance at the top."
+        ]
+      },
+      "categories": ["push", "handstand", "skills", "strength", "balance", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["front_delts", "triceps"],
+      "secondaryMuscles": ["side_delts", "upper_chest", "upper_traps", "serratus", "abs"]
+    },
+    {
+      "id": "assisted_handstand_push_ups",
+      "name": { "uk": "Відтискання в стійці на руках спиною до стіни", "en": "Assisted Handstand Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання в стійці на руках спиною до стіни. Стіна допомагає втримати рівновагу.",
+        "en": "Handstand push-ups with your back to the wall. The wall helps you keep your balance."
+      },
+      "steps": {
+        "uk": [
+          "Постав долоні на ширині плечей приблизно за 20 см від стіни.",
+          "Махом вийди у стійку, п'ятами спираючись на стіну, кор напружений.",
+          "Опустись, згинаючи руки, доки голова майже не торкнеться підлоги.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Place your hands at shoulder width about 20 cm from the wall.",
+          "Kick up into a handstand with your heels against the wall, core braced.",
+          "Lower by bending your arms until your head almost touches the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Сильно вигинатися в попереку.",
+          "Падати на голову без контролю.",
+          "Лікті сильно розходяться в сторони."
+        ],
+        "en": [
+          "Arching the lower back too much.",
+          "Dropping onto the head without control.",
+          "Letting the elbows flare out too far."
+        ]
+      },
+      "categories": ["push", "handstand", "strength", "bodyweight", "upper_body"],
+      "equipment": ["wall"],
+      "primaryMuscles": ["front_delts", "triceps"],
+      "secondaryMuscles": ["side_delts", "upper_chest", "upper_traps", "serratus", "abs"]
+    },
+    {
+      "id": "assisted_handstand_push_ups_facing_wall",
+      "name": { "uk": "Відтискання в стійці на руках обличчям до стіни", "en": "Assisted Handstand Push-ups Facing the Wall" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання в стійці на руках обличчям до стіни. Тіло рівніше, ніж у варіанті спиною до стіни, тому вправа важча для плечей.",
+        "en": "Handstand push-ups facing the wall. The body is straighter than in the back-to-wall version, so they are harder on the shoulders."
+      },
+      "steps": {
+        "uk": [
+          "Стань спиною до стіни, постав долоні на підлогу й підіймайся стопами по стіні.",
+          "Підійди руками якомога ближче до стіни, тіло пряме, живіт до стіни.",
+          "Опустись, згинаючи руки, доки голова майже не торкнеться підлоги.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Stand with your back to the wall, put your hands on the floor and walk your feet up the wall.",
+          "Walk your hands as close to the wall as you can, body straight, stomach facing the wall.",
+          "Lower by bending your arms until your head almost touches the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Руки стоять надто далеко від стіни.",
+          "Вигинатися в попереку.",
+          "Падати на голову без контролю."
+        ],
+        "en": [
+          "Placing the hands too far from the wall.",
+          "Arching the lower back.",
+          "Dropping onto the head without control."
+        ]
+      },
+      "categories": ["push", "handstand", "strength", "bodyweight", "upper_body"],
+      "equipment": ["wall"],
+      "primaryMuscles": ["front_delts", "triceps"],
+      "secondaryMuscles": ["side_delts", "upper_chest", "upper_traps", "serratus", "abs"]
+    },
+    {
+      "id": "burpees",
+      "name": { "uk": "Берпі", "en": "Burpees" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Вправа на все тіло: відтискання й стрибок угору одним безперервним рухом.",
+        "en": "A full-body exercise: a push-up and a jump in one continuous movement."
+      },
+      "steps": {
+        "uk": [
+          "Зі стійки присядь і постав долоні на підлогу.",
+          "Вистрибни ногами назад в упор лежачи й зроби відтискання.",
+          "Застрибни ногами до рук.",
+          "Вистрибни вгору, випрямляючи тіло."
+        ],
+        "en": [
+          "From standing, squat down and put your hands on the floor.",
+          "Jump your feet back into a plank and do a push-up.",
+          "Jump your feet back to your hands.",
+          "Jump up, straightening your body."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Пропускати відтискання або робити його неповним.",
+          "Таз провисає в упорі лежачи.",
+          "Жорстке приземлення на прямі ноги."
+        ],
+        "en": [
+          "Skipping the push-up or cutting it short.",
+          "Sagging hips in the plank.",
+          "Landing hard on straight legs."
+        ]
+      },
+      "categories": ["push", "full_body", "cardio", "dynamic", "endurance", "bodyweight"],
+      "equipment": [],
+      "primaryMuscles": ["quads", "middle_chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "glutes", "calves", "abs"]
+    },
+    {
+      "id": "bench_dips",
+      "name": { "uk": "Зворотні відтискання від підвищення", "en": "Bench Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Відтискання спиною до підвищення, руки позаду. Основне навантаження отримує трицепс.",
+        "en": "Dips with your back to an elevation and your hands behind you. The triceps take the main load."
+      },
+      "steps": {
+        "uk": [
+          "Стань спиною до підвищення й постав на нього долоні на ширині плечей, пальці вперед.",
+          "Витягни ноги вперед, таз тримай близько до підвищення.",
+          "Опустись, ведучи лікті назад, доки плече не стане паралельним підлозі.",
+          "Випрями руки."
+        ],
+        "en": [
+          "Stand with your back to the elevation and put your hands on it at shoulder width, fingers forward.",
+          "Extend your legs forward and keep your hips close to the elevation.",
+          "Lower with your elbows going back until your upper arm is parallel to the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз відходить далеко від підвищення — навантаження на плечі.",
+          "Лікті розходяться в сторони.",
+          "Опускатися занадто глибоко й відчувати біль у плечах."
+        ],
+        "en": [
+          "Letting the hips drift away from the elevation, which strains the shoulders.",
+          "Letting the elbows flare out.",
+          "Going too deep and feeling pain in the shoulders."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["elevation"],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["front_delts", "lower_chest"]
+    },
+    {
+      "id": "incline_push_ups",
+      "name": { "uk": "Відтискання з руками на підвищенні", "en": "Incline Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Полегшені відтискання з долонями на підвищенні. Підвідна вправа до відтискань від підлоги.",
+        "en": "Easier push-ups with your hands on an elevation. A progression toward push-ups from the floor."
+      },
+      "steps": {
+        "uk": [
+          "Постав долоні на підвищення на ширині плечей, тіло пряме від п'ят до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, ведучи лікті під кутом 45° до корпусу, доки груди майже не торкнуться підвищення.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Put your hands on the elevation at shoulder width, body straight from heels to head.",
+          "Brace your core and glutes.",
+          "Lower with your elbows at 45° to your torso until your chest almost touches the elevation.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз провисає або піднімається вгору.",
+          "Лікті розходяться в сторони під прямим кутом до корпусу.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Sagging or raised hips.",
+          "Letting the elbows flare out at a right angle to the torso.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["elevation"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["middle_chest", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "incline_wide_push_ups",
+      "name": { "uk": "Широкі відтискання з руками на підвищенні", "en": "Incline Wide Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Полегшені широкі відтискання з долонями на підвищенні. Підвідна вправа до широких відтискань від підлоги.",
+        "en": "Easier wide push-ups with your hands on an elevation. A progression toward wide push-ups from the floor."
+      },
+      "steps": {
+        "uk": [
+          "Постав долоні на підвищення приблизно в 1,5 раза ширше за плечі, тіло пряме від п'ят до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, ведучи лікті в сторони й назад, доки груди майже не торкнуться підвищення.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Put your hands on the elevation about 1.5 times shoulder width, body straight from heels to head.",
+          "Brace your core and glutes.",
+          "Lower with your elbows going out and back until your chest almost touches the elevation.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Занадто широка постановка рук — навантаження на плечові суглоби.",
+          "Таз провисає або піднімається вгору.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Placing the hands too wide, which strains the shoulder joints.",
+          "Sagging or raised hips.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["elevation"],
+      "primaryMuscles": ["lower_chest"],
+      "secondaryMuscles": ["middle_chest", "triceps", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "incline_narrow_push_ups",
+      "name": { "uk": "Вузькі відтискання з руками на підвищенні", "en": "Incline Narrow Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Полегшені вузькі відтискання з долонями на підвищенні. Підвідна вправа до вузьких відтискань від підлоги.",
+        "en": "Easier narrow push-ups with your hands on an elevation. A progression toward narrow push-ups from the floor."
+      },
+      "steps": {
+        "uk": [
+          "Постав долоні на підвищення на відстані приблизно 15 см, тіло пряме від п'ят до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, ведучи лікті назад уздовж корпусу, доки груди майже не торкнуться підвищення.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Put your hands on the elevation about 15 cm apart, body straight from heels to head.",
+          "Brace your core and glutes.",
+          "Lower with your elbows going back along your torso until your chest almost touches the elevation.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Лікті розходяться в сторони.",
+          "Таз провисає або піднімається вгору.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Letting the elbows flare out.",
+          "Sagging or raised hips.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["elevation"],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["lower_chest", "middle_chest", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "incline_diamond_push_ups",
+      "name": { "uk": "Діамантові відтискання з руками на підвищенні", "en": "Incline Diamond Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Полегшені діамантові відтискання з долонями на підвищенні. Підвідна вправа до діамантових відтискань від підлоги.",
+        "en": "Easier diamond push-ups with your hands on an elevation. A progression toward diamond push-ups from the floor."
+      },
+      "steps": {
+        "uk": [
+          "Постав долоні на підвищення, з'єднавши їх у трикутник, тіло пряме від п'ят до голови.",
+          "Напруж кор і сідниці.",
+          "Опустись, доки груди майже не торкнуться кистей.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Put your hands on the elevation, joined in a triangle, body straight from heels to head.",
+          "Brace your core and glutes.",
+          "Lower until your chest almost touches your hands.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Кисті роз'єднуються або стоять не під грудьми.",
+          "Таз провисає або піднімається вгору.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Hands coming apart or not sitting under the chest.",
+          "Sagging or raised hips.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["elevation"],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["lower_chest", "middle_chest", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "negative_dips",
+      "name": { "uk": "Негативні відтискання на брусах", "en": "Negative Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Тільки фаза опускання: повільно опускаєшся з упору в нижню точку. Будує силу для повних відтискань на брусах.",
+        "en": "Only the lowering phase: you slowly descend from the support to the bottom position. Builds strength for full dips."
+      },
+      "steps": {
+        "uk": [
+          "Застрибни або стань на опору й займи упор на брусах на прямих руках.",
+          "Повільно опускайся 3–5 секунд, контролюючи весь рух.",
+          "Опустись, доки плече не опиниться нижче ліктя.",
+          "Стань на опору й повтори."
+        ],
+        "en": [
+          "Jump or step up into a straight-arm support on the bars.",
+          "Lower slowly over 3–5 seconds, controlling the whole movement.",
+          "Descend until your upper arm is below your elbow.",
+          "Step back up and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Провалюватися в нижній частині руху.",
+          "Занадто швидке опускання.",
+          "Плечі підняті до вух."
+        ],
+        "en": [
+          "Dropping through the bottom part of the movement.",
+          "Lowering too fast.",
+          "Shrugged shoulders."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus"]
+    },
+    {
+      "id": "short_range_dips",
+      "name": { "uk": "Короткі відтискання на брусах", "en": "Short Range Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Відтискання на брусах у неповній амплітуді: тільки верхня частина руху, лікті не доходять до 90°.",
+        "en": "Partial-range dips: only the top part of the movement, with the elbows not reaching 90°."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках, опусти лопатки.",
+          "Опустись, згинаючи руки, але не доходячи до кута 90° у ліктях.",
+          "Випрями руки в упорі.",
+          "Повтори, тримаючи однакову амплітуду."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars, depress your shoulder blades.",
+          "Lower by bending your arms, without reaching 90° at the elbows.",
+          "Press up to straight arms.",
+          "Repeat, keeping the same range."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Амплітуда змінюється від повторення до повторення.",
+          "Плечі підняті до вух.",
+          "Розгойдування та ривки ногами."
+        ],
+        "en": [
+          "The range changes from rep to rep.",
+          "Shrugged shoulders.",
+          "Swinging and kicking with the legs."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["lower_chest", "front_delts", "serratus"]
+    },
+    {
+      "id": "spartan_dips",
+      "name": { "uk": "Спартанські відтискання на брусах", "en": "Spartan Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання на брусах зі зміщенням корпусу: одна рука лишається майже прямою, а інша згинається з ліктем у сторону. Потім рух у інший бік.",
+        "en": "Dips with a shift of the torso: one arm stays almost straight while the other bends with the elbow out to the side. Then the same to the other side."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках, опусти лопатки.",
+          "Опускайся, зміщуючи корпус до однієї руки: вона лишається майже прямою, а інша згинається, лікоть у сторону.",
+          "Випрями руки в упорі.",
+          "Повтори зі зміщенням в інший бік."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars, depress your shoulder blades.",
+          "Lower while shifting your torso toward one arm: it stays almost straight while the other bends with the elbow out to the side.",
+          "Press up to straight arms.",
+          "Repeat, shifting to the other side."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинати обидві руки однаково — вправа втрачає сенс.",
+          "Плечі підняті до вух.",
+          "Розгойдування та ривки ногами."
+        ],
+        "en": [
+          "Bending both arms equally, which defeats the purpose.",
+          "Shrugged shoulders.",
+          "Swinging and kicking with the legs."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "obliques", "abs"]
+    },
+    {
+      "id": "clap_dips",
+      "name": { "uk": "Відтискання на брусах з оплеском", "en": "Clap Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Вибухові відтискання на брусах: у верхній точці руки відриваються від брусів і плескають перед грудьми.",
+        "en": "Explosive dips: at the top your hands leave the bars and clap in front of your chest."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках.",
+          "Опустись, доки плече не опиниться нижче ліктя.",
+          "Вибухово відштовхнись від брусів і плесни в долоні перед грудьми.",
+          "Знову візьмись за бруси й м'яко погаси інерцію."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars.",
+          "Lower until your upper arm is below your elbow.",
+          "Push off the bars explosively and clap your hands in front of your chest.",
+          "Grab the bars again and absorb the momentum softly."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Пробувати без впевнених вибухових відтискань — високий ризик не втрапити на бруси.",
+          "Недостатня висота підйому.",
+          "Приземлятися на прямі руки."
+        ],
+        "en": [
+          "Trying it before mastering explosive dips — a high risk of missing the bars.",
+          "Not getting high enough.",
+          "Landing on straight arms."
+        ]
+      },
+      "categories": ["dips", "push", "explosive", "dynamic", "skills", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs", "forearms"]
+    },
+    {
+      "id": "elbow_dips",
+      "name": { "uk": "Відтискання на брусах з опусканням на передпліччя", "en": "Elbow Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання на брусах, у яких з кута 90° опускаєшся на передпліччя, а потім тим самим шляхом повертаєшся в упор.",
+        "en": "Dips where from a 90° elbow angle you lower onto your forearms, then return to the support the same way."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках.",
+          "Опустись, доки лікті не зігнуться під кутом 90°.",
+          "Під контролем опустись на передпліччя.",
+          "Тим самим шляхом повернись у кут 90°, а потім випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars.",
+          "Lower until your elbows are bent at 90°.",
+          "Lower onto your forearms under control.",
+          "Return the same way to 90°, then press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Падати на передпліччя без контролю.",
+          "Лікті сильно розходяться в сторони.",
+          "Виконувати з болем у ліктях або плечах."
+        ],
+        "en": [
+          "Dropping onto the forearms without control.",
+          "Letting the elbows flare out too far.",
+          "Doing it with pain in the elbows or shoulders."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["triceps", "lower_chest"],
+      "secondaryMuscles": ["front_delts", "forearms", "abs"]
+    },
+    {
+      "id": "extended_range_dips",
+      "name": { "uk": "Відтискання на брусах з великою амплітудою", "en": "Extended Range Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання на брусах глибше за звичайні. Сильніше розтягують груди й потребують доброї рухливості плечей.",
+        "en": "Dips that go deeper than usual. They stretch the chest more and require good shoulder mobility."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках, опусти лопатки.",
+          "Трохи нахили корпус уперед.",
+          "Під контролем опустись якомога глибше, нижче звичайних відтискань.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars, depress your shoulder blades.",
+          "Lean your torso slightly forward.",
+          "Lower under control as deep as you can, below a regular dip.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Виконувати з болем у плечах або без достатньої рухливості.",
+          "Падати в нижню точку без контролю.",
+          "Плечі підняті до вух."
+        ],
+        "en": [
+          "Doing it with shoulder pain or without enough mobility.",
+          "Dropping into the bottom position without control.",
+          "Shrugged shoulders."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "rotator_cuff"]
+    },
+    {
+      "id": "negative_impossible_dips",
+      "name": { "uk": "Негативні неможливі відтискання на брусах", "en": "Negative Impossible Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "З упору на прямих руках опускаєшся під контролем одразу на передпліччя, а назад повертаєшся так, як у відтисканнях на передпліччя.",
+        "en": "From a straight-arm support you lower under control straight onto your forearms, then return the way you do in elbow dips."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках.",
+          "Під контролем опускайся одразу на передпліччя, ведучи лікті назад.",
+          "З передпліч піднімись до кута 90° у ліктях.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars.",
+          "Lower under control straight onto your forearms, with your elbows going back.",
+          "From your forearms, rise to a 90° elbow angle.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Падати на передпліччя без контролю.",
+          "Проходити через звичайний кут 90° замість прямого опускання на передпліччя.",
+          "Виконувати з болем у ліктях або плечах."
+        ],
+        "en": [
+          "Dropping onto the forearms without control.",
+          "Going through a regular 90° position instead of lowering straight onto the forearms.",
+          "Doing it with pain in the elbows or shoulders."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["triceps", "lower_chest"],
+      "secondaryMuscles": ["front_delts", "forearms", "abs"]
+    },
+    {
+      "id": "isometric_dip_hold",
+      "name": { "uk": "Утримання в нижній точці на брусах", "en": "Isometric Dip Hold (Bottom)" },
+      "tracking": "DURATION",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Утримання в нижній точці відтискань на брусах. Будує силу в найважчій частині руху.",
+        "en": "Holding the bottom of a dip. Builds strength in the hardest part of the movement."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках.",
+          "Опустись, доки плече не опиниться нижче ліктя.",
+          "Тримай положення: лопатки опущені, кор напружений.",
+          "Коли час вийде, випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars.",
+          "Lower until your upper arm is below your elbow.",
+          "Hold with your shoulder blades depressed and core braced.",
+          "When the time is up, press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Положення «плаває» вгору-вниз.",
+          "Плечі підняті до вух.",
+          "Затримувати дихання."
+        ],
+        "en": [
+          "Drifting up and down instead of holding still.",
+          "Shrugged shoulders.",
+          "Holding your breath."
+        ]
+      },
+      "categories": ["dips", "push", "isometric", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus"]
+    },
+    {
+      "id": "slow_dips",
+      "name": { "uk": "Повільні відтискання на брусах", "en": "Slow Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання на брусах у повільному темпі. Прибирають інерцію й збільшують час під навантаженням.",
+        "en": "Dips at a slow tempo. They remove momentum and increase time under tension."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках, опусти лопатки.",
+          "Опускайся 3–5 секунд, доки плече не опиниться нижче ліктя.",
+          "Піднімайся 3–5 секунд, без ривків.",
+          "Випрями руки в упорі й повтори."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars, depress your shoulder blades.",
+          "Lower over 3–5 seconds until your upper arm is below your elbow.",
+          "Rise over 3–5 seconds without jerking.",
+          "Press up to straight arms and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Темп прискорюється наприкінці підходу.",
+          "Неповна амплітуда.",
+          "Плечі підняті до вух."
+        ],
+        "en": [
+          "The tempo speeds up toward the end of the set.",
+          "Partial range of motion.",
+          "Shrugged shoulders."
+        ]
+      },
+      "categories": ["dips", "push", "strength", "hypertrophy", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "dip_activation",
+      "name": { "uk": "Активація лопаток на брусах", "en": "Dip Activation" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Рух лише лопатками в упорі на брусах, без згинання рук. Вчить правильно включати лопатки у відтисканнях.",
+        "en": "Moving only the shoulder blades in a support on the bars, without bending the arms. Teaches proper scapular engagement for dips."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках.",
+          "Не згинаючи руки, дозволь плечам піднятися до вух.",
+          "Опусти лопатки вниз, відштовхуючись від брусів, — тіло трохи підніметься.",
+          "Затримайся на 1–2 секунди й повтори."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars.",
+          "Without bending your arms, let your shoulders rise toward your ears.",
+          "Depress your shoulder blades by pushing into the bars — your body will rise slightly.",
+          "Pause for 1–2 seconds and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинати руки в ліктях.",
+          "Ривки замість повільного руху.",
+          "Різко провалюватися в плечі."
+        ],
+        "en": [
+          "Bending the elbows.",
+          "Jerking instead of moving slowly.",
+          "Dropping abruptly into the shoulders."
+        ]
+      },
+      "categories": ["dips", "push", "prehab", "warm_up", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["scapula", "lower_traps"],
+      "secondaryMuscles": ["serratus", "lower_chest"]
+    },
+    {
+      "id": "dip_support_hold",
+      "name": { "uk": "Утримання в упорі на брусах", "en": "Dip Support Hold" },
+      "tracking": "DURATION",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Утримання в упорі на брусах на прямих руках. Перший крок до відтискань на брусах.",
+        "en": "Holding a straight-arm support on the bars. The first step toward dips."
+      },
+      "steps": {
+        "uk": [
+          "Застрибни або стань на опору й займи упор на брусах на прямих руках.",
+          "Опусти лопатки, напруж кор, ноги разом.",
+          "Тримай положення потрібний час, дихай рівно.",
+          "Коли час вийде, м'яко стань на підлогу."
+        ],
+        "en": [
+          "Jump or step up into a straight-arm support on the bars.",
+          "Depress your shoulder blades, brace your core, legs together.",
+          "Hold for the target time, breathing steadily.",
+          "When the time is up, step down softly."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Плечі підняті до вух.",
+          "Згинати руки в ліктях.",
+          "Затримувати дихання."
+        ],
+        "en": [
+          "Shrugged shoulders.",
+          "Bending the elbows.",
+          "Holding your breath."
+        ]
+      },
+      "categories": ["dips", "push", "isometric", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["lower_chest", "front_delts", "serratus", "lower_traps", "abs"]
+    },
+    {
+      "id": "explosive_dips",
+      "name": { "uk": "Вибухові відтискання на брусах", "en": "Explosive Dips" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання на брусах з максимальною швидкістю вгору, щоб долоні відривалися від брусів або майже відривалися.",
+        "en": "Dips with maximum speed on the way up, so that your hands leave or almost leave the bars."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках.",
+          "Під контролем опустись, доки плече не опиниться нижче ліктя.",
+          "Вибухово відштовхнись угору якомога швидше.",
+          "М'яко погаси інерцію зігнутими руками й повтори."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars.",
+          "Lower under control until your upper arm is below your elbow.",
+          "Push up explosively, as fast as possible.",
+          "Absorb the momentum softly with bent arms and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ривок ногами замість сили рук.",
+          "Падати в нижню точку без контролю.",
+          "Повільний старт без вибуховості."
+        ],
+        "en": [
+          "Kicking with the legs instead of pushing with the arms.",
+          "Dropping into the bottom position without control.",
+          "A slow start with no explosiveness."
+        ]
+      },
+      "categories": ["dips", "push", "explosive", "dynamic", "bodyweight", "upper_body"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "isometric_push_up_hold",
+      "name": { "uk": "Утримання в нижній точці відтискань", "en": "Isometric Push-ups Hold" },
+      "tracking": "DURATION",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Утримання в нижній точці відтискань, груди трохи над підлогою.",
+        "en": "Holding the bottom of a push-up with your chest just above the floor."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: долоні на ширині плечей, тіло пряме від п'ят до голови.",
+          "Опустись, доки груди не опиняться трохи над підлогою.",
+          "Тримай положення: кор і сідниці напружені, лікті під кутом 45° до корпусу.",
+          "Коли час вийде, випрями руки в упорі."
+        ],
+        "en": [
+          "Get into a plank position: hands at shoulder width, body straight from heels to head.",
+          "Lower until your chest is just above the floor.",
+          "Hold with your core and glutes braced and your elbows at 45° to your torso.",
+          "When the time is up, press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Лягати грудьми на підлогу.",
+          "Таз провисає або піднімається вгору.",
+          "Затримувати дихання."
+        ],
+        "en": [
+          "Resting the chest on the floor.",
+          "Sagging or raised hips.",
+          "Holding your breath."
+        ]
+      },
+      "categories": ["push", "isometric", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "diamond_push_ups_band_resisted",
+      "name": { "uk": "Діамантові відтискання з опором резини", "en": "Resisted Diamond Push-ups (with Band)" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Діамантові відтискання, у яких резина проходить через спину й ускладнює вправу. Опір найбільший у верхній точці.",
+        "en": "Diamond push-ups with a band running across your back to make them harder. The resistance is greatest at the top."
+      },
+      "steps": {
+        "uk": [
+          "Перекинь резину через верх спини, а її кінці притисни до підлоги долонями, з'єднаними в трикутник.",
+          "Стань в упор лежачи: тіло пряме від п'ят до голови, кор напружений.",
+          "Опустись, доки груди майже не торкнуться кистей.",
+          "Випрями руки в упорі, долаючи опір резини."
+        ],
+        "en": [
+          "Run the band across your upper back and pin its ends to the floor with your hands joined in a triangle.",
+          "Get into a plank position: body straight from heels to head, core braced.",
+          "Lower until your chest almost touches your hands.",
+          "Press up to straight arms against the band."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Резина зісковзує зі спини або тисне на шию.",
+          "Кисті роз'єднуються.",
+          "Не випрямляти руки у верхній точці, де опір найбільший."
+        ],
+        "en": [
+          "Letting the band slip off your back or press on your neck.",
+          "Hands coming apart.",
+          "Not straightening your arms at the top, where the resistance is greatest."
+        ]
+      },
+      "categories": ["push", "strength", "upper_body"],
+      "equipment": ["resistance_band"],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["middle_chest", "front_delts", "serratus", "abs"]
+    },
+    {
+      "id": "hannibal_push_ups",
+      "name": { "uk": "Відтискання Ганібала", "en": "Hannibal Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання на високих паралетсах, у яких опускаєшся на передпліччя, а потім повертаєшся в упор на прямих руках.",
+        "en": "Push-ups on high parallettes where you lower onto your forearms and then return to a straight-arm support."
+      },
+      "steps": {
+        "uk": [
+          "Постав паралетси на ширині плечей і стань в упор лежачи на прямих руках, тіло пряме.",
+          "Під контролем опустись, згинаючи руки, доки лікті не будуть під 90°.",
+          "Продовжуй опускатися на передпліччя, голова опиняється біля паралетсів.",
+          "Тим самим шляхом повернись в упор на прямих руках."
+        ],
+        "en": [
+          "Set the parallettes at shoulder width and get into a straight-arm plank, body straight.",
+          "Lower under control by bending your arms until your elbows are at 90°.",
+          "Keep lowering onto your forearms, with your head ending up next to the parallettes.",
+          "Return the same way to a straight-arm plank."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Падати на передпліччя без контролю.",
+          "Таз провисає або згинається.",
+          "Виконувати з болем у ліктях."
+        ],
+        "en": [
+          "Dropping onto the forearms without control.",
+          "Sagging or piking at the hips.",
+          "Doing it with elbow pain."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallettes"],
+      "primaryMuscles": ["triceps", "middle_chest"],
+      "secondaryMuscles": ["front_delts", "serratus", "forearms", "abs"]
+    },
+    {
+      "id": "narrow_hannibal_push_ups",
+      "name": { "uk": "Відтискання Ганібала вузьким хватом", "en": "Narrow Grip Hannibal Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання Ганібала з паралетсами, поставленими вужче за плечі. Сильніше навантажують трицепс.",
+        "en": "Hannibal push-ups with the parallettes set narrower than your shoulders. They load the triceps more."
+      },
+      "steps": {
+        "uk": [
+          "Постав паралетси вужче за плечі й стань в упор лежачи на прямих руках, тіло пряме.",
+          "Під контролем опустись, згинаючи руки, доки лікті не будуть під 90°.",
+          "Продовжуй опускатися на передпліччя, голова опиняється біля паралетсів.",
+          "Тим самим шляхом повернись в упор на прямих руках."
+        ],
+        "en": [
+          "Set the parallettes narrower than your shoulders and get into a straight-arm plank, body straight.",
+          "Lower under control by bending your arms until your elbows are at 90°.",
+          "Keep lowering onto your forearms, with your head ending up next to the parallettes.",
+          "Return the same way to a straight-arm plank."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Падати на передпліччя без контролю.",
+          "Лікті розходяться в сторони.",
+          "Виконувати з болем у ліктях."
+        ],
+        "en": [
+          "Dropping onto the forearms without control.",
+          "Letting the elbows flare out.",
+          "Doing it with elbow pain."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["parallettes"],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["middle_chest", "front_delts", "serratus", "forearms", "abs"]
+    },
+    {
+      "id": "elevation_hannibal_push_ups",
+      "name": { "uk": "Відтискання Ганібала на підвищенні", "en": "Hannibal Push-ups on Elevation" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання Ганібала з руками на підвищенні: опускаєшся на передпліччя, а потім повертаєшся в упор на прямих руках.",
+        "en": "Hannibal push-ups with your hands on an elevation: you lower onto your forearms and then return to a straight-arm support."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за край підвищення на ширині плечей і стань в упор лежачи на прямих руках, тіло пряме.",
+          "Під контролем опустись, згинаючи руки, доки лікті не будуть під 90°.",
+          "Продовжуй опускатися на передпліччя, голова опиняється біля підвищення.",
+          "Тим самим шляхом повернись в упор на прямих руках."
+        ],
+        "en": [
+          "Grab the edge of the elevation at shoulder width and get into a straight-arm plank, body straight.",
+          "Lower under control by bending your arms until your elbows are at 90°.",
+          "Keep lowering onto your forearms, with your head ending up next to the elevation.",
+          "Return the same way to a straight-arm plank."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Падати на передпліччя без контролю.",
+          "Таз провисає або згинається.",
+          "Виконувати з болем у ліктях."
+        ],
+        "en": [
+          "Dropping onto the forearms without control.",
+          "Sagging or piking at the hips.",
+          "Doing it with elbow pain."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["elevation"],
+      "primaryMuscles": ["triceps", "middle_chest"],
+      "secondaryMuscles": ["front_delts", "serratus", "forearms", "abs"]
+    },
+    {
+      "id": "elevation_narrow_hannibal_push_ups",
+      "name": { "uk": "Відтискання Ганібала вузьким хватом на підвищенні", "en": "Narrow Grip Hannibal Push-ups on Elevation" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання Ганібала з руками на підвищенні вужче за плечі. Сильніше навантажують трицепс.",
+        "en": "Hannibal push-ups with your hands on an elevation, narrower than your shoulders. They load the triceps more."
+      },
+      "steps": {
+        "uk": [
+          "Візьмись за край підвищення вужче за плечі й стань в упор лежачи на прямих руках, тіло пряме.",
+          "Під контролем опустись, згинаючи руки, доки лікті не будуть під 90°.",
+          "Продовжуй опускатися на передпліччя, голова опиняється біля підвищення.",
+          "Тим самим шляхом повернись в упор на прямих руках."
+        ],
+        "en": [
+          "Grab the edge of the elevation narrower than your shoulders and get into a straight-arm plank, body straight.",
+          "Lower under control by bending your arms until your elbows are at 90°.",
+          "Keep lowering onto your forearms, with your head ending up next to the elevation.",
+          "Return the same way to a straight-arm plank."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Падати на передпліччя без контролю.",
+          "Лікті розходяться в сторони.",
+          "Виконувати з болем у ліктях."
+        ],
+        "en": [
+          "Dropping onto the forearms without control.",
+          "Letting the elbows flare out.",
+          "Doing it with elbow pain."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["elevation"],
+      "primaryMuscles": ["triceps"],
+      "secondaryMuscles": ["middle_chest", "front_delts", "serratus", "forearms", "abs"]
+    },
+    {
+      "id": "dead_stop_push_ups",
+      "name": { "uk": "Відтискання з фіксацією", "en": "Dead Stop Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Відтискання з фіксацією приблизно на секунду у верхній точці.",
+        "en": "Push-ups with a pause of about a second at the top."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: долоні на ширині плечей, тіло пряме від п'ят до голови.",
+          "Опустись, ведучи лікті під кутом 45° до корпусу, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі.",
+          "Зафіксуйся приблизно на секунду й повтори."
+        ],
+        "en": [
+          "Get into a plank position: hands at shoulder width, body straight from heels to head.",
+          "Lower with your elbows at 45° to your torso until your chest almost touches the floor.",
+          "Press up to straight arms.",
+          "Pause for about a second and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Скорочувати фіксацію зверху.",
+          "Таз провисає або піднімається вгору.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Cutting the pause short at the top.",
+          "Sagging or raised hips.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs"]
+    },
+    {
+      "id": "double_dead_stop_push_ups",
+      "name": { "uk": "Відтискання з подвійною фіксацією", "en": "Double Dead Stop Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання з фіксацією приблизно на секунду і в нижній, і у верхній точці. Груди не лягають на підлогу, лишається невеликий запас.",
+        "en": "Push-ups with a pause of about a second at both the bottom and the top. The chest doesn't rest on the floor; a small gap remains."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: долоні на ширині плечей, тіло пряме від п'ят до голови.",
+          "Опустись, лишаючи невеликий запас до підлоги, і зафіксуйся приблизно на секунду.",
+          "Без ривка випрями руки в упорі.",
+          "Зафіксуйся приблизно на секунду й повтори."
+        ],
+        "en": [
+          "Get into a plank position: hands at shoulder width, body straight from heels to head.",
+          "Lower, leaving a small gap to the floor, and pause for about a second.",
+          "Press up to straight arms without jerking.",
+          "Pause for about a second and repeat."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Лягати грудьми на підлогу.",
+          "Скорочувати фіксацію зверху або знизу.",
+          "Таз провисає або піднімається вгору."
+        ],
+        "en": [
+          "Resting the chest on the floor.",
+          "Cutting the pause short at the top or bottom.",
+          "Sagging or raised hips."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs"]
+    },
+    {
+      "id": "chest_flick_push_ups",
+      "name": { "uk": "Відтискання з оплеском по грудях", "en": "Chest Flick Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Вибухові відтискання: у польоті долоні плескають по грудях і повертаються на підлогу.",
+        "en": "Explosive push-ups: in the air your hands slap your chest and return to the floor."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи: долоні на ширині плечей, тіло пряме від п'ят до голови.",
+          "Опустись, доки груди майже не торкнуться підлоги.",
+          "Вибухово відштовхнись і плесни долонями по грудях.",
+          "М'яко приземлись на злегка зігнуті руки."
+        ],
+        "en": [
+          "Get into a plank position: hands at shoulder width, body straight from heels to head.",
+          "Lower until your chest almost touches the floor.",
+          "Push off explosively and slap your chest with your hands.",
+          "Land softly on slightly bent arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Пробувати без впевненого оплеску перед грудьми.",
+          "Недостатня висота підйому.",
+          "Приземлятися на прямі руки."
+        ],
+        "en": [
+          "Trying it before mastering the regular clap push-up.",
+          "Not getting high enough.",
+          "Landing on straight arms."
+        ]
+      },
+      "categories": ["push", "explosive", "dynamic", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs"]
+    },
+    {
+      "id": "archer_push_ups",
+      "name": { "uk": "Відтискання лучника", "en": "Archer Push-ups" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Широкі відтискання, у яких тіло зміщується до однієї руки, а друга лишається майже прямою. Проміжний крок до відтискань на одній руці.",
+        "en": "Wide push-ups where you shift toward one hand while the other arm stays nearly straight. A stepping stone to one-arm push-ups."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи, долоні значно ширше за плечі.",
+          "Опустись до однієї руки, тримаючи другу майже прямою.",
+          "Випрями руки в упорі.",
+          "Повтори в інший бік."
+        ],
+        "en": [
+          "Get into a plank position with your hands much wider than your shoulders.",
+          "Lower toward one hand while keeping the other arm almost straight.",
+          "Press up to straight arms.",
+          "Repeat to the other side."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинати допоміжну руку — навантаження перерозподіляється, і вправа втрачає сенс.",
+          "Таз провисає або розвертається.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Bending the assisting arm, which shifts the load and defeats the purpose.",
+          "Sagging or rotating hips.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "strength", "bodyweight", "upper_body"],
+      "equipment": [],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "obliques", "abs"]
+    },
+    {
+      "id": "handstand_wall_walk",
+      "name": { "uk": "Підйом у стійку на руках по стіні", "en": "Handstand Wall Walk" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "З упору лежачи стопи піднімаються по стіні, а руки підходять до неї, доки тіло не опиниться у стійці.",
+        "en": "From a plank your feet walk up the wall and your hands walk toward it until your body is in a handstand."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи, стопи біля стіни.",
+          "Підіймайся стопами по стіні, по черзі переставляючи руки до неї.",
+          "Дійди до стійки на руках обличчям до стіни, тіло пряме.",
+          "Тим самим шляхом під контролем повернись в упор лежачи."
+        ],
+        "en": [
+          "Get into a plank position with your feet next to the wall.",
+          "Walk your feet up the wall while moving your hands toward it, one after the other.",
+          "Reach a handstand facing the wall, body straight.",
+          "Return the same way under control to a plank."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Вигинатися в попереку.",
+          "Спускатися без контролю.",
+          "Плечі не над кистями у верхній точці."
+        ],
+        "en": [
+          "Arching the lower back.",
+          "Coming down without control.",
+          "Shoulders not over the hands at the top."
+        ]
+      },
+      "categories": ["handstand", "push", "strength", "bodyweight", "upper_body"],
+      "equipment": ["wall"],
+      "primaryMuscles": ["front_delts", "triceps"],
+      "secondaryMuscles": ["side_delts", "upper_traps", "serratus", "abs"]
+    },
+    {
+      "id": "single_leg_burpees",
+      "name": { "uk": "Берпі на одній нозі", "en": "Single Leg Burpees" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Берпі, у яких усе виконується на одній нозі, а друга лишається піднятою.",
+        "en": "Burpees done entirely on one leg while the other stays raised."
+      },
+      "steps": {
+        "uk": [
+          "Стань на одну ногу, присядь і постав долоні на підлогу.",
+          "Вистрибни ногою назад в упор лежачи й зроби відтискання, друга нога піднята.",
+          "Застрибни ногою до рук.",
+          "Вистрибни вгору на одній нозі; у наступному підході поміняй ногу."
+        ],
+        "en": [
+          "Stand on one leg, squat down and put your hands on the floor.",
+          "Jump your foot back into a plank and do a push-up with the other leg raised.",
+          "Jump your foot back to your hands.",
+          "Jump up on one leg; switch legs on the next set."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Торкатися підлоги другою ногою.",
+          "Пропускати відтискання або робити його неповним.",
+          "Жорстке приземлення на пряму ногу."
+        ],
+        "en": [
+          "Touching the floor with the other foot.",
+          "Skipping the push-up or cutting it short.",
+          "Landing hard on a straight leg."
+        ]
+      },
+      "categories": ["push", "full_body", "cardio", "dynamic", "endurance", "balance", "bodyweight"],
+      "equipment": [],
+      "primaryMuscles": ["quads", "middle_chest"],
+      "secondaryMuscles": ["triceps", "front_delts", "glutes", "calves", "abs"]
+    },
+    {
+      "id": "weighted_push_ups",
+      "name": { "uk": "Відтискання з додатковою вагою", "en": "Weighted Push-ups" },
+      "tracking": "WEIGHT_AND_REPS",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Відтискання з додатковою вагою на спині. Дають прогрес, коли звичайних відтискань уже замало.",
+        "en": "Push-ups with extra weight on your back. They give you progress when regular push-ups are no longer enough."
+      },
+      "steps": {
+        "uk": [
+          "Одягни жилет з обтяженням або поклади вагу на верх спини.",
+          "Стань в упор лежачи: долоні на ширині плечей, тіло пряме від п'ят до голови.",
+          "Опустись, ведучи лікті під кутом 45° до корпусу, доки груди майже не торкнуться підлоги.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Put on a weighted vest or place the weight on your upper back.",
+          "Get into a plank position: hands at shoulder width, body straight from heels to head.",
+          "Lower with your elbows at 45° to your torso until your chest almost touches the floor.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Занадто велика вага, через яку страждає техніка.",
+          "Таз провисає — навантаження на поперек.",
+          "Неповна амплітуда."
+        ],
+        "en": [
+          "Using so much weight that technique suffers.",
+          "Sagging hips, which strains the lower back.",
+          "Partial range of motion."
+        ]
+      },
+      "categories": ["push", "weighted", "strength", "upper_body"],
+      "equipment": ["extra_weight"],
+      "primaryMuscles": ["middle_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "upper_chest", "lower_chest", "serratus", "abs"]
+    },
+    {
+      "id": "weighted_dips",
+      "name": { "uk": "Відтискання на брусах з додатковою вагою", "en": "Weighted Dips" },
+      "tracking": "WEIGHT_AND_REPS",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "Відтискання на брусах з додатковою вагою на поясі. Базова вправа для розвитку жимової сили.",
+        "en": "Dips with extra weight on a belt. A key exercise for building pushing strength."
+      },
+      "steps": {
+        "uk": [
+          "Закріпи додаткову вагу на поясі.",
+          "Займи упор на брусах на прямих руках, опусти лопатки, трохи нахили корпус уперед.",
+          "Опустись, згинаючи руки, доки плече не опиниться нижче ліктя.",
+          "Випрями руки в упорі."
+        ],
+        "en": [
+          "Attach the extra weight to a belt.",
+          "Get into a straight-arm support on the bars, depress your shoulder blades, lean your torso slightly forward.",
+          "Lower by bending your arms until your upper arm is below your elbow.",
+          "Press up to straight arms."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Занадто велика вага, через яку страждає техніка.",
+          "Вага розгойдується разом із тілом.",
+          "Неповна амплітуда: плече не опускається нижче ліктя."
+        ],
+        "en": [
+          "Using so much weight that technique suffers.",
+          "Letting the weight swing with the body.",
+          "Partial range: the upper arm doesn't go below the elbow."
+        ]
+      },
+      "categories": ["dips", "push", "weighted", "strength", "upper_body"],
+      "equipment": ["parallel_bars", "extra_weight"],
+      "primaryMuscles": ["lower_chest", "triceps"],
+      "secondaryMuscles": ["front_delts", "serratus", "abs"]
+    }
+  ]
+}

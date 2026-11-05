@@ -16,6 +16,8 @@
     { "id": "ab_wheel", "name": { "uk": "Ролик для преса", "en": "Ab wheel" } },
     { "id": "jump_rope", "name": { "uk": "Скакалка", "en": "Jump rope" } },
 
+    { "id": "elevation", "name": { "uk": "Підвищення", "en": "Elevation" } },
+    { "id": "double_elevation", "name": { "uk": "Подвійне підвищення", "en": "Double elevation" } },
     { "id": "box", "name": { "uk": "Тумба", "en": "Box" } },
     { "id": "table", "name": { "uk": "Стіл", "en": "Table" } },
     { "id": "chair", "name": { "uk": "Стілець", "en": "Chair" } },
