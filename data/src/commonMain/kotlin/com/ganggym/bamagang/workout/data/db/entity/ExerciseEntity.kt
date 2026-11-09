@@ -48,6 +48,7 @@ data class ExerciseMuscleCrossRef(
 data class ExerciseEquipmentCrossRef(
     val exerciseId: String,
     val equipmentId: String,
+    val groupIndex: Int,    // однаковий індекс → альтернативи
 )
 
 @Entity(

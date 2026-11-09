@@ -1895,20 +1895,20 @@
       "tracking": "REPS_ONLY",
       "difficulty": "ADVANCED",
       "description": {
-        "uk": "Відтискання на високих паралетсах, у яких опускаєшся на передпліччя, а потім повертаєшся в упор на прямих руках.",
-        "en": "Push-ups on high parallettes where you lower onto your forearms and then return to a straight-arm support."
+        "uk": "Відтискання на високих паралетсах або підвищенні, у яких опускаєшся на передпліччя, а потім повертаєшся в упор на прямих руках.",
+        "en": "Push-ups on high parallettes or an elevation where you lower onto your forearms and then return to a straight-arm support."
       },
       "steps": {
         "uk": [
-          "Постав паралетси на ширині плечей і стань в упор лежачи на прямих руках, тіло пряме.",
+          "Візьмись за паралетси або край підвищення на ширині плечей і стань в упор лежачи на прямих руках, тіло пряме.",
           "Під контролем опустись, згинаючи руки, доки лікті не будуть під 90°.",
-          "Продовжуй опускатися на передпліччя, голова опиняється біля паралетсів.",
+          "Продовжуй опускатися на передпліччя, голова опиняється біля опори.",
           "Тим самим шляхом повернись в упор на прямих руках."
         ],
         "en": [
-          "Set the parallettes at shoulder width and get into a straight-arm plank, body straight.",
+          "Grab the parallettes or the edge of the elevation at shoulder width and get into a straight-arm plank, body straight.",
           "Lower under control by bending your arms until your elbows are at 90°.",
-          "Keep lowering onto your forearms, with your head ending up next to the parallettes.",
+          "Keep lowering onto your forearms, with your head ending up next to the support.",
           "Return the same way to a straight-arm plank."
         ]
       },
@@ -1925,7 +1925,7 @@
         ]
       },
       "categories": ["push", "strength", "bodyweight", "upper_body"],
-      "equipment": ["parallettes"],
+      "equipment": [["parallettes", "elevation"]],
       "primaryMuscles": ["triceps", "middle_chest"],
       "secondaryMuscles": ["front_delts", "serratus", "forearms", "abs"]
     },
@@ -1935,20 +1935,20 @@
       "tracking": "REPS_ONLY",
       "difficulty": "ADVANCED",
       "description": {
-        "uk": "Відтискання Ганібала з паралетсами, поставленими вужче за плечі. Сильніше навантажують трицепс.",
-        "en": "Hannibal push-ups with the parallettes set narrower than your shoulders. They load the triceps more."
+        "uk": "Відтискання Ганібала з руками вужче за плечі на паралетсах або підвищенні. Сильніше навантажують трицепс.",
+        "en": "Hannibal push-ups with your hands narrower than your shoulders on parallettes or an elevation. They load the triceps more."
       },
       "steps": {
         "uk": [
-          "Постав паралетси вужче за плечі й стань в упор лежачи на прямих руках, тіло пряме.",
+          "Візьмись за паралетси або край підвищення вужче за плечі й стань в упор лежачи на прямих руках, тіло пряме.",
           "Під контролем опустись, згинаючи руки, доки лікті не будуть під 90°.",
-          "Продовжуй опускатися на передпліччя, голова опиняється біля паралетсів.",
+          "Продовжуй опускатися на передпліччя, голова опиняється біля опори.",
           "Тим самим шляхом повернись в упор на прямих руках."
         ],
         "en": [
-          "Set the parallettes narrower than your shoulders and get into a straight-arm plank, body straight.",
+          "Grab the parallettes or the edge of the elevation narrower than your shoulders and get into a straight-arm plank, body straight.",
           "Lower under control by bending your arms until your elbows are at 90°.",
-          "Keep lowering onto your forearms, with your head ending up next to the parallettes.",
+          "Keep lowering onto your forearms, with your head ending up next to the support.",
           "Return the same way to a straight-arm plank."
         ]
       },
@@ -1965,87 +1965,7 @@
         ]
       },
       "categories": ["push", "strength", "bodyweight", "upper_body"],
-      "equipment": ["parallettes"],
-      "primaryMuscles": ["triceps"],
-      "secondaryMuscles": ["middle_chest", "front_delts", "serratus", "forearms", "abs"]
-    },
-    {
-      "id": "elevation_hannibal_push_ups",
-      "name": { "uk": "Відтискання Ганібала на підвищенні", "en": "Hannibal Push-ups on Elevation" },
-      "tracking": "REPS_ONLY",
-      "difficulty": "ADVANCED",
-      "description": {
-        "uk": "Відтискання Ганібала з руками на підвищенні: опускаєшся на передпліччя, а потім повертаєшся в упор на прямих руках.",
-        "en": "Hannibal push-ups with your hands on an elevation: you lower onto your forearms and then return to a straight-arm support."
-      },
-      "steps": {
-        "uk": [
-          "Візьмись за край підвищення на ширині плечей і стань в упор лежачи на прямих руках, тіло пряме.",
-          "Під контролем опустись, згинаючи руки, доки лікті не будуть під 90°.",
-          "Продовжуй опускатися на передпліччя, голова опиняється біля підвищення.",
-          "Тим самим шляхом повернись в упор на прямих руках."
-        ],
-        "en": [
-          "Grab the edge of the elevation at shoulder width and get into a straight-arm plank, body straight.",
-          "Lower under control by bending your arms until your elbows are at 90°.",
-          "Keep lowering onto your forearms, with your head ending up next to the elevation.",
-          "Return the same way to a straight-arm plank."
-        ]
-      },
-      "mistakes": {
-        "uk": [
-          "Падати на передпліччя без контролю.",
-          "Таз провисає або згинається.",
-          "Виконувати з болем у ліктях."
-        ],
-        "en": [
-          "Dropping onto the forearms without control.",
-          "Sagging or piking at the hips.",
-          "Doing it with elbow pain."
-        ]
-      },
-      "categories": ["push", "strength", "bodyweight", "upper_body"],
-      "equipment": ["elevation"],
-      "primaryMuscles": ["triceps", "middle_chest"],
-      "secondaryMuscles": ["front_delts", "serratus", "forearms", "abs"]
-    },
-    {
-      "id": "elevation_narrow_hannibal_push_ups",
-      "name": { "uk": "Відтискання Ганібала вузьким хватом на підвищенні", "en": "Narrow Grip Hannibal Push-ups on Elevation" },
-      "tracking": "REPS_ONLY",
-      "difficulty": "ADVANCED",
-      "description": {
-        "uk": "Відтискання Ганібала з руками на підвищенні вужче за плечі. Сильніше навантажують трицепс.",
-        "en": "Hannibal push-ups with your hands on an elevation, narrower than your shoulders. They load the triceps more."
-      },
-      "steps": {
-        "uk": [
-          "Візьмись за край підвищення вужче за плечі й стань в упор лежачи на прямих руках, тіло пряме.",
-          "Під контролем опустись, згинаючи руки, доки лікті не будуть під 90°.",
-          "Продовжуй опускатися на передпліччя, голова опиняється біля підвищення.",
-          "Тим самим шляхом повернись в упор на прямих руках."
-        ],
-        "en": [
-          "Grab the edge of the elevation narrower than your shoulders and get into a straight-arm plank, body straight.",
-          "Lower under control by bending your arms until your elbows are at 90°.",
-          "Keep lowering onto your forearms, with your head ending up next to the elevation.",
-          "Return the same way to a straight-arm plank."
-        ]
-      },
-      "mistakes": {
-        "uk": [
-          "Падати на передпліччя без контролю.",
-          "Лікті розходяться в сторони.",
-          "Виконувати з болем у ліктях."
-        ],
-        "en": [
-          "Dropping onto the forearms without control.",
-          "Letting the elbows flare out.",
-          "Doing it with elbow pain."
-        ]
-      },
-      "categories": ["push", "strength", "bodyweight", "upper_body"],
-      "equipment": ["elevation"],
+      "equipment": [["parallettes", "elevation"]],
       "primaryMuscles": ["triceps"],
       "secondaryMuscles": ["middle_chest", "front_delts", "serratus", "forearms", "abs"]
     },

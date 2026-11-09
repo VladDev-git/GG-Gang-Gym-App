@@ -15,7 +15,7 @@ data class Exercise(
     val mistakes: List<String> = emptyList(), // типові помилки
     val imageUrl: String? = null,
     val categoryIds: Set<ExerciseCategoryId> = emptySet(),
-    val equipmentIds: Set<EquipmentId> = emptySet(),
+    val equipment: List<Set<EquipmentId>> = emptyList(), // потрібні всі групи, у групі — будь-що одне
     val primaryMuscleIds: Set<MuscleGroupId> = emptySet(),
     val secondaryMuscleIds: Set<MuscleGroupId> = emptySet(),
     val difficulty: DifficultyLevel = DifficultyLevel.NOT_SET,
@@ -23,4 +23,5 @@ data class Exercise(
     val audit: AuditInfo,
 ) {
     val isCustom: Boolean get() = ownerId != null
+    val equipmentIds: Set<EquipmentId> get() = equipment.flatten().toSet()
 }

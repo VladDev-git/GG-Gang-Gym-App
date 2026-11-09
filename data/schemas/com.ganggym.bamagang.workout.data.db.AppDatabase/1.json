@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "1db2d82b946934704e66d7d44bbe4d74",
+    "identityHash": "0d524d9aeec99480f4bf30ff5caf75ac",
     "entities": [
       {
         "tableName": "workouts",
@@ -246,7 +246,7 @@
       },
       {
         "tableName": "exercise_equipment",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`exerciseId` TEXT NOT NULL, `equipmentId` TEXT NOT NULL, PRIMARY KEY(`exerciseId`, `equipmentId`), FOREIGN KEY(`exerciseId`) REFERENCES `exercises`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE , FOREIGN KEY(`equipmentId`) REFERENCES `equipment`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`exerciseId` TEXT NOT NULL, `equipmentId` TEXT NOT NULL, `groupIndex` INTEGER NOT NULL, PRIMARY KEY(`exerciseId`, `equipmentId`), FOREIGN KEY(`exerciseId`) REFERENCES `exercises`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE , FOREIGN KEY(`equipmentId`) REFERENCES `equipment`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
         "fields": [
           {
             "fieldPath": "exerciseId",
@@ -258,6 +258,12 @@
             "fieldPath": "equipmentId",
             "columnName": "equipmentId",
             "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "groupIndex",
+            "columnName": "groupIndex",
+            "affinity": "INTEGER",
             "notNull": true
           }
         ],
@@ -812,7 +818,7 @@
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '1db2d82b946934704e66d7d44bbe4d74')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '0d524d9aeec99480f4bf30ff5caf75ac')"
     ]
   }
 }

@@ -23,7 +23,9 @@ fun ExerciseWithRefs.toDomain() = Exercise(
     mistakes = dbJson.decodeFromString(exercise.mistakes),
     imageUrl = exercise.imageUrl,
     categoryIds = categories.map { ExerciseCategoryId(it.categoryId) }.toSet(),
-    equipmentIds = equipment.map { EquipmentId(it.equipmentId) }.toSet(),
+    equipment = equipment.sortedBy { it.groupIndex }
+        .groupBy { it.groupIndex }
+        .values.map { group -> group.map { EquipmentId(it.equipmentId) }.toSet() },
     primaryMuscleIds = muscles.filter { it.isPrimary }.map { MuscleGroupId(it.muscleId) }.toSet(),
     secondaryMuscleIds = muscles.filterNot { it.isPrimary }.map { MuscleGroupId(it.muscleId) }.toSet(),
     difficulty = exercise.difficulty.toEnumOr(DifficultyLevel.NOT_SET),
@@ -48,6 +50,8 @@ fun Exercise.toEntity(): ExerciseWithRefs = ExerciseWithRefs(
     ),
     muscles = primaryMuscleIds.map { ExerciseMuscleCrossRef(id.value, it.value, isPrimary = true) } +
             secondaryMuscleIds.map { ExerciseMuscleCrossRef(id.value, it.value, isPrimary = false) },
-    equipment = equipmentIds.map { ExerciseEquipmentCrossRef(id.value, it.value) },
+    equipment = equipment.flatMapIndexed { index, group ->
+        group.map { ExerciseEquipmentCrossRef(id.value, it.value, groupIndex = index) }
+    },
     categories = categoryIds.map { ExerciseCategoryCrossRef(id.value, it.value) },
 )
