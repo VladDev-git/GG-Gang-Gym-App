@@ -1078,6 +1078,566 @@
       "equipment": [["bench", "wall_bars", "high_bar"]],
       "primaryMuscles": ["abs"],
       "secondaryMuscles": ["obliques", "hip_flexors", "lats", "lower_back", "glutes"]
+    },
+    {
+      "id": "bicycle_crunches",
+      "name": { "uk": "Велосипед", "en": "Bicycle Crunches" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Лежачи на спині, лікоть тягнеться до протилежного коліна, а ноги по черзі згинаються й випрямляються. Одне повторення — обидві сторони.",
+        "en": "Lying on your back, your elbow reaches toward the opposite knee while your legs alternately bend and straighten. One rep is both sides."
+      },
+      "steps": {
+        "uk": [
+          "Ляж на спину, руки біля голови, ноги підняті над підлогою.",
+          "Підтягни праве коліно до грудей і потягнись до нього лівим ліктем, ліву ногу випрями.",
+          "Поміняй сторони: ліве коліно до правого ліктя, права нога пряма.",
+          "Обидві сторони — це одне повторення."
+        ],
+        "en": [
+          "Lie on your back with your hands by your head and your legs raised off the floor.",
+          "Pull your right knee to your chest and reach your left elbow toward it, straightening the left leg.",
+          "Switch sides: left knee to right elbow, right leg straight.",
+          "Both sides make one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Рухати лише ліктями замість повороту корпусу.",
+          "Тягнути голову руками.",
+          "Класти ноги на підлогу."
+        ],
+        "en": [
+          "Moving only the elbows instead of rotating the torso.",
+          "Pulling on the head with the hands.",
+          "Resting the legs on the floor."
+        ]
+      },
+      "categories": ["core", "dynamic", "endurance", "bodyweight"],
+      "equipment": [],
+      "primaryMuscles": ["obliques", "abs"],
+      "secondaryMuscles": ["hip_flexors"]
+    },
+    {
+      "id": "mountain_climbers",
+      "name": { "uk": "Альпініст", "en": "Mountain Climbers" },
+      "tracking": "DURATION",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "В упорі лежачи коліна по черзі швидко підтягуються до грудей. Навантажує прес і розганяє пульс.",
+        "en": "In a plank, you quickly pull your knees to your chest one after the other. Works the abs and raises your heart rate."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи на прямих руках, тіло пряме від п'ят до голови.",
+          "Підтягни праве коліно до грудей.",
+          "Швидко поверни ногу назад і підтягни ліве коліно.",
+          "Продовжуй у швидкому темпі потрібний час."
+        ],
+        "en": [
+          "Get into a straight-arm plank, body straight from heels to head.",
+          "Pull your right knee to your chest.",
+          "Quickly return the leg and pull your left knee in.",
+          "Keep going at a fast pace for the target time."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз сильно піднімається вгору.",
+          "Плечі зміщуються назад від кистей.",
+          "Коліна не доходять до грудей."
+        ],
+        "en": [
+          "Raising the hips too high.",
+          "The shoulders shifting back from the hands.",
+          "The knees not reaching the chest."
+        ]
+      },
+      "categories": ["core", "cardio", "dynamic", "endurance", "full_body", "bodyweight"],
+      "equipment": [],
+      "primaryMuscles": ["abs", "hip_flexors"],
+      "secondaryMuscles": ["obliques", "front_delts", "serratus", "quads"]
+    },
+    {
+      "id": "cross_body_mountain_climbers",
+      "name": { "uk": "Альпініст на косі", "en": "Cross-Body Mountain Climbers" },
+      "tracking": "DURATION",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "В упорі лежачи коліно по черзі тягнеться до протилежного ліктя. Сильніше навантажує косі м'язи живота.",
+        "en": "In a plank, you bring each knee toward the opposite elbow in turn. Loads the obliques more."
+      },
+      "steps": {
+        "uk": [
+          "Стань в упор лежачи на прямих руках, тіло пряме від п'ят до голови.",
+          "Підтягни праве коліно до лівого ліктя.",
+          "Поверни ногу назад і підтягни ліве коліно до правого ліктя.",
+          "Продовжуй у швидкому темпі потрібний час."
+        ],
+        "en": [
+          "Get into a straight-arm plank, body straight from heels to head.",
+          "Bring your right knee toward your left elbow.",
+          "Return the leg and bring your left knee toward your right elbow.",
+          "Keep going at a fast pace for the target time."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз сильно піднімається вгору.",
+          "Коліно йде прямо до грудей замість протилежного ліктя.",
+          "Плечі зміщуються назад від кистей."
+        ],
+        "en": [
+          "Raising the hips too high.",
+          "The knee going straight to the chest instead of the opposite elbow.",
+          "The shoulders shifting back from the hands."
+        ]
+      },
+      "categories": ["core", "cardio", "dynamic", "endurance", "bodyweight"],
+      "equipment": [],
+      "primaryMuscles": ["obliques", "abs"],
+      "secondaryMuscles": ["hip_flexors", "front_delts", "serratus"]
+    },
+    {
+      "id": "toe_touch_crunches",
+      "name": { "uk": "Скручування до носочків ніг", "en": "Toe Touch Crunches" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Лежачи на спині з ногами вертикально вгору, тягнешся руками до носків, відриваючи лопатки від підлоги.",
+        "en": "Lying on your back with your legs straight up, you reach your hands toward your toes, lifting your shoulder blades off the floor."
+      },
+      "steps": {
+        "uk": [
+          "Ляж на спину й підніми прямі ноги вертикально вгору.",
+          "Витягни руки до ніг.",
+          "Скрути корпус і потягнись руками до носків, відриваючи лопатки від підлоги.",
+          "Під контролем опустись назад."
+        ],
+        "en": [
+          "Lie on your back and raise your straight legs vertically.",
+          "Reach your arms toward your legs.",
+          "Curl your torso and reach your hands toward your toes, lifting your shoulder blades off the floor.",
+          "Lower back down under control."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ноги опускаються або згинаються.",
+          "Тягнутися лише руками без скручування корпусу.",
+          "Ривки замість плавного руху."
+        ],
+        "en": [
+          "The legs dropping or bending.",
+          "Reaching with the arms only, without curling the torso.",
+          "Jerking instead of moving smoothly."
+        ]
+      },
+      "categories": ["core", "bodyweight"],
+      "equipment": [],
+      "primaryMuscles": ["abs"],
+      "secondaryMuscles": ["obliques", "hip_flexors"]
+    },
+    {
+      "id": "russian_twists",
+      "name": { "uk": "Косі повороти корпусу", "en": "Russian Twists" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Сидячи з відхиленим назад корпусом і стопами на підлозі, повертаєш корпус то в один, то в інший бік. Одне повторення — обидві сторони.",
+        "en": "Sitting with your torso leaning back and your feet on the floor, you rotate your torso from side to side. One rep is both sides."
+      },
+      "steps": {
+        "uk": [
+          "Сядь на підлогу, коліна зігнуті, стопи на підлозі.",
+          "Відхили корпус назад, спина рівна, руки перед собою.",
+          "Поверни корпус в один бік, торкаючись руками підлоги біля стегна.",
+          "Поверни корпус в інший бік — це одне повторення."
+        ],
+        "en": [
+          "Sit on the floor with your knees bent and feet on the floor.",
+          "Lean your torso back with a straight back, hands in front of you.",
+          "Rotate your torso to one side, touching the floor next to your hip.",
+          "Rotate to the other side — that's one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Рухати лише руками замість повороту корпусу.",
+          "Круглити спину.",
+          "Поспіх і ривки."
+        ],
+        "en": [
+          "Moving only the arms instead of rotating the torso.",
+          "Rounding the back.",
+          "Rushing and jerking."
+        ]
+      },
+      "categories": ["core", "dynamic", "bodyweight"],
+      "equipment": [],
+      "primaryMuscles": ["obliques"],
+      "secondaryMuscles": ["abs", "hip_flexors"]
+    },
+    {
+      "id": "side_torso_raises",
+      "name": { "uk": "Бокові підйоми корпусу", "en": "Side Torso Raises" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Лежачи на боці з опорою на лікоть, піднімаєш корпус і таз від підлоги та під контролем опускаєш. Навантажують косі м'язи живота.",
+        "en": "Lying on your side, propped on your elbow, you lift your torso and hips off the floor and lower them under control. They load the obliques."
+      },
+      "steps": {
+        "uk": [
+          "Ляж на бік, обіпрись на лікоть під плечем, ноги прямі.",
+          "Підніми корпус і таз, доки тіло не стане прямим від п'ят до голови.",
+          "Під контролем опусти таз, не кладучи його на підлогу.",
+          "Виконай потрібну кількість разів і повтори на інший бік."
+        ],
+        "en": [
+          "Lie on your side, propped on your elbow under your shoulder, legs straight.",
+          "Lift your torso and hips until your body is straight from heels to head.",
+          "Lower your hips under control without resting them on the floor.",
+          "Do the target reps and repeat on the other side."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Корпус розвертається вперед або назад.",
+          "Класти таз на підлогу між повтореннями.",
+          "Ривки замість плавного руху."
+        ],
+        "en": [
+          "The torso rotating forward or back.",
+          "Resting the hips on the floor between reps.",
+          "Jerking instead of moving smoothly."
+        ]
+      },
+      "categories": ["core", "bodyweight"],
+      "equipment": [],
+      "primaryMuscles": ["obliques"],
+      "secondaryMuscles": ["abs", "abductors", "glutes"]
+    },
+    {
+      "id": "plank_knee_to_elbow",
+      "name": { "uk": "Бокові підйоми ніг у планці", "en": "Plank Knee to Elbow" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "У планці на передпліччях коліно по черзі підводиться збоку до ліктя. Одне повторення — обидві сторони.",
+        "en": "In a forearm plank, you bring each knee up from the side toward your elbow in turn. One rep is both sides."
+      },
+      "steps": {
+        "uk": [
+          "Стань у планку на передпліччях, тіло пряме від п'ят до голови.",
+          "Підведи праве коліно збоку до правого ліктя.",
+          "Поверни ногу назад і повтори лівою ногою.",
+          "Обидві сторони — це одне повторення."
+        ],
+        "en": [
+          "Get into a forearm plank, body straight from heels to head.",
+          "Bring your right knee up from the side toward your right elbow.",
+          "Return the leg and repeat with the left leg.",
+          "Both sides make one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Таз провисає або сильно піднімається.",
+          "Таз розгойдується зі сторони в сторону.",
+          "Коліно не доходить до ліктя."
+        ],
+        "en": [
+          "Sagging or raised hips.",
+          "The hips swaying from side to side.",
+          "The knee not reaching the elbow."
+        ]
+      },
+      "categories": ["core", "dynamic", "bodyweight"],
+      "equipment": [],
+      "primaryMuscles": ["obliques", "abs"],
+      "secondaryMuscles": ["hip_flexors", "abductors", "front_delts"]
+    },
+    {
+      "id": "flutter_kicks",
+      "name": { "uk": "Ножиці", "en": "Flutter Kicks" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "BEGINNER",
+      "description": {
+        "uk": "Лежачи на спині з трохи піднятим корпусом, прямі ноги на вису по черзі рухаються вгору-вниз. Одне повторення — обидві ноги.",
+        "en": "Lying on your back with your torso slightly raised, your straight legs move up and down alternately in the air. One rep is both legs."
+      },
+      "steps": {
+        "uk": [
+          "Ляж на спину, трохи підніми корпус і лопатки від підлоги.",
+          "Підніми прямі ноги разом над підлогою.",
+          "По черзі рухай ногами вгору-вниз, не торкаючись підлоги.",
+          "Обидві ноги — це одне повторення."
+        ],
+        "en": [
+          "Lie on your back and lift your torso and shoulder blades slightly off the floor.",
+          "Raise your straight legs together off the floor.",
+          "Move your legs up and down alternately without touching the floor.",
+          "Both legs make one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Поперек відривається від підлоги.",
+          "Ноги торкаються підлоги.",
+          "Згинати коліна."
+        ],
+        "en": [
+          "The lower back lifting off the floor.",
+          "The legs touching the floor.",
+          "Bending the knees."
+        ]
+      },
+      "categories": ["core", "endurance", "bodyweight"],
+      "equipment": [],
+      "primaryMuscles": ["abs", "hip_flexors"],
+      "secondaryMuscles": ["obliques", "quads"]
+    },
+    {
+      "id": "leg_raises_over_elevation",
+      "name": { "uk": "Підйоми ніг через опору", "en": "Side-to-Side Leg Raises over Elevation" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "Лежачи або сидячи, ноги на вису переносяться через підвищення перед тобою з боку на бік. Одне повторення — обидві сторони.",
+        "en": "Lying or sitting, you move your raised legs over an elevation in front of you from side to side. One rep is both sides."
+      },
+      "steps": {
+        "uk": [
+          "Ляж або сядь на підлогу й постав підвищення перед собою.",
+          "Підніми ноги разом на вис над підвищенням.",
+          "Перенеси ноги на один бік від опори, а потім через неї на інший бік, не торкаючись підлоги.",
+          "Обидві сторони — це одне повторення."
+        ],
+        "en": [
+          "Lie or sit on the floor and place the elevation in front of you.",
+          "Raise your legs together above the elevation.",
+          "Move your legs to one side of the support, then over it to the other side, without touching the floor.",
+          "Both sides make one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ноги торкаються підлоги або опори.",
+          "Рух ривками замість контрольованого перенесення.",
+          "Поперек відривається від підлоги, коли виконуєш лежачи."
+        ],
+        "en": [
+          "The legs touching the floor or the support.",
+          "Jerky movement instead of a controlled transfer.",
+          "The lower back lifting off the floor when lying."
+        ]
+      },
+      "categories": ["core", "dynamic", "bodyweight"],
+      "equipment": ["elevation"],
+      "primaryMuscles": ["obliques", "abs"],
+      "secondaryMuscles": ["hip_flexors", "adductors"]
+    },
+    {
+      "id": "wall_bars_l_sit_raises",
+      "name": { "uk": "Підйоми ніг у кут на шведській стінці", "en": "Wall Bar L-sit Raises" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "У висі спиною до шведської стінки прямі ноги піднімаються до кута 90° і під контролем опускаються. Стінка не дає розгойдуватися.",
+        "en": "Hanging with your back to the wall bars, you raise your straight legs to 90° and lower them under control. The wall bars stop you from swinging."
+      },
+      "steps": {
+        "uk": [
+          "Повисни на шведській стінці спиною до неї, тримаючись за верхню перекладину.",
+          "Напруж прес, ноги прямі й разом.",
+          "Підніми прямі ноги до кута 90°.",
+          "Під контролем опусти ноги вниз."
+        ],
+        "en": [
+          "Hang from the wall bars with your back to them, holding the top rung.",
+          "Brace your abs, legs straight and together.",
+          "Raise your straight legs to 90°.",
+          "Lower your legs under control."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинати коліна.",
+          "Відштовхуватися спиною від стінки.",
+          "Кидати ноги вниз без контролю."
+        ],
+        "en": [
+          "Bending the knees.",
+          "Pushing off the wall bars with your back.",
+          "Dropping the legs without control."
+        ]
+      },
+      "categories": ["core", "strength", "bodyweight"],
+      "equipment": ["wall_bars"],
+      "primaryMuscles": ["abs", "hip_flexors"],
+      "secondaryMuscles": ["obliques", "forearms", "lats"]
+    },
+    {
+      "id": "wall_bars_leg_raises",
+      "name": { "uk": "Підйоми ніг до перекладини на шведській стінці", "en": "Wall Bar Leg Raises" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "INTERMEDIATE",
+      "description": {
+        "uk": "У висі спиною до шведської стінки прямі ноги піднімаються вище кута, до перекладини, за яку тримаєшся.",
+        "en": "Hanging with your back to the wall bars, you raise your straight legs above 90°, up to the rung you are holding."
+      },
+      "steps": {
+        "uk": [
+          "Повисни на шведській стінці спиною до неї, тримаючись за верхню перекладину.",
+          "Напруж прес, ноги прямі й разом.",
+          "Підніми прямі ноги, підкручуючи таз, до перекладини.",
+          "Під контролем опусти ноги вниз."
+        ],
+        "en": [
+          "Hang from the wall bars with your back to them, holding the top rung.",
+          "Brace your abs, legs straight and together.",
+          "Raise your straight legs up to the rung, curling your pelvis up.",
+          "Lower your legs under control."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Згинати коліна.",
+          "Не підкручувати таз — працюють лише згиначі стегна.",
+          "Кидати ноги вниз без контролю."
+        ],
+        "en": [
+          "Bending the knees.",
+          "Not curling the pelvis, so only the hip flexors work.",
+          "Dropping the legs without control."
+        ]
+      },
+      "categories": ["core", "strength", "bodyweight"],
+      "equipment": ["wall_bars"],
+      "primaryMuscles": ["abs", "hip_flexors"],
+      "secondaryMuscles": ["obliques", "forearms", "lats"]
+    },
+    {
+      "id": "bar_l_sit_to_bar_raises",
+      "name": { "uk": "Підйоми ніг на перекладині з кута догори", "en": "Bar Leg Raises from L-sit" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "У висі на турніку ноги весь час над кутом 90°: з кута піднімаються до перекладини й опускаються знову до кута, а не вниз.",
+        "en": "Hanging from the bar, your legs stay at 90° or higher the whole time: from the L-sit you raise them to the bar and lower them back to the L-sit, not all the way down."
+      },
+      "steps": {
+        "uk": [
+          "Повисни на турніку верхнім хватом на ширині плечей і підніми прямі ноги до кута 90°.",
+          "З кута підніми ноги до перекладини, підкручуючи таз.",
+          "Під контролем опусти ноги до кута 90°, не нижче.",
+          "Повтори, не опускаючи ноги до кінця підходу."
+        ],
+        "en": [
+          "Hang from the bar with an overhand grip at shoulder width and raise your straight legs to 90°.",
+          "From the L-sit, raise your legs to the bar, curling your pelvis up.",
+          "Lower your legs under control to 90°, no lower.",
+          "Repeat without dropping your legs until the end of the set."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Опускати ноги нижче кута між повтореннями.",
+          "Розгойдування тіла для інерції.",
+          "Згинати коліна."
+        ],
+        "en": [
+          "Lowering the legs below 90° between reps.",
+          "Swinging the body for momentum.",
+          "Bending the knees."
+        ]
+      },
+      "categories": ["core", "strength", "bodyweight"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["abs", "hip_flexors"],
+      "secondaryMuscles": ["obliques", "lats", "forearms"]
+    },
+    {
+      "id": "l_sit_side_leg_extensions",
+      "name": { "uk": "Розгинання ніг у кут у сторони", "en": "L-sit Side Leg Extensions" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "У висі боком на турніку, обличчям до стовпа, ноги з кута по черзі випрямляються з одного й з іншого боку стовпа, оминаючи його скручуванням. Одне повторення — обидві сторони.",
+        "en": "Hanging sideways on the bar, facing the post, you tuck and extend your legs from the L-sit on one side of the post, then the other, going around it. One rep is both sides."
+      },
+      "steps": {
+        "uk": [
+          "Повисни на турніку боком, обличчям до стовпа, і підніми прямі ноги в кут.",
+          "Відрегулюй відстань так, щоб ноги в куті заходили за стовп приблизно до середини гомілки.",
+          "Скрутись, підтягуючи коліна, і випрями ноги з одного боку стовпа.",
+          "Знову скрутись і випрями ноги з іншого боку стовпа — це одне повторення."
+        ],
+        "en": [
+          "Hang sideways on the bar, facing the post, and raise your straight legs into an L-sit.",
+          "Adjust your distance so that in the L-sit your legs reach past the post to about mid-shin.",
+          "Tuck your knees in and extend your legs on one side of the post.",
+          "Tuck again and extend your legs on the other side of the post — that's one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ноги опускаються нижче кута під час переходу.",
+          "Зачіпати стовп ногами.",
+          "Розгойдування тіла."
+        ],
+        "en": [
+          "The legs dropping below 90° during the transition.",
+          "Hitting the post with your legs.",
+          "Swinging the body."
+        ]
+      },
+      "categories": ["core", "strength", "dynamic", "bodyweight"],
+      "equipment": ["high_bar"],
+      "primaryMuscles": ["abs", "obliques"],
+      "secondaryMuscles": ["hip_flexors", "quads", "lats", "forearms"]
+    },
+    {
+      "id": "parallel_bars_l_sit_side_leg_extensions",
+      "name": { "uk": "Розгинання ніг у кут у сторони на брусах", "en": "L-sit Side Leg Extensions on Parallel Bars" },
+      "tracking": "REPS_ONLY",
+      "difficulty": "ADVANCED",
+      "description": {
+        "uk": "В упорі на брусах ноги по черзі з підтягнутих колін випрямляються в кут в один бік, у центр і в інший бік. Одне повторення — усі три напрямки.",
+        "en": "In a support on parallel bars, you extend your legs from a tuck into an L-sit to one side, to the center and to the other side. One rep is all three directions."
+      },
+      "steps": {
+        "uk": [
+          "Займи упор на брусах на прямих руках, хват паралельний, опусти лопатки.",
+          "Підтягни коліна й випрями ноги в кут в один бік.",
+          "Знову підтягни коліна й випрями ноги в кут у центр.",
+          "Ще раз підтягни коліна й випрями ноги в кут в інший бік — це одне повторення."
+        ],
+        "en": [
+          "Get into a straight-arm support on the bars with a neutral grip, depress your shoulder blades.",
+          "Tuck your knees and extend your legs into an L-sit to one side.",
+          "Tuck again and extend your legs into an L-sit to the center.",
+          "Tuck once more and extend your legs into an L-sit to the other side — that's one rep."
+        ]
+      },
+      "mistakes": {
+        "uk": [
+          "Ноги опускаються нижче кута між розгинаннями.",
+          "Плечі підняті до вух.",
+          "Не випрямляти ноги повністю."
+        ],
+        "en": [
+          "The legs dropping below 90° between extensions.",
+          "Shrugged shoulders.",
+          "Not fully straightening the legs."
+        ]
+      },
+      "categories": ["core", "strength", "dynamic", "bodyweight"],
+      "equipment": ["parallel_bars"],
+      "primaryMuscles": ["abs", "obliques"],
+      "secondaryMuscles": ["hip_flexors", "quads", "triceps", "serratus"]
     }
   ]
 }
