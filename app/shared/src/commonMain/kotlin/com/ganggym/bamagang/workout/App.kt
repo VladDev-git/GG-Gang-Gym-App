@@ -1,26 +1,28 @@
 package com.ganggym.bamagang.workout
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.safeContentPadding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.ganggym.bamagang.workout.domain.repository.WorkoutRepository
+import androidx.compose.ui.text.intl.Locale
+import com.ganggym.bamagang.workout.data.seed.CatalogSeeder
+import com.ganggym.bamagang.workout.domain.model.ExerciseFilter
+import com.ganggym.bamagang.workout.domain.repository.ExerciseRepository
 import org.koin.compose.koinInject
 
 @Composable
 fun App() {
-    val repo = koinInject<WorkoutRepository>()
-    val workouts by repo.observeAll().collectAsState(emptyList())
+    val seeder = koinInject<CatalogSeeder>()
+    val exercises by koinInject<ExerciseRepository>()
+        .observe(ExerciseFilter())
+        .collectAsState(emptyList())
+    val language = Locale.current.language   // androidx.compose.ui.text.intl.Locale
+
+    LaunchedEffect(language) { seeder.seed(language) }
 
     MaterialTheme {
-        Text("Тренувань у базі: ${workouts.size}")
+        Text("Вправ у базі: ${exercises.size}")
     }
 }

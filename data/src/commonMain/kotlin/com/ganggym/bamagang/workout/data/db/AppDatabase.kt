@@ -19,6 +19,7 @@ import com.ganggym.bamagang.workout.data.db.entity.ExerciseMuscleCrossRef
 import com.ganggym.bamagang.workout.data.db.entity.ExerciseResultEntity
 import com.ganggym.bamagang.workout.data.db.entity.MuscleGroupEntity
 import com.ganggym.bamagang.workout.data.db.entity.RoutineEntity
+import com.ganggym.bamagang.workout.data.db.entity.SeedMetaEntity
 import com.ganggym.bamagang.workout.data.db.entity.UserProfileEntity
 import com.ganggym.bamagang.workout.data.db.entity.WorkoutEntity
 import com.ganggym.bamagang.workout.data.db.entity.WorkoutSessionEntity
@@ -37,6 +38,7 @@ import com.ganggym.bamagang.workout.data.db.entity.WorkoutSessionEntity
         MuscleGroupEntity::class,
         ExerciseCategoryEntity::class,
         UserProfileEntity::class,
+        SeedMetaEntity::class,
     ],
     version = 1,
     exportSchema = true,

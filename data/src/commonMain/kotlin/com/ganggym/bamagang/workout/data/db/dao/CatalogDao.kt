@@ -6,6 +6,7 @@ import androidx.room.Upsert
 import com.ganggym.bamagang.workout.data.db.entity.EquipmentEntity
 import com.ganggym.bamagang.workout.data.db.entity.ExerciseCategoryEntity
 import com.ganggym.bamagang.workout.data.db.entity.MuscleGroupEntity
+import com.ganggym.bamagang.workout.data.db.entity.SeedMetaEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -34,4 +35,10 @@ interface CatalogDao {
 
     @Query("SELECT COUNT(*) FROM equipment")
     suspend fun equipmentCount(): Int
+
+    @Query("SELECT * FROM seed_meta WHERE file = :file")
+    suspend fun seedMeta(file: String): SeedMetaEntity?
+
+    @Upsert
+    suspend fun upsertSeedMeta(meta: SeedMetaEntity)
 }

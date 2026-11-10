@@ -9,6 +9,7 @@ import com.ganggym.bamagang.workout.data.repository.RoomProfileRepository
 import com.ganggym.bamagang.workout.data.repository.RoomRoutineRepository
 import com.ganggym.bamagang.workout.data.repository.RoomSessionRepository
 import com.ganggym.bamagang.workout.data.repository.RoomWorkoutRepository
+import com.ganggym.bamagang.workout.data.seed.CatalogSeeder
 import com.ganggym.bamagang.workout.domain.repository.CatalogRepository
 import com.ganggym.bamagang.workout.domain.repository.ExerciseRepository
 import com.ganggym.bamagang.workout.domain.repository.ProfileRepository
@@ -41,4 +42,6 @@ val dataModule = module {
     singleOf(::RoomSessionRepository) bind SessionRepository::class
     singleOf(::RoomCatalogRepository) bind CatalogRepository::class
     singleOf(::RoomProfileRepository) bind ProfileRepository::class
+
+    singleOf(::CatalogSeeder)
 }

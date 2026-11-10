@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "0d524d9aeec99480f4bf30ff5caf75ac",
+    "identityHash": "dc4d1c50cf28938808f37521f0185591",
     "entities": [
       {
         "tableName": "workouts",
@@ -814,11 +814,41 @@
             "id"
           ]
         }
+      },
+      {
+        "tableName": "seed_meta",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`file` TEXT NOT NULL, `version` INTEGER NOT NULL, `language` TEXT NOT NULL, PRIMARY KEY(`file`))",
+        "fields": [
+          {
+            "fieldPath": "file",
+            "columnName": "file",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "version",
+            "columnName": "version",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "language",
+            "columnName": "language",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "file"
+          ]
+        }
       }
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '0d524d9aeec99480f4bf30ff5caf75ac')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'dc4d1c50cf28938808f37521f0185591')"
     ]
   }
 }
