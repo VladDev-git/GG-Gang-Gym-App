@@ -20,4 +20,7 @@ internal class RoomCatalogRepository(
 
     override fun observeCategories(): Flow<List<ExerciseCategory>> =
         dao.observeCategories().map { list -> list.map { it.toDomain() } }
+
+    override fun observeTopMuscleGroups(): Flow<List<MuscleGroup>> =
+        dao.observeTopMuscleGroups().map { list -> list.map { it.toDomain() } }
 }

@@ -9,4 +9,5 @@ interface CatalogRepository {
     fun observeEquipment(): Flow<List<Equipment>>
     fun observeMuscleGroups(): Flow<List<MuscleGroup>>
     fun observeCategories(): Flow<List<ExerciseCategory>>
+    fun observeTopMuscleGroups(): Flow<List<MuscleGroup>>
 }
