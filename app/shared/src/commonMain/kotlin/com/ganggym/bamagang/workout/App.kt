@@ -1,28 +1,34 @@
 package com.ganggym.bamagang.workout
 
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.intl.Locale
-import com.ganggym.bamagang.workout.data.seed.CatalogSeeder
-import com.ganggym.bamagang.workout.domain.model.ExerciseFilter
-import com.ganggym.bamagang.workout.domain.repository.ExerciseRepository
-import org.koin.compose.koinInject
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.ganggym.bamagang.workout.navigation.AppNavHost
+import com.ganggym.bamagang.workout.ui.GangGymTheme
+import org.koin.compose.viewmodel.koinViewModel
 
 @Composable
 fun App() {
-    val seeder = koinInject<CatalogSeeder>()
-    val exercises by koinInject<ExerciseRepository>()
-        .observe(ExerciseFilter())
-        .collectAsState(emptyList())
-    val language = Locale.current.language   // androidx.compose.ui.text.intl.Locale
+    val appViewModel = koinViewModel<AppViewModel>()
+    val isReady by appViewModel.isReady.collectAsStateWithLifecycle()
+    val language = Locale.current.language
 
-    LaunchedEffect(language) { seeder.seed(language) }
+    LaunchedEffect(language) { appViewModel.onLanguage(language) }
 
-    MaterialTheme {
-        Text("Вправ у базі: ${exercises.size}")
+    GangGymTheme {
+        if (isReady) {
+            AppNavHost()
+        } else {
+            Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                CircularProgressIndicator()
+            }
+        }
     }
 }
